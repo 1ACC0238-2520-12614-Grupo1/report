@@ -441,16 +441,7 @@ b. User Persona 2: Proveedores de combustible
 ![empathymap_segmento1](img/empathymap_segmento1.png)
 ![empathymap_segmento1](img/empathymap_segmento2.png)
 
-### 2.3.5. As-is Scenario Mapping. 
-### As-Is Scenario Mapping
-
-| FASES | Comunicación | Solicitar pedido | Seguimiento | Entrega |
-|-------|--------------|------------------|-------------|---------|
-| **DOING** | Llamadas, correos, WhatsApp sin orden. | El solicitante explica los datos del pedido a mano. | Se hacen llamadas para preguntar por el estado. | Se confirma por llamada o mensaje. |
-| **THINKING** | "¿Habrán recibido mi mensaje?" | "¿Me habrán entendido bien?" | "¿Dónde estará nuestro pedido?" | "¿Ya habrán llegado?" |
-| **FEELING** | Frustración, desorganización. | Incertidumbre, falta de confianza. | Ansiedad, impaciencia. | Duda, estrés. |
-
-## 2.4. Ubiquitous Language. 
+### 2.3.5. Ubiquitous Language. 
 
 | Término | Definición | Segmentos relacionados |
 |---------|------------|------------------------|
@@ -465,3 +456,30 @@ b. User Persona 2: Proveedores de combustible
 | **Negotiation (Negociación)**   | Intercambio de condiciones entre solicitante y proveedor para alcanzar un acuerdo favorable para ambas partes. | Solicitante, Proveedor |
 | **Consumption Volume (Volumen de consumo)** | Cantidad de combustible estimada que una empresa solicita regularmente en un periodo determinado. | Solicitante |
 | **Purchase History (Historial de compras)** | Registro de cotizaciones y compras o pedidos previos hechos por el solicitante dentro del sistema. | Solicitante |
+
+## 2.4. Requirements specification
+### 2.4.1. User Stories
+### 2.4.2. Impact Mapping
+### 2.4.3. Product Backlog
+
+## 2.5. Strategic-Level Domain-Driven Design
+### 2.5.1. EventStorming
+#### 2.5.1.1. Candidate Context Discovery
+#### 2.5.1.2. Domain Message Flows Modeling
+#### 2.5.1.3. Bounded Context Canvases
+### 2.5.2. Context Mapping
+### 2.5.3. Software Architecture
+#### 2.5.3.1. Software Architecture Context Level Diagrams
+#### 2.5.3.2. Software Architecture Container Level Diagrams
+#### 2.5.3.3. Software Architecture Deployment Diagrams
+
+## 2.6. Tactical-Level Domain-Driven Design
+### 2.6.x. Bounded Context: <Bounded Context Name>
+#### 2.6.x.1. Domain Layer
+#### 2.6.x.2. Interface Layer
+#### 2.6.x.3. Application Layer
+#### 2.6.x.4. Infrastructure Layer
+#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
+##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.x.6.2. Bounded Context Database Design Diagram
