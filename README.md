@@ -228,7 +228,7 @@ El siguiente gráfico muestra una línea de tiempo con la evolución de los comm
 | ![Gianfranco Durand](img/foto_gianfranco.png) | Gianfranco Jared Durand Vega    | U202300102 | Ingeniería de Software | Desarrollo Frontend (Vue/React), UI/UX, Integración de servicios externos |
 | ![Bryan Espejo](img/foto_bryan.png)           | Bryan Ronald Espejo Gamarra     | U202213278 | Ingeniería de Software | Backend, Base de Datos, DevOps, Coordinación técnica del proyecto |
 | ![Jhon Guerrero](img/foto_jhon.png)           | Jhon Danny Guerrero Vasquez     | U202300103 | Ingeniería de Software | Desarrollo Móvil Nativo (Kotlin/Swift), Testing y QA          |
-| ![Renzo Luque](img/foto_renzo.png)            | Renzo Andres Luque Minaya       | U202300104 | Ingeniería de Software | Desarrollo Fullstack, Cloud Deployment, Seguridad y Autenticación |
+| ![Renzo Luque](img/foto_renzo.png)            | Renzo Andres Luque Minaya       | U20221C275 | Ingeniería de Software | Desarrollo Frontend, Cloud Deployment, Seguridad y Autenticación |
 
 
 ### 1.2 Solution Profile
