@@ -1286,9 +1286,46 @@ b. User Persona 2: Proveedores de combustible
 #### 2.5.1.3. Bounded Context Canvases
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
+
 #### 2.5.3.1. Software Architecture Context Level Diagrams
+![Context Diagram de FuelTrack](./img/fueltrack-context.png)
+
+**Descripción breve:**  
+El diagrama de contexto muestra a **FuelTrack** como sistema central y sus interacciones con los **actores** (Cliente y Proveedor) y **sistemas externos** (Pasarela de Pagos, Sistema de Transporte y Servicio de Exportación).  
+- **Cliente**: registra pedidos, realiza pagos y descarga facturas.  
+- **Proveedor**: administra operadores/vehículos y actualiza estados de entrega.  
+- **Pasarela de Pagos**: procesa transacciones con tarjeta.  
+- **Sistema de Transporte**: consulta/actualiza el estado logístico.  
+- **Servicio de Exportación**: genera reportes PDF/Excel.
+
+---
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+![Container Diagram de FuelTrack](./img/fueltrack-container.png)
+
+**Descripción breve:**  
+Descompone FuelTrack en **contenedores** y su comunicación:  
+- **App Móvil (Kotlin + Jetpack Compose)**: interfaz para Cliente y Proveedor.  
+- **Backend API**: expone servicios REST, orquesta reglas de negocio y conecta con externos.  
+- **Base de Datos (MySQL/PostgreSQL)**: persistencia de pedidos, usuarios, operadores, vehículos y facturas.  
+- **Integraciones**: Pasarela de Pagos, Sistema de Transporte y Exportación (PDF/Excel) vía HTTPS.
+
+> La App Móvil se comunica con el Backend API (HTTPS). El Backend API accede a la Base de Datos (ORM/JDBC) y consume las APIs externas.
+
+---
+
 #### 2.5.3.3. Software Architecture Deployment Diagrams
+![Deployment Diagram de FuelTrack](./img/fueltrack-deployment.png)
+
+**Descripción breve:**  
+Muestra la **distribución física** de los contenedores en el entorno de Producción:  
+- **Smartphone Android**: ejecuta la App Móvil (Cliente/Proveedor).  
+- **Servidor Backend (Render/AWS/DO)**: despliega la API REST.  
+- **Servidor de Base de Datos gestionada**: aloja MySQL/PostgreSQL.  
+- **Servicios Externos**: Pasarela de Pagos, Sistema de Transporte y Exportación.
+
+> Flujo principal: App Móvil → Backend (HTTPS) → Base de Datos / Servicios Externos.
+
 
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
