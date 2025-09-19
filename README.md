@@ -1281,9 +1281,36 @@ b. User Persona 2: Proveedores de combustible
 
 ## 2.5. Strategic-Level Domain-Driven Design
 ### 2.5.1. EventStorming
+#### Collect Domain Events
+![Collect Domain Events](./img/CollectDomainEvents.png)
+#### Refine Domain Events
+![Refine Domain Events](./img/RefineDomainEvents.png)
+#### Track Causes
+![Track Causes](./img/TrackCauses.png)
+#### Find aggregates & re-sort them
+![Find aggregates & re-sort them](./img/Findaggregates&re-sortthem.png)
+-------
+
 #### 2.5.1.1. Candidate Context Discovery
+| Contexto Candidato             | Descripción                                                        | Actores principales              |
+|--------------------------------|--------------------------------------------------------------------|----------------------------------|
+| Gestión de pedidos             | Administración y validación inicial de solicitudes de combustible  | - Empresa solicitante <br> - Proveedor |
+| Gestión de pagos               | Registro, validación y conciliación de pagos asociados a pedidos.  | - Cliente <br> - Tesorería       |
+| Gestión de inventario y despacho | Control del stock de combustible, asignación de vehículos y programación de despacho. | - Proveedor <br> - Área de logística |
+| Gestión de entregas y trazabilidad | Monitoreo de la ruta, confirmación de entrega y visibilidad en tiempo real. | - Transportista <br> - Cliente   |
+
 #### 2.5.1.2. Domain Message Flows Modeling
+
+| Origen                          | Evento             | Destino                          | Resultado                 |
+|---------------------------------|-------------------|----------------------------------|---------------------------|
+| Empresa solicitante              | Realizar pedido   | Gestión de pedidos               | Pedido realizado          |
+| Gestión de pedidos               | Pedido realizado  | Gestión de pagos                 | Registrar pago            |
+| Gestión de pagos                 | Pago validado     | Gestión de inventario y despacho | Validar stock             |
+| Gestión de inventario y despacho | Stock validado    | Gestión de entregas              | Asignar vehículo          |
+| Gestión de entregas              | Pedido entregado  | Empresa solicitante              | Confirmación de entrega   |
+
 #### 2.5.1.3. Bounded Context Canvases
+
 ### 2.5.2. Context Mapping
 ### 2.5.3. Software Architecture
 
