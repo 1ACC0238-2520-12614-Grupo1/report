@@ -27,6 +27,7 @@ Decisiones principales de diseño tomadas:
 #### 3.1.3.1. Landing Page Wireframe  
 ![Landing Page - Wireframe 1](img/landing_wireframe_1.png)
 ![Landing Page - Wireframe 2](img/landing_wireframe_2.png)
+![Landing Page - Wireframe 3](img/landing_wireframe_3.png)
 
 #### 3.1.3.2. Landing Page Mock-up  
 
