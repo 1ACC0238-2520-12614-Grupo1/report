@@ -169,11 +169,16 @@ Para el despliegue de nuestra Landing Page hemos utilizado AndroidStudio. Para h
 El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Landing Page.
 
 **Evidencia de Colaboración:**
-*Conversaciones de WhatsApp sobre coordinación de secciones y ajustes de diseño.
-*Principales Herramientas de Comunicación:
-*GitHub (control de versiones y manejo de issues)
-*WhatsApp (comunicación diaria y aclaraciones rápidas)
-*Discord (reuniones de planificación de sprint)
+
+* Conversaciones de WhatsApp sobre coordinación de secciones y ajustes de diseño.
+  
+* Principales Herramientas de Comunicación:
+  
+* GitHub (control de versiones y manejo de issues)
+  
+* WhatsApp (comunicación diaria y aclaraciones rápidas)
+  
+* Discord (reuniones de planificación de sprint)
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas  
