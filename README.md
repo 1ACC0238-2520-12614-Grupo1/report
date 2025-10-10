@@ -26,6 +26,8 @@ Decisiones principales de diseño tomadas:
 - **Consistencia visual:** Se mantiene un diseño limpio y moderno, utilizando colores corporativos azul y verde para reforzar la identidad de FuelTrack.
 #### 3.1.3.1. Landing Page Wireframe  
 ![Landing Page - Wireframe 1](img/landing_wireframe_1.png)
+![Landing Page - Wireframe 2](img/landing_wireframe_2.png)
+
 #### 3.1.3.2. Landing Page Mock-up  
 
 ### 3.1.4. Mobile Applications UX/UI Design
