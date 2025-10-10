@@ -124,8 +124,27 @@ Para el primer sprint, el equipo establecio que el desarrollo de las tareas toma
 </table>
 
 ##### 4.2.1.2. Sprint Backlog 1  
-##### 4.2.1.3. Development Evidence for Sprint Review  
-##### 4.2.1.4. Testing Suite Evidence for Sprint Review  
+
+| User Story | Work-Item / Task | Title | Description | Estimation (Hours) | Assigned To |
+|-------------|------------------|--------|--------------|--------------------|--------------|
+| US01 | T01 | Diseñar Pantalla de Login | Crear la interfaz principal de inicio de sesión con campos de correo, contraseña y botones de acceso demo. | 3 | Gianfranco Jared Durand Vega |
+| US02 | T02 | Implementar Lógica de Autenticación | Desarrollar la funcionalidad de login con validación básica y conexión al servicio de datos. | 3 | Juan Carlos Alvarado De La Cruz |
+| US03 | T03 | Configurar Repositorio y Documentación | Crear el repositorio en GitHub y agregar documentación inicial del proyecto (README, estructura, objetivos). | 2 | Renzo Andres Luque Minaya |
+| US04 | T04 | Desarrollar Pantalla de Dashboard | Implementar una vista inicial del panel principal con resumen de datos de consumo. | 2 | Bryan Ronald Espejo Gamarra |
+| US05 | T05 | Pruebas y Ajustes Finales | Realizar pruebas funcionales del login y dashboard, corrigiendo errores visuales o de navegación. | 2 | Jhon Danny Guerrero Vasquez |
+
+
+##### 4.2.1.3. Development Evidence for Sprint Review 
+
+| Historia de Usuario | Elemento de trabajo / Tarea | Descripción | Estimación (Horas) | Asignado a | Estado |
+|----------------------|-----------------------------|--------------|--------------------|-------------|---------|
+| US13 | Implementar visualización del Landing Page | Mostrar una landing page informativa para que los interesados conozcan la plataforma antes de registrarse. | 5 | Bryan Ronald Espejo Gamarra | Finalizado |
+| EP04 | Landing Page informativa y funcional | Landing page con secciones informativas, beneficios, segmentos y botones que dirigen a login o registro. | 6 | Jhon Danny Guerrero Vasquez | Finalizado |
+
+##### 4.2.1.4. Testing Suite Evidence for Sprint Review 
+
+
+
 ##### 4.2.1.5. Execution Evidence for Sprint Review  
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review  
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review  
