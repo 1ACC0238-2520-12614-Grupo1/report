@@ -37,6 +37,7 @@ Decisiones principales de diseño tomadas:
 ![Landing Page - Mockup 2](img/landing_mockup_2.png) 
 ![Landing Page - Mockup 3](img/landing_mockup_3.png)
 ![Landing Page - Mockup 4](img/landing_mockup_4.png)
+![Landing Page - Mockup 5](img/landing_mockup_5.png)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes  
