@@ -144,11 +144,36 @@ Para el primer sprint, el equipo establecio que el desarrollo de las tareas toma
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review 
 
 
+##### 4.2.1.5. Execution Evidence for Sprint Review 
 
-##### 4.2.1.5. Execution Evidence for Sprint Review  
+**Resumen:**
+Las principales secciones de la Landing Page de FuelTrack fueron desarrolladas y desplegadas exitosamente. A continuación se presentan capturas de pantalla de las secciones implementadas.
+
+Evidencia de Capturas:
+
+<img width="263" height="483" alt="login" src="https://github.com/user-attachments/assets/6d781f4e-d290-4085-9b62-6480ddb6ad98" />
+
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review  
+
+En el primer sprint, hemos realizado el diseño, la programación y el despligue de la Landing Page que presentará nuesta apliación móvil "FuelTrack"
+
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review  
+
+Para el despliegue de nuestra Landing Page hemos utilizado AndroidStudio. Para hacer esto, hemos trabajado en el compilador AndroidStudio dondse se compilará el código trabajado.
+
+<img width="263" height="483" alt="login" src="https://github.com/user-attachments/assets/b7f49d41-1562-4e70-80ca-9d0651c883cd" />
+
 ##### 4.2.1.8. Team Collaboration Insights during Sprint  
+
+**Resumen:**
+El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Landing Page.
+
+**Evidencia de Colaboración:**
+*Conversaciones de WhatsApp sobre coordinación de secciones y ajustes de diseño.
+*Principales Herramientas de Comunicación:
+*GitHub (control de versiones y manejo de issues)
+*WhatsApp (comunicación diaria y aclaraciones rápidas)
+*Discord (reuniones de planificación de sprint)
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas  
