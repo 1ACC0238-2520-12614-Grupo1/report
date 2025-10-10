@@ -1,16 +1,4 @@
 
----
-
-# Conclusiones
-- Conclusiones y recomendaciones.  
-
-# Video App Validation
-- Video About the product  
-- Video About the team  
-
-# Glosario  
-# Bibliografía  
-# Anexos  
 ## 2.6. Tactical-Level Domain-Driven Design
 ### 2.6.x. Bounded Context: <Bounded Context Name>
 #### 2.6.x.1. Domain Layer
@@ -376,4 +364,16 @@ El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las a
 #### 4.3.2. Registro de Entrevistas  
 #### 4.3.3. Evaluaciones según heurísticas  
 
-  
+
+---
+
+# Conclusiones
+- Conclusiones y recomendaciones.  
+
+# Video App Validation
+- Video About the product  
+- Video About the team  
+
+# Glosario  
+# Bibliografía  
+# Anexos  
