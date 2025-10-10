@@ -17,7 +17,14 @@
 
 #### 4.1.2. Source Code Management  
 
+FuelTrack es una solución B2B orientada a ordenar el ciclo completo de un pedido de combustible (solicitud, validación, despacho, seguimiento y cierre). Por esa naturaleza operativa —donde la trazabilidad y la auditoría son críticas— la gestión del código se diseñó para privilegiar la separación clara de responsabilidades, la estandarización del trabajo en equipo y la automatización repetible de entregas. Adoptamos vistas C4 para comunicar arquitectura (Context, Container, Component y Deployment) y principios de Clean Architecture para mantener límites nítidos entre dominio, aplicación e infraestructura sin amarrar el modelo de negocio a frameworks específicos.
 
+Para mantener la uniformidad del entorno, el equipo desarrolla la app móvil en Android Studio y usa Postman para validar contratos de la API a partir del artefacto OpenAPI generado en cada build del backend. La documentación de arquitectura se versiona como código (archivos DSL de Structurizr y diagramas exportados) dentro de los repos, de modo que cualquier cambio estructural quede ligado a un commit y pueda revisarse igual que el resto del código.
+
+Todo el código vive en nuestra organización de GitHub: https://github.com/orgs/1ACC0238-2520-12614-Grupo1/repositories, con tres repos: fueltrack-landing, fueltrack-report y fueltrack-mobile.
+Usamos GitFlow (main/develop + feature/release/hotfix) y Conventional Commits. Todo cambio va por Pull Request con checks (build, tests, lint) y la documentación (C4/Structurizr y OpenAPI) se versiona en los mismos repositorios.
+
+<img src="https://i.imgur.com/W9WWwOQ.png" alt="GitHub logo" width="740">
 
 #### 4.1.3. Source Code Style Guide & Conventions  
 #### 4.1.4. Software Deployment Configuration  
