@@ -1,379 +1,376 @@
+# report
 
-## 2.6. Tactical-Level Domain-Driven Design
-### 2.6.x. Bounded Context: <Bounded Context Name>
-#### 2.6.x.1. Domain Layer
-#### 2.6.x.2. Interface Layer
-#### 2.6.x.3. Application Layer
-#### 2.6.x.4. Infrastructure Layer
-#### 2.6.x.5. Bounded Context Software Architecture Component Level Diagrams
-#### 2.6.x.6. Bounded Context Software Architecture Code Level Diagrams
-##### 2.6.x.6.1. Bounded Context Domain Layer Class Diagrams
-##### 2.6.x.6.2. Bounded Context Database Design Diagram
+<div align="center">
+  <img src="img/logo.jpg" alt="Logo de la Universidad" />
   
-# Capítulo III: Solution UI/UX Design
+  <h2>Universidad: Universidad Peruana de Ciencias Aplicadas</h2>
+  <p><strong>Carrera:</strong> Ingeniería de Software</p>
+  <p><strong>Ciclo:</strong> 2025-20</p>
 
-## 3.1. Product Design
-En la realización de este capítulo, abordaremos el diseño integral de la startup, cubriendo aspectos clave como el estilo visual, los diagramas C4 para la arquitectura del sistema, los diagramas de clases y los modelos de base de datos, proporcionando una visión clara y estructurada de la infraestructura y el funcionamiento del proyecto.
+  <p><strong>Código del Curso y Nombre del Curso:</strong> 1ACC0238-2520-12614 - Aplicaciones para Dispositivos Móviles</p>
+  <p><strong>Sección:</strong> 12614</p>
 
----
+  <p><strong>Profesor:</strong> David Gerardo Quevedo Velasco</p>
 
-### 3.1.1. Style Guidelines
-En esta sección se presentan los estándares que definen el formato y el diseño de la solución, asegurando la calidad en su implementación.
+  <h3>Informe de Trabajo Final</h3>
 
-#### 3.1.1.1. General Style Guidelines
-Con estas decisiones en el diseño visual buscamos reflejar innovación que incentive a la formalidad en los procesos de comercialización. Es así como demostramos modernidad y calidad, valores que van alineados a nuestro proyecto.
+  <p><strong>Startup:</strong> FuelTrack</p>
+  <p><strong>Nombre del Producto:</strong> FuelTrack Pro</p>
+</div>
 
-**Color**  
-Seleccionamos esta gama de colores porque armoniza con el diseño del logo y refleja la temática de nuestra aplicación, asegurando la identidad de la marca.
+<h3 align="center">Relación de Integrantes:</h3>
 
-![General Style Guidelines - Color](img/Imagen3.png)
+<div align="center">
+  <table>
+    <tr>
+      <th><strong>Apellidos y Nombres</strong></th>
+    </tr>
+    <tr>
+      <td>Juan Carlos Alvarado De La Cruz</td>
+    </tr>
+    <tr>
+      <td>Gianfranco Jared Durand Vega</td>
+    </tr>
+    <tr>
+      <td>Bryan Ronald Espejo Gamarra</td>
+    </tr>
+    <tr>
+      <td>Jhon Danny Guerrero Vasquez</td>
+    </tr>
+    <tr>
+      <td>Renzo Andres Luque Minaya</td>
+    </tr>
+  </table>
+</div>
 
-**Tipografía**  
-Seleccionamos esta tipografía por su excelente legibilidad en diversos entornos, lo que nos permite diferenciarnos frente a la competencia y aportar una identidad única a nuestra marca.
+<p align="center"><strong>Mes y Año:</strong> Abril 2025</p>
 
-![General Style Guidelines - Tipografia](img/Imagen2.png)
+## Registro de Versiones del Informe
 
-**Branding**  
-El nombre de nuestro producto es *FuelTrack*. Contamos con un logo que representa claramente nuestro rubro, dándole un toque moderno y simple. Además, usamos colores que serán característicos en nuestra empresa y amigables a la vista de nuestros clientes.
+| **Versión** | **Fecha**   | **Autores**                                                                                     | **Descripción de Modificación**                                                                                                                                                                  |
+|-------------|-------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **TB1**     | 26/04/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | Se incluyeron los siguientes capítulos: <br>• Estructura del informe <br>• Capítulo I: Presentación <br>• Capítulo II: Requirements Development & Software Solution Design <br>• Capítulo III: Solution UI/UX Design <br>• Capítulo IV: Product Implementation & Validation <br>• Configuración inicial del repositorio y del Landing Page <br>• Aplicación de GitFlow y convenciones de commits |
+| **TP1**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
+| **TB2**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
+| **TF1**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
 
-![General Style Guidelines - Branding](img/Imagen1.png)
+## Project Report Collaboration Insights
 
----
 
-### 3.1.2. Information Architecture
-La arquitectura de información se diseñó para guiar al usuario de forma lógica a través de las funciones esenciales de FuelTrack, facilitando la navegación y reduciendo la curva de aprendizaje.
-
-#### 3.1.2.1. Organization Systems
-El sistema de organización de FuelTrack tiene como objetivo facilitar la interacción fluida entre los usuarios (compradores y proveedores) y la plataforma mediante una jerarquía visual clara. Esta jerarquía destaca las funciones clave —como la gestión de pedidos de combustible, el registro de depósitos y la carga de documentos— permitiendo que los usuarios accedan rápidamente a las acciones más importantes desde la pantalla principal.
-
-- **Agrupación lógica de funciones:** Las funcionalidades están organizadas por bloques temáticos (*Record Deposits*, *Upload Documents*, *Track Orders*), lo que permite a los usuarios identificar rápidamente las opciones disponibles y su propósito.  
-- **Accesibilidad inmediata:** La interfaz principal resalta las opciones más utilizadas mediante una disposición vertical y centrada, optimizada tanto para escritorio como para dispositivos móviles.  
-- **Menú de navegación:** Se mantiene fijo en la parte superior para facilitar el acceso constante a secciones clave como *How it Works*, *Pricing* y *Sign Up*.  
-- **Reducción de fricción:** Al minimizar la cantidad de clics necesarios para ejecutar acciones comunes, el sistema organiza la información de forma que prioriza la eficiencia y la experiencia del usuario.  
-
-Este sistema organizativo asegura que tanto usuarios nuevos como recurrentes puedan navegar por FuelTrack con facilidad, incrementando la productividad y reduciendo los errores de operación.
-
----
-
-#### 3.1.2.2. Labelling Systems
-Las etiquetas que utilizaremos para la página serán diseñadas para ser claras, directas y fáciles de entender, enfocándose en la eficiencia y simplicidad para usuarios con distintos niveles de experiencia tecnológica.
-
----
-
-**Principios generales**
-- Se limita el uso de 2-3 palabras por ítem.  
-- Se mantiene la consistencia terminológica en todas las pantallas.  
-- Las etiquetas son descriptivas y responden a acciones directas, estados o categorías claras.  
-
----
-
-**Algunas de las etiquetas principales de nuestras secciones serán las siguientes:**
-
-**Gestión de Pedidos**
-- Nuevo Pedido  
-- Estado de Pedido  
-- Historial de Pedidos  
-- Ver Detalles  
-- Confirmar Entrega  
-
-**Pagos y Facturación**
-- Métodos de Pago  
-- Mis Facturas  
-- Resumen de Pagos  
-- Confirmar Pago  
-
-**Reportes**
-- Reporte de Pedidos  
-- Reporte de Pagos  
-- Resumen de Actividad  
-- Generar Informe  
-
-**Navegación general**
-- Inicio  
-- Mi Cuenta  
-- Soporte  
-- Cerrar Sesión  
+Este informe ha sido desarrollado de forma colaborativa mediante GitHub, aplicando GitFlow y Conventional Commits. Cada integrante del equipo ha contribuido mediante ramas independientes, commits individuales y revisiones de Pull Requests.
 
 ---
 
-**Asociaciones y agrupaciones**
-- Las etiquetas se agrupan en módulos lógicos (por ejemplo: pedidos, pagos, reportes) con un menú lateral y dashboard central de fácil acceso.  
-- Las acciones están asociadas a sus contextos inmediatos: por ejemplo, *Nuevo Pedido* solo aparece cuando se selecciona la opción *Gestión de Pedidos*.  
-- Los mensajes del sistema son claros y directos: *Pedido Confirmado*, *Pago Realizado*, *Entrega Programada*.  
+###  Participación por miembro (commits realizados)
 
-Estas etiquetas están diseñadas para que los usuarios puedan navegar de manera sencilla y sin confusiones, optimizando la experiencia para empresas que desean una solución eficiente y fácil de usar.
-
----
-
-#### 3.1.2.3. SEO Tags and Meta Tags
-
-**Landing Page**
-- **Title (SEO Tag):** FuelTrack | Simplify Fuel Order Management  
-- **Description (Meta Tag):** Optimize your fuel ordering process with FuelTrack — a centralized platform for buyers and suppliers to record deposits, upload documents, and track orders.  
-- **Keywords (Meta Tag):** Fuel, Track, Ordering, Fuel management, Supplier platform, Track fuel orders, Fuel deposits, Order management software  
-- **Author (Meta Tag):** FuelTrack Team  
-
-**Web Application**
-- **Title (SEO Tag):** FuelTrack | Manage Fuel Orders and Deposits  
-- **Description (Meta Tag):** Access your dashboard to record deposits, manage documents, and monitor fuel order status in real time.  
-- **Keywords (Meta Tag):** Fuel order tracking, Deposit management, Supplier dashboard, Fuel logistics, FuelTrack Web App  
-- **Author (Meta Tag):** FuelTrack Team  
-
----
-
-#### 3.1.2.4. Searching Systems
-Para garantizar una navegación fluida y centrada de nuestra plataforma, vamos a implementar las siguientes acciones y técnicas tanto para la página como la aplicación web:
-
-- **Menú de navegación:** En la página utilizaremos un *Navigation Bar* que contendrá enlaces visibles a las secciones más importantes de la plataforma, principalmente sus características y el registro o ingreso de la cuenta.  
-- **Navegación visual guiada:** El contenido está organizado en bloques visuales de las secciones determinadas en la barra principal, permitiendo al usuario desplazarse verticalmente para descubrir las funcionalidades de manera fluida.  
-- **Responsive design:** Esta será construida para adaptarse al tipo de dispositivo del usuario. Por ejemplo, la resolución de la página estará optimizada según cómo sea redimensionada, con compatibilidad tanto en escritorio como en portátiles. De esta forma, los usuarios podrán realizar sus tareas sin que el cambio de máquina sea un problema.
-
----
-
-#### 3.1.2.5. Navigation Systems
-Para la plataforma implementamos un sistema de búsqueda por texto y por categorías para que los usuarios, especialmente los proveedores, puedan localizar los pedidos que se han realizado o se están llevando a cabo. Se incluirán filtros de la siguiente manera:
-
-- **Búsqueda por texto:**  
-  El usuario tendrá una tabla de pedidos donde en cada categoría (razón social, número de pedido, nombre de banco, etc.) dispondrá de un mini buscador estándar para encontrar sus pedidos registrados o pendientes. Este entregará los resultados según el tipo de información que detecte automáticamente.  
-  Además, habrá un botón llamado **“Búsqueda avanzada”**, donde se realizará una búsqueda más específica siempre y cuando se completen todas las categorías.
-
-- **Búsqueda por categorías:**  
-  El usuario dispondrá de un sistema automático de filtrado de datos basado en las categorías existentes para optimizar su tiempo en tareas de mayor importancia.  
-  Por ejemplo, el sistema se encargará de filtrar todas las ubicaciones detectadas de los pedidos registrados o pendientes, y se podrán seleccionar las que se deseen aplicar.
-
-
-### 3.1.3. Landing Page UI Design
-La propuesta de diseño de la Landing Page para FuelTrack parte de una arquitectura de información clara y orientada a los segmentos objetivo definidos: empresas proveedoras de combustible y empresas solicitantes de combustible.
-
-El diseño organiza el contenido en bloques visuales jerárquicos que guían al usuario de manera natural hacia los principales call-to-action (CTA), alineando cada sección con una necesidad identificada: informar, atraer y convertir.
-
-Decisiones principales de diseño tomadas:
-
-- **Navegación simple y consistente:** El menú principal permite acceso rápido a las secciones clave (Features, Pricing y Contact).
-- **Call to Action diferenciados:** Hay botones específicos tanto para proveedores como para solicitantes, siguiendo un enfoque de segmentación clara.
-- **Diseño inclusivo:** La paleta de colores cumple estándares de contraste para accesibilidad, y los botones tienen tamaños adecuados para pantallas táctiles.
-- **Adaptabilidad:** El diseño es responsive, garantizando experiencia de usuario adecuada tanto en desktop como en dispositivos móviles.
-- **Consistencia visual:** Se mantiene un diseño limpio y moderno, utilizando colores corporativos azul y verde para reforzar la identidad de FuelTrack.
-#### 3.1.3.1. Landing Page Wireframe  
-![Landing Page - Wireframe 1](img/landing_wireframe_1.png)
-![Landing Page - Wireframe 2](img/landing_wireframe_2.png)
-![Landing Page - Wireframe 3](img/landing_wireframe_3.png)
-![Landing Page - Wireframe 4](img/landing_wireframe_4.png)
-![Landing Page - Wireframe 5](img/landing_wireframe_5.png)
-![Landing Page - Wireframe 6](img/landing_wireframe_6.png)
-![Landing Page - Wireframe 7](img/landing_wireframe_7.png)
-#### 3.1.3.2. Landing Page Mock-up
-![Landing Page - Mockup 1](img/landing_mockup_1.png) 
-![Landing Page - Mockup 2](img/landing_mockup_2.png) 
-![Landing Page - Mockup 3](img/landing_mockup_3.png)
-![Landing Page - Mockup 4](img/landing_mockup_4.png)
-![Landing Page - Mockup 5](img/landing_mockup_5.png)
-![Landing Page - Mockup 6](img/landing_mockup_6.png)
-![Landing Page - Mockup 7](img/landing_mockup_7.png)
-### 3.1.4. Mobile Applications UX/UI Design
-#### 3.1.4.1. Mobile Applications Wireframes  
-#### 3.1.4.2. Mobile Applications Wireflow Diagrams  
-#### 3.1.4.3. Mobile Applications Mock-ups  
-#### 3.1.4.4. Mobile Applications User Flow Diagrams  
-#### 3.1.4.5. Mobile Applications Prototyping
-
-# Capítulo IV: Product Implementation & Validation
-
-# 4. Product Implementation & Validation
-
-## 4.1. Software Configuration Management
-
-### 4.1.1. Software Development Environment Configuration
-
-| **Producto** | **Propósito en el proyecto** | **Categoría** | **Ruta de descarga/acceso** | **Descripción** |
-|---|---|---|---|---|
-| **Android Studio**<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/1200px-Android_Studio_icon_%282023%29.svg.png" alt="Android Studio logo" width="56"> | IDE principal para desarrollo de la app Android (Kotlin/Java), emuladores y profiling. | Desarrollo de software | https://developer.android.com/studio | Entorno completo para construir, depurar y empaquetar APK/AAB; integra Gradle, SDK Manager y AVD. |
-| **Postman**<br><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png" alt="Postman logo" width="120"> | Pruebas funcionales de APIs (REST), documentación y colecciones de requests. | Testing de API / Desarrollo | https://www.postman.com/ | Permite validar endpoints, usar variables de entorno, tests automáticos y compartir colecciones. |
-| **Lucidchart**<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lucidchart-logo.svg/512px-Lucidchart-logo.svg.png" alt="Lucidchart logo" width="140"> | Diagramas de procesos, casos de uso, flujos y arquitectura. | Arquitectura & Documentación | https://www.lucidchart.com/ | Herramienta visual para documentar flujos UI, BPMN, ERD y vistas de arquitectura de alto nivel. |
-| **Structurizr**<br><img src="https://static.structurizr.com/img/structurizr-banner.png" alt="Structurizr logo" width="160"> | Modelado de arquitectura con el **modelo C4** (Context, Container, Component, Code). | Arquitectura & Documentación | https://structurizr.com/ | Genera diagramas C4 consistentes desde código/DSL; útil para el Deployment Diagram requerido. |
-| **Miro**<br><img src="https://logo.svgcdn.com/l/miro-8x.png" alt="Miro logo" width="144"> | Ideación colaborativa, mapas de experiencia/journey y wireframes rápidos. | UX/UI & Colaboración | https://miro.com/ | Pizarra online para co-crear flujos, priorizar features y registrar decisiones de diseño. |
-| **GitHub Pages**<br><img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub logo" width="40"> | Hosting estático para la **Landing Page** del proyecto. | Deployment / Hosting | https://pages.github.com/ | Publica sitios estáticos directamente desde el repositorio; integra con CI y dominios personalizados. |
-
-#### 4.1.2. Source Code Management  
-
-FuelTrack es una solución B2B orientada a ordenar el ciclo completo de un pedido de combustible (solicitud, validación, despacho, seguimiento y cierre). Por esa naturaleza operativa —donde la trazabilidad y la auditoría son críticas— la gestión del código se diseñó para privilegiar la separación clara de responsabilidades, la estandarización del trabajo en equipo y la automatización repetible de entregas. Adoptamos vistas C4 para comunicar arquitectura (Context, Container, Component y Deployment) y principios de Clean Architecture para mantener límites nítidos entre dominio, aplicación e infraestructura sin amarrar el modelo de negocio a frameworks específicos.
-
-Para mantener la uniformidad del entorno, el equipo desarrolla la app móvil en Android Studio y usa Postman para validar contratos de la API a partir del artefacto OpenAPI generado en cada build del backend. La documentación de arquitectura se versiona como código (archivos DSL de Structurizr y diagramas exportados) dentro de los repos, de modo que cualquier cambio estructural quede ligado a un commit y pueda revisarse igual que el resto del código.
-
-Todo el código vive en nuestra organización de GitHub: https://github.com/orgs/1ACC0238-2520-12614-Grupo1/repositories, con tres repos: fueltrack-landing, fueltrack-report y fueltrack-mobile.
-Usamos GitFlow (main/develop + feature/release/hotfix) y Conventional Commits. Todo cambio va por Pull Request con checks (build, tests, lint) y la documentación (C4/Structurizr y OpenAPI) se versiona en los mismos repositorios.
-
-<img src="https://i.imgur.com/W9WWwOQ.png" alt="GitHub logo" width="740">
-
-#### 4.1.3. Source Code Style Guide & Conventions  
-
-Para FuelTrack, la estandarización del código no es solo estética: es el mecanismo que garantiza trazabilidad, mantenibilidad y velocidad de entrega en un producto B2B donde “pedido-→validación-→despacho-→seguimiento-→cierre” debe auditarse sin ambigüedades. Por eso adoptamos vistas C4 para comunicar arquitectura (Context, Container, Component y Deployment) y principios de Clean Architecture para separar presentación / aplicación / dominio / infraestructura, evitando dependencias innecesarias del dominio con frameworks.
-
-Lenguaje y nomenclatura (transversal). Todos los identificadores del código (clases, métodos, variables, paquetes, rutas de API, nombres de archivos) se escriben en inglés; el español se reserva a contenido visible para el usuario o documentación funcional. Se prohíben abreviaturas crípticas y términos con acentos. Convenciones: PascalCase para clases y tipos; camelCase para métodos, variables y propiedades; UPPER_SNAKE_CASE para constantes; nombres de archivos en kebab-case cuando aplique (p. ej., front estático). Comentarios solo cuando aporten intención o contratos; preferimos autoexpresividad del código y KDoc/Javadoc en APIs públicas.
-
-Landing (estático). HTML5 semántico (header, nav, main, section, footer), atributos alt y ARIA donde corresponda, CSS utilitario o BEM de forma consistente, breakpoints responsivos definidos a nivel de tema y Prettier para formateo. JS moderno (ES Modules), sin lógica de negocio en el cliente; todo texto en inglés en código fuente.
-
-Mobile: Kotlin & Flutter. Escribimos en inglés y organizamos por features (orders, auth, tracking); nombres claros: clases en PascalCase, funciones/variables en camelCase y archivos Flutter.
-Textos, colores y tipografías salen de un tema central y archivos de localización. Pantallas como Composables/Widgets pequeños y reutilizables, con estados consistentes (loading/empty/error/success) y navegación simple pasando solo lo necesario.
-Commits con Conventional Commits y PRs obligatorios; priorizamos código legible y sin complejidad innecesaria.
-
-Trabajamos con GitFlow (ramas main y develop, más feature/, release/ y hotfix/), mensajes de commit con Conventional Commits (p. ej., feat(mobile): create order page), y Pull Requests obligatorios con revisión. Esto mantiene trazabilidad directa entre historias del backlog y los cambios en código, sin fricción para el equipo.
-
-#### 4.1.4. Software Deployment Configuration  
-
-### 4.2. Landing Page & Mobile Application Implementation
-#### 4.2.1. *Sprint 1*  
-
-En la etapa inicial de nuestro proyecto, decidimos llevar a cabo la implementación del diseño de nuestra Landing Page utilizando AndroidStudio como el entorno de desarrollo.
-
-##### 4.2.1.1. Sprint Planning 1  
-
-Para el primer sprint, el equipo establecio que el desarrollo de las tareas tomaría al rededor de 12 horas.
-
-<table>
-    <thead>
-        <tr>
-            <th>Sprint #</th>
-            <th>Sprint 1</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td colspan="2"><b>Sprint  Background</b></td>
-        </tr>
-        <tr>
-            <td>Date</td>
-            <td>2025/10/10</td>
-        </tr>
-        <tr>
-            <td>Time</td>
-            <td>10:30 PM</td>
-        </tr>
-        <tr>
-            <td>Location</td>
-            <td>Discordt</td>
-        </tr>
-        <tr>
-            <td>Prepared by</td>
-            <td>Renzo Luque</td>
-        </tr>
-        <tr>
-            <td>Atendees (to  meeting)</td>
-            <td>
-                <li>Juan Carlos Alvarado De La Cruzn</li>
-                <li>Bryan Ronald Espejo Gamarra</li>
-                <li>Gianfranco Jared Durand Vega</li>
-                <li>Jhon Danny Guerrero Vasquez</li>
-              <li>Renzo Andres Luque Minaya</li>
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 1 Retrospective Summary</td>
-            <td>
-                Acuerdo de la implementación de una primera versión del Landing Page  
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
-        </tr>
-        <tr>
-            <td>Sprint 1 Goal</td>
-            <td style="text-align: justify">
-                <p>
-                Nuestro objetivo en este sprint es desarrollar la primera versión de la Landing Page de FuelTrack, enfocándonos en una estructura que sea visualmente atractiva y fácil de navegar. Utilizando AndroidStudio, crearemos una interfaz responsive que se adapte de manera óptima a dispositivos móviles.
-                </p>
-                <p>
-                Creemos que esta Landing Page ofrecerá una introducción profesional y accesible a Tallerazo, mejorando la experiencia de usuario y estableciendo una base sólida para la intecon el sistema. El éxito de este sprint se confirmará cuando los usuarios puedan explorar la Landing Page de manera fluida en distintos dispositivos, logrando una primera impresión positiva y una navegación sencilla que los motive a explorar más sobre el sistema.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>Sprint 1 Velocity</td>
-            <td>
-                8
-            </td>
-        </tr>
-        <tr>
-            <td>Sum of story points</td>
-            <td>
-                8
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-##### 4.2.1.2. Sprint Backlog 1  
-
-| User Story | Work-Item / Task | Title | Description | Estimation (Hours) | Assigned To |
-|-------------|------------------|--------|--------------|--------------------|--------------|
-| US01 | T01 | Diseñar Pantalla de Login | Crear la interfaz principal de inicio de sesión con campos de correo, contraseña y botones de acceso demo. | 3 | Gianfranco Jared Durand Vega |
-| US02 | T02 | Implementar Lógica de Autenticación | Desarrollar la funcionalidad de login con validación básica y conexión al servicio de datos. | 3 | Juan Carlos Alvarado De La Cruz |
-| US03 | T03 | Configurar Repositorio y Documentación | Crear el repositorio en GitHub y agregar documentación inicial del proyecto (README, estructura, objetivos). | 2 | Renzo Andres Luque Minaya |
-| US04 | T04 | Desarrollar Pantalla de Dashboard | Implementar una vista inicial del panel principal con resumen de datos de consumo. | 2 | Bryan Ronald Espejo Gamarra |
-| US05 | T05 | Pruebas y Ajustes Finales | Realizar pruebas funcionales del login y dashboard, corrigiendo errores visuales o de navegación. | 2 | Jhon Danny Guerrero Vasquez |
-
-
-##### 4.2.1.3. Development Evidence for Sprint Review 
-
-| Historia de Usuario | Elemento de trabajo / Tarea | Descripción | Estimación (Horas) | Asignado a | Estado |
-|----------------------|-----------------------------|--------------|--------------------|-------------|---------|
-| US13 | Implementar visualización del Landing Page | Mostrar una landing page informativa para que los interesados conozcan la plataforma antes de registrarse. | 5 | Bryan Ronald Espejo Gamarra | Finalizado |
-| EP04 | Landing Page informativa y funcional | Landing page con secciones informativas, beneficios, segmentos y botones que dirigen a login o registro. | 6 | Jhon Danny Guerrero Vasquez | Finalizado |
-
-##### 4.2.1.4. Testing Suite Evidence for Sprint Review 
-
-
-##### 4.2.1.5. Execution Evidence for Sprint Review 
-
-**Resumen:**
-Las principales secciones de la Landing Page de FuelTrack fueron desarrolladas y desplegadas exitosamente. A continuación se presentan capturas de pantalla de las secciones implementadas.
-
-Evidencia de Capturas:
-
-<img width="263" height="483" alt="login" src="https://github.com/user-attachments/assets/6d781f4e-d290-4085-9b62-6480ddb6ad98" />
-
-##### 4.2.1.6. Services Documentation Evidence for Sprint Review  
-
-En el primer sprint, hemos realizado el diseño, la programación y el despligue de la Landing Page que presentará nuesta apliación móvil "FuelTrack"
-
-##### 4.2.1.7. Software Deployment Evidence for Sprint Review  
-
-Para el despliegue de nuestra Landing Page hemos utilizado AndroidStudio. Para hacer esto, hemos trabajado en el compilador AndroidStudio dondse se compilará el código trabajado.
-
-<img width="263" height="483" alt="login" src="https://github.com/user-attachments/assets/b7f49d41-1562-4e70-80ca-9d0651c883cd" />
-
-##### 4.2.1.8. Team Collaboration Insights during Sprint  
-
-**Resumen:**
-El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las actividades principales se centraron en el desarrollo y despliegue de la Landing Page.
-
-**Evidencia de Colaboración:**
-
-* Conversaciones de WhatsApp sobre coordinación de secciones y ajustes de diseño.
-  
-* Principales Herramientas de Comunicación:
-  
-* GitHub (control de versiones y manejo de issues)
-  
-* WhatsApp (comunicación diaria y aclaraciones rápidas)
-  
-* Discord (reuniones de planificación de sprint)
-
-### 4.3. Validation Interviews
-#### 4.3.1. Diseño de Entrevistas  
-#### 4.3.2. Registro de Entrevistas  
-#### 4.3.3. Evaluaciones según heurísticas  
+A continuación, se muestra un gráfico de barras con la cantidad de commits realizados por cada integrante del equipo:
 
 
 ---
 
-# Conclusiones
-- Conclusiones y recomendaciones.  
+### Evolución temporal de commits
 
-# Video App Validation
-- Video About the product  
-- Video About the team  
+El siguiente gráfico muestra una línea de tiempo con la evolución de los commits realizados por todos los miembros:
 
-# Glosario  
-# Bibliografía  
-# Anexos  
+
+
+---
+
+
+## Contenido
+
+- [Carátula](#carátula)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
+- [Contenido](#contenido)
+- [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1 Startup Profile](#11-startup-profile)
+    - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2 Solution Profile](#12-solution-profile)
+    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1 Competidores](#21-competidores)
+    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3 Needfinding](#23-needfinding)
+    - [2.3.1 User Personas](#231-user-personas)
+    - [2.3.2 User Task Matrix](#232-user-task-matrix)
+    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4 Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)
+  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
+-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2 User Stories](#32-user-stories)
+  - [3.3 Impact Mapping](#33-impact-mapping)
+  - [3.4 Product Backlog](#34-product-backlog)
+-[Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1 Style Guidelines](#41-style-guidelines)
+    - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
+    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
+  - [4.2 Information Architecture](#43-information-architecture)
+    - [4.2.1 Organization Systems](#421-organization-systems)
+    - [4.2.2 Labeling System](#422-labeling-system)
+    - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4 Searching Systems](#424-searching-systems)
+    - [4.2.5 Navigation System](#425-navigation-system)
+  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
+    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
+    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
+  - [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1 Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2 Web Applications Mock-ups](#442-web-applications-mock-ups)
+    - [4.4.3 Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+  - [4.5 Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6 Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1 Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2 Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3 Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7 Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1 Class Diagrams](#471-class-diagrams)
+    - [4.7.2 Class Dictionary](#472-class-dictionary)
+  - [4.8 Database Design](#48-database-design)
+    - [4.8.1 Database Diagram](#481-database-diagram)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+  - [5.1 Software Configuration Management](#51-software-configuration-management)
+    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2 Source Code Management](#512-source-code-management)
+    - [5.1.3 Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2 Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    - [5.2.1 Sprint 1](#521-sprint-1)
+      - [5.2.1.1 Sprint Planning](#5211-sprint-planning-1)
+      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4 Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5 Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2 Sprint 2](#522-sprint-2)
+      - [5.2.2.1 Sprint Planning](#5221-sprint-planning-2)
+      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3 Sprint 3](#523-sprint-3)
+      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4 Sprint 3](#524-sprint-4)
+      - [5.2.4.1 Sprint Planning 3](#5241-sprint-planning-4)
+      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 3](#5243-sprint-backlog-4)
+      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones heuristicas](#533-evaluaciones-heuristicas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografia](#bibliografia)
+  - [Anexos](#anexos)
+
+---
+
+## Student Outcome
+
+> *Cada participante del equipo debe colaborar a fin de que se redacte como grupo los sustentos y evidencias de las actividades realizadas en el trabajo final que han ayudado a desarrollar cómo las dimensiones del student outcome. Por ello en esta sección debe quedar descrito por escrito, la relación entre el outcome, sus dimensiones y el trabajo que han realizado.*
+
+| **Criterio Específico** | **Acciones Realizadas** | **Conclusiones**  |
+|---|---|---|
+| **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software** | **Juan Carlos Alvarado De La Cruz**<br>TB1: Coordinó la organización inicial del informe, asegurando que se incluyeran las secciones obligatorias y revisó la estructura base del documento.<br><br>**Gianfranco Jared Durand Vega**<br>TB1: Colaboró en la elaboración de la sección de entrevistas y análisis de la problemática inicial, aplicando conceptos revisados en clase.<br><br>**Bryan Ronald Espejo Gamarra**<br>TB1: Coordinó el desarrollo del Landing Page, implementando GitFlow y convenciones de commits en el repositorio.<br><br>**Jhon Danny Guerrero Vasquez**<br>TB1: Apoyó en la construcción del capítulo de presentación, redactando perfiles de los integrantes y la descripción de la startup.<br><br>**Renzo Andres Luque Minaya**<br>TB1: Participó en el diseño de User Personas y en el análisis de los requerimientos iniciales, reforzando los conceptos de UX y Needfinding. <br><br>TP1: *(Pendiente de completar)*<br>TB2: *(Pendiente de completar)*<br>TF1: *(Pendiente de completar)* | La aplicación de conceptos vistos en clase permitió establecer una base sólida en la estructuración del informe y el desarrollo del proyecto. |
+| **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software** | **Juan Carlos Alvarado De La Cruz**<br>TB1: Investigó y propuso referencias adicionales para reforzar la parte de antecedentes y problemática.<br><br>**Gianfranco Jared Durand Vega**<br>TB1: Complementó la redacción del Lean UX Process con ejemplos investigados de soluciones similares.<br><br>**Bryan Ronald Espejo Gamarra**<br>TB1: Aplicó conocimientos previos de control de versiones y metodologías ágiles para estructurar el repositorio y coordinar al equipo.<br><br>**Jhon Danny Guerrero Vasquez**<br>TB1: Investigó sobre experiencias de usuario y aportó mejoras en la sección de Empathy Mapping.<br><br>**Renzo Andres Luque Minaya**<br>TB1: Se capacitó en herramientas de diseño (Figma/Lucidchart) y aplicó lo aprendido en la construcción de los primeros artefactos visuales. <br><br>TP1: *(Pendiente de completar)*<br>TB2: *(Pendiente de completar)*<br>TF1: *(Pendiente de completar)* | El aprendizaje autónomo y continuo de cada miembro permitió enriquecer la propuesta inicial y mejorar la calidad del entregable. |
+
+---
+
+## Capítulo I: Introducción
+
+### 1.1 Startup Profile
+
+### 1.1.1 Descripción de la Startup
+
+**FuelTrack** es una startup innovadora dedicada a la optimización de la gestión de pedidos de combustible entre empresas solicitantes y proveedores. Fundada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), nuestra propuesta se centra en la digitalización de un sector tradicionalmente dependiente de procesos manuales, brindando una solución tecnológica que garantiza eficiencia, transparencia y un control más riguroso de las operaciones.
+
+**Misión**: Nuestra misión es desarrollar soluciones tecnológicas avanzadas que transformen la gestión de pedidos de combustible, eliminando los métodos informales y reduciendo el margen de error, mediante una plataforma web intuitiva y accesible.
+
+**Visión**: Nuestra visión es posicionarnos como líderes en la digitalización del sector energético, ofreciendo a las empresas una herramienta que facilite una gestión más eficiente, segura y sostenible, contribuyendo al progreso tecnológico y a la mejora de la competitividad del sector.
+
+---
+#### 1.1.2 Perfiles de integrantes del equipo
+
+| Foto                                          | Nombre completo               | Código     | Carrera                | Habilidades técnicas y rol                                   |
+|-----------------------------------------------|-------------------------------|------------|------------------------|--------------------------------------------------------------|
+| ![Juan Carlos](img/foto_juan.png)             | Juan Carlos Alvarado De La Cruz | U202300101 | Ingeniería de Software | Desarrollo Backend, Gestión de APIs RESTful, Arquitectura DDD |
+| ![Gianfranco Durand](img/foto_gianfranco.png) | Gianfranco Jared Durand Vega    | U202300102 | Ingeniería de Software | Desarrollo Frontend (Vue/React), UI/UX, Integración de servicios externos |
+| ![Bryan Espejo](img/foto_bryan.png)           | Bryan Ronald Espejo Gamarra     | U202213278 | Ingeniería de Software | Backend, Base de Datos, DevOps, Coordinación técnica del proyecto |
+| ![Jhon Guerrero](img/foto_jhon.png)           | Jhon Danny Guerrero Vasquez     | U202300103 | Ingeniería de Software | Desarrollo Móvil Nativo (Kotlin/Swift), Testing y QA          |
+| ![Renzo Luque](img/foto_renzo.png)            | Renzo Andres Luque Minaya       | U20221C275 | Ingeniería de Software | Desarrollo Frontend, Cloud Deployment, Seguridad y Autenticación |
+
+
+### 1.2 Solution Profile
+
+### 1.2.1 Antecedentes y problemática
+
+**Descripción del problema**  
+El sector de distribución de combustibles enfrenta serias ineficiencias debido a la dependencia de métodos informales como llamadas telefónicas, correos electrónicos y aplicaciones de mensajería para gestionar los pedidos de combustible. Estos métodos generan desorganización, errores y falta de visibilidad en tiempo real, lo que afecta la eficiencia operativa y la relación con los clientes.
+
+**Técnica 5W+2H**
+
+- **What? (¿Qué?)**  
+  La problemática principal es la falta de un sistema centralizado y digital para gestionar los pedidos de combustible, lo que genera errores humanos, duplicación de esfuerzos y retrasos en las entregas.
+
+- **When? (¿Cuándo?)**  
+  El problema se presenta constantemente en el proceso de gestión de pedidos, especialmente cuando hay un alto volumen de solicitudes o múltiples pedidos a coordinar.
+
+- **Where? (¿Dónde?)**  
+  El problema ocurre en empresas solicitantes de combustible y proveedores, tanto en áreas urbanas como rurales, donde la infraestructura digital aún no está optimizada.
+
+- **Who? (¿Quién?)**  
+  Los principales afectados son las empresas solicitantes (medianas y grandes), los proveedores de combustible y los encargados de la logística y gestión de pedidos.
+
+- **Why? (¿Por qué?)**  
+  El problema radica en la falta de integración entre los métodos actuales de gestión (como correos y aplicaciones de mensajería), que dificultan un control centralizado y preciso de los pedidos.
+
+- **How? (¿Cómo?)**  
+  Los procesos actuales son desorganizados, utilizando diversas plataformas desconectadas, lo que impide tener un flujo de trabajo eficiente y controlado.
+
+- **How Much? (¿Cuánto?)**  
+  La magnitud del problema es considerable, pues cada día se pierden horas valiosas debido a la ineficiencia y los errores, lo que incrementa los costos operativos y puede generar pérdidas económicas significativas.
+
+---
+
+
+#### 1.2.2 Lean UX Process
+
+#### 1.2.2.1 Lean UX Problem Statements
+
+Nuestra plataforma, FuelTracks, ofrece una solución para la gestión de pedidos de combustible entre empresas solicitantes y proveedores. El objetivo de este startup es reemplazar los métodos informales que se usan actualmente, tales como las llamadas, correos electrónicos y aplicaciones de mensajería,  por un sistema digital y centralizada que permita mejorar principalmente la trazabilidad de los pedidos en tiempo real.
+
+Luego de analizar la metodología utilizada actualmente en el mercado de combustibles, identificamos un desafío crítico que puede resolver nuestra propuesta: la dependencia de las empresas del sector en canales desorganizados y no integrados, lo cual suele generar errores en los pedidos, retrasos en las entregas y duplicación de esfuerzo. Esta falta de un sistema centralizado impacta negativamente la eficiencia de las operaciones de los proveedores además de reducir la satisfacción de los clientes.
+
+En el contexto actual donde crece cada vez más la demanda por servicios logísticos ágiles e infalibles, es necesaria una plataforma que facilite y compacte el proceso de gestión de pedidos. Con esta, las empresas evitarán pérdidas operativas y se reducirán en gran medida las malas experiencias de los clientes.
+
+¿Cómo podríamos diseñar una solución digital que centralice y automatice la gestión de pedidos de combustible, integrando a proveedores y solicitantes en una misma plataforma, para reducir errores y aumentar la eficiencia operativa?
+
+#### 1.2.2.2 Lean UX Assumptions
+
+Business Assumptions
+
+- Las empresas proveedoras tienen en la adopción de nuevas tecnologías para automatizar multiples procesos de gestión con el fin de tener un servicio más eficiente y reducir el número de operadores comerciales que necesitan.   
+- Las empresas están buscando formas de reducir errores y retrasos logísticos para optimizar sus costos operativos.  
+- Los proveedores estan dispuestos a invertir para mejorar su nivel de servicio y aumentar su competitividad en el mercado.  
+- Las empresas usuarias apreciarán tener un mayor control de sus órdenes y ser capaces de seguirlas en una plataforma centralizada.  
+- La dificil trazabilidad de los pedidos y la posibilidad de fallas en la comunicación hace que dejar los métodos informales sea una necesidad crítica para el sector en general.
+
+---
+
+User Assumptions
+
+**¿Quién es el usuario?**  
+Los usuarios principales serían los encargados logísticos de los proovedores y las empresas compradoras de combustible.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**  
+FuelTracks encajaría en el día a día de los usuarios como una plataforma de gestión centralizada, que ayudaría a coordinar, rastrear y organizar pedidos de combustible de forma confiable. Reemplazando así los sistemas dispersos que se utilizan hoy en día.
+
+**¿Qué problemas tiene nuestro producto que resolver?**  
+FuelTracks debe resolver la desorganización causada por métodos informales de venta, reducir errores humanos y mejorar la experiencia del cliente.
+
+**¿Cuándo y cómo es nuestro producto usado?**  
+Será utilizado diariamente por solicitantes y los proveedores por igual. Por el lado de los usuarios solicitantes, usarán la plataforma para registrar y monitorear pedidos de combustible, y por el lado de proveedores para gestionar la recepción, programación y entrega de dichos pedidos.
+
+**¿Qué características son importantes?**  
+El seguimiento de pedidos en tiempo real, actualizaciones de estado mediante notificiaciones, historial de entregas, paneles de control y una interfaz clara y rápida.
+
+**¿Cómo debe verse nuestro producto y cómo debe comportarse?**  
+El producto debe presentar una interfaz limpia y profesional. Adaptada al perfil corporativo de los clientes objetivos. Debe ser eficiente, permitiendo la creación, modificación y seguimiento de pedidos en pocos clics. También debe ser altamente confiable, debido al alto valor y magnitud de las órdenes que se realizarán en la plataforma
+
+---
+
+Feature Assumptions
+
+- Creemos que al proporcionar una plataforma centralizada con trazabilidad en tiempo real, ayudaremos a las empresas a reducir errores y mejorar la eficiencia logística.  
+- Creemos que al ofrecer una interfaz clara y rápida con funciones de seguimiento, aumentaremos la adopción entre proveedores y solicitantes.  
+- Creemos que al automatizar la gestión de pedidos, los usuarios reducirán su dependencia de métodos informales y ganarán en control y visibilidad.  
+- Creemos que al integrar notificaciones en tiempo real sobre estados de pedido, mejoraremos la coordinación entre actores y reduciremos los retrasos.  
+- Creemos que al incluir visualización de métricas, facilitaremos la toma de decisiones y la optimización operativa de los proveedores.
+
+##### 1.2.2.3 Lean UX Hypothesis Statements
+
+Hypothesis Statement 01  
+**Creemos que** la centralización de los pedidos en nuestra plataforma reducirá el ratio de errores causados por problemas de coordinación entre las empresas solicitantes y los proveedores.  
+**Sabremos que hemos tenido éxito**  
+**Cuando** luego de los primeros tres meses de uso se reporte que más de un 70% de los pedidos realizados fueron confirmados sin necesidad de correcciones posteriores.
+
+---
+
+Hypothesis Statement 02  
+**Creemos que** ofrecer más herramientas para el control y seguimiento de pedidos mejorará la satisfacción de los clientes solicitantes.  
+**Sabremos que hemos tenido éxito**  
+**Cuando** se observe una reducción del 30% en llamadas de seguimiento.
+
+---
+
+Hypothesis Statement 03  
+**Creemos que** la plataforma permitirá a los proveedores optimizar el proceso de gestión de los pedidos y reducir el tiempo que toma cumplir con cada uno.  
+**Sabremos que hemos tenido éxito**  
+**Cuando** los proveedores logren reducir en un 20% el tiempo promedio entre confirmación y entrega de pedidos.
+
+---
+
+Hypothesis Statement 04  
+**Creemos que** las notificaciones automáticas sobre el estado de los pedidos reducirán la necesidad de una gran cantidad de operadores comerciales de alta disponibilidad.  
+**Sabremos que hemos tenido éxito**  
+**Cuando** las solicitudes de información por parte de clientes disminuyan en un 40% y el tiempo promedio de atención se reduzca en un 60% tras el primer trimestre de uso.
+
+
+##### 1.2.2.4 Lean UX Canvas
+<!-- Imagen o tabla del Lean UX Canvas -->
+
+---
+
+### 1.3 Segmentos objetivo
+
+#### A. Empresas solicitantes de combustible
+
+Empresas medianas y grandes que requieren de combustible de forma constante para el desarrollo de sus operaciones. Utilizan este recurso para alimentar maquinaria, vehículos o equipos, y buscan procesos más ágiles, ordenados y confiables para su gestión de pedidos. Además, mantienen un contrato de exclusividad con un proveedor de combustible, lo que les permite tener un flujo constante de pedidos y una relación comercial estable.
+
+**Necesidades:**
+- Asegurar el abastecimiento oportuno de combustible.
+- Reducir errores derivados de la informalidad en los procesos.
+- Mantener constante comunicación con proveedores.
+
+---
+
+#### B. Proveedores de combustible
+Son empresas dedicadas a la distribución de combustibles, atendiendo principalmente a clientes corporativos o industriales. Buscan herramientas que les permitan, optimizar sus operaciones y diferenciarse en un mercado cada vez más competitivo.
+
+**Motivaciones:**
+- Mejorar la experiencia del cliente mediante canales digitales.
+- Reducir errores en la entrega por información incompleta o mal gestionada.
+- Optimizar la planificación logística y distribución.
+
