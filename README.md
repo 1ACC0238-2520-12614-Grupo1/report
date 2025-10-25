@@ -527,7 +527,7 @@ Este apartado presenta el conjunto de **Epics** y **User Stories** (incluyendo *
 | 16 | TS03 | Enviar notificaciones por cambio de estado | 3 |
 | 17 | TS04 | Registrar ubicación GPS en ruta | 5 |
 
-**URL de evidencia de la gestión del Product Backlog:** _[coloca aquí el enlace a tu tablero (Trello/Jira/GitHub Projects)]_
+**URL de evidencia de la gestión del Product Backlog:** https://trello.com/invite/b/68fc3234e665196894efe656/ATTId9f853897aa3fa54b670c6c712d4bf54825FB1B3/fueltrack-product-backlog
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
