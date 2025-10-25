@@ -269,13 +269,13 @@ El sector de distribución de combustibles enfrenta serias ineficiencias debido 
 
 #### 1.2.2.1 Lean UX Problem Statements
 
-Nuestra plataforma, FuelTracks, ofrece una solución para la gestión de pedidos de combustible entre empresas solicitantes y proveedores. El objetivo de este startup es reemplazar los métodos informales que se usan actualmente, tales como las llamadas, correos electrónicos y aplicaciones de mensajería,  por un sistema digital y centralizada que permita mejorar principalmente la trazabilidad de los pedidos en tiempo real.
+FuelTrack es una plataforma que digitaliza y centraliza la gestión de pedidos de combustible entre empresas solicitantes y proveedores, reemplazando prácticas informales (llamadas, correos y mensajería) por un flujo único con trazabilidad en tiempo real.
 
-Luego de analizar la metodología utilizada actualmente en el mercado de combustibles, identificamos un desafío crítico que puede resolver nuestra propuesta: la dependencia de las empresas del sector en canales desorganizados y no integrados, lo cual suele generar errores en los pedidos, retrasos en las entregas y duplicación de esfuerzo. Esta falta de un sistema centralizado impacta negativamente la eficiencia de las operaciones de los proveedores además de reducir la satisfacción de los clientes.
+En el mercado de combustibles predominan canales desorganizados y no integrados, lo que genera errores en los pedidos, retrasos en las entregas y retrabajo. La ausencia de un sistema centralizado disminuye la eficiencia operativa de los proveedores y deteriora la satisfacción del cliente.
 
-En el contexto actual donde crece cada vez más la demanda por servicios logísticos ágiles e infalibles, es necesaria una plataforma que facilite y compacte el proceso de gestión de pedidos. Con esta, las empresas evitarán pérdidas operativas y se reducirán en gran medida las malas experiencias de los clientes.
+Ante una demanda creciente por logística ágil y confiable, se requiere una plataforma que estandarice, automatice y compacte la gestión de pedidos para reducir pérdidas operativas y mejorar la experiencia del cliente.
 
-¿Cómo podríamos diseñar una solución digital que centralice y automatice la gestión de pedidos de combustible, integrando a proveedores y solicitantes en una misma plataforma, para reducir errores y aumentar la eficiencia operativa?
+¿Cómo podríamos diseñar una solución digital que centralice y automatice la gestión de pedidos de combustible, integrando a proveedores y solicitantes en una misma plataforma, para disminuir errores y elevar la eficiencia operativa?
 
 #### 1.2.2.2 Lean UX Assumptions
 
