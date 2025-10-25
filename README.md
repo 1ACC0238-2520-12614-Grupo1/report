@@ -320,84 +320,67 @@ Para comprender mejor a nuestros segmentos objetivo, se han definido dos entrevi
 
 ---
 
-<h3>2.2.3. Análisis de entrevistas</h3>
+### 2.2.3. Análisis de entrevistas
 
-<h4><u>SEGMENTO 1: Empresas solicitantes de combustible</u></h4>
+#### SEGMENTO 1: Empresas solicitantes de combustible
 
-<h5>Características objetivas:</h5>
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Porcentaje</th>
-      <th>Observaciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Edad entre 30 y 45 años</td><td>100%</td><td>Todos los entrevistados tienen entre 33 y 45 años.</td></tr>
-    <tr><td>Cargo relacionado a logística</td><td>100%</td><td>Los tres pertenecen a áreas de operaciones o logística.</td></tr>
-    <tr><td>Usa computadora y celular</td><td>100%</td><td>Todos usan laptop/PC y móvil para sus actividades.</td></tr>
-    <tr><td>Utiliza WhatsApp para coordinar</td><td>66%</td><td>2 de 3 lo usan como canal principal con el proveedor.</td></tr>
-    <tr><td>Manejo de hojas Excel o Google</td><td>100%</td><td>Todos gestionan sus pedidos manualmente en planillas.</td></tr>
-    <tr><td>Nivel medio de familiaridad digital</td><td>100%</td><td>Dominan software básico (Drive, correo, hojas de cálculo).</td></tr>
-  </tbody>
-</table>
+**Características objetivas**
+| Variable | Porcentaje | Observaciones |
+|-----------|-------------|----------------|
+| Edad entre 30 y 45 años | 100% | Todos los entrevistados tienen entre 33 y 45 años. |
+| Cargo relacionado a logística | 100% | Los tres pertenecen a áreas de operaciones o logística. |
+| Usa computadora y celular | 100% | Todos usan laptop/PC y móvil para sus actividades. |
+| Utiliza WhatsApp para coordinar | 66% | 2 de 3 lo usan como canal principal con el proveedor. |
+| Manejo de hojas Excel o Google | 100% | Todos gestionan sus pedidos manualmente en planillas. |
+| Nivel medio de familiaridad digital | 100% | Dominan software básico (Drive, correo, hojas de cálculo). |
 
-<h5>Características subjetivas:</h5>
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Porcentaje</th>
-      <th>Observaciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Necesita trazabilidad del pedido</td><td>100%</td><td>Todos demandan claridad en el estado y avance del pedido.</td></tr>
-    <tr><td>Frustración por depósitos no validados</td><td>66%</td><td>2 de 3 se quejan de retrasos debido a validación manual.</td></tr>
-    <tr><td>Deseo de un sistema unificado</td><td>100%</td><td>Los 3 expresaron querer centralizar todo el proceso.</td></tr>
-    <tr><td>Receptividad positiva a tecnología</td><td>100%</td><td>Todos están abiertos a soluciones digitales con buena UX.</td></tr>
-  </tbody>
-</table>
+**Características subjetivas**
+| Variable | Porcentaje | Observaciones |
+|-----------|-------------|----------------|
+| Necesita trazabilidad del pedido | 100% | Todos demandan claridad en el estado y avance del pedido. |
+| Frustración por depósitos no validados | 66% | 2 de 3 se quejan de retrasos debido a validación manual. |
+| Deseo de un sistema unificado | 100% | Los 3 expresaron querer centralizar todo el proceso. |
+| Receptividad positiva a tecnología | 100% | Todos están abiertos a soluciones digitales con buena UX. |
 
-<hr>
+**Insights del segmento solicitante**
+- La **falta de trazabilidad en tiempo real** genera inseguridad y retrasa la toma de decisiones operativas.  
+- La **validación manual de pagos** representa una fuente constante de frustración y pérdida de tiempo.  
+- Existe una **disposición clara a migrar hacia sistemas digitales**, siempre que estos sean intuitivos y confiables.  
+- Los usuarios perciben valor en **centralizar todas las etapas del pedido en una sola plataforma**, para evitar depender de varios canales (correo, WhatsApp, Excel).  
 
-<h4><u>SEGMENTO 2: Proveedores de combustible</u></h4>
 
-<h5>Características objetivas:</h5>
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Porcentaje</th>
-      <th>Observaciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Edad entre 39 y 48 años</td><td>100%</td><td>Todos están en ese rango.</td></tr>
-    <tr><td>Cargo en operaciones/logística</td><td>100%</td><td>Incluye jefes de planta, despacho o ventas.</td></tr>
-    <tr><td>Utiliza laptop/PC y celular</td><td>100%</td><td>Equipamiento estándar en planta o administración.</td></tr>
-    <tr><td>Nivel de digitalización medio</td><td>66%</td><td>2 de 3 usan sistemas propios o ERPs básicos.</td></tr>
-    <tr><td>Gestión mediante correo y llamadas</td><td>100%</td><td>El proceso actual es altamente manual.</td></tr>
-  </tbody>
-</table>
+---
 
-<h5>Características subjetivas:</h5>
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Variable</th>
-      <th>Porcentaje</th>
-      <th>Observaciones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Problemas con conciliación bancaria</td><td>100%</td><td>Todos mencionan validación lenta de pagos como cuello de botella.</td></tr>
-    <tr><td>Necesidad de validar stock antes de liberar</td><td>66%</td><td>2 de 3 destacaron esto como un punto crítico.</td></tr>
-    <tr><td>Dificultades en la asignación de vehículos</td><td>66%</td><td>Errores de programación y disponibilidad afectan la entrega.</td></tr>
-    <tr><td>Deseo de automatización de procesos</td><td>100%</td><td>Todos visualizan mejoras en eficiencia si se digitalizan etapas clave.</td></tr>
-  </tbody>
-</table>
+#### SEGMENTO 2: Proveedores de combustible
+
+**Características objetivas**
+| Variable | Porcentaje | Observaciones |
+|-----------|-------------|----------------|
+| Edad entre 39 y 48 años | 100% | Todos están en ese rango. |
+| Cargo en operaciones/logística | 100% | Incluye jefes de planta, despacho o ventas. |
+| Utiliza laptop/PC y celular | 100% | Equipamiento estándar en planta o administración. |
+| Nivel de digitalización medio | 66% | 2 de 3 usan sistemas propios o ERPs básicos. |
+| Gestión mediante correo y llamadas | 100% | El proceso actual es altamente manual. |
+
+**Características subjetivas**
+| Variable | Porcentaje | Observaciones |
+|-----------|-------------|----------------|
+| Problemas con conciliación bancaria | 100% | Todos mencionan validación lenta de pagos como cuello de botella. |
+| Necesidad de validar stock antes de liberar | 66% | 2 de 3 destacaron esto como un punto crítico. |
+| Dificultades en la asignación de vehículos | 66% | Errores de programación y disponibilidad afectan la entrega. |
+| Deseo de automatización de procesos | 100% | Todos visualizan mejoras en eficiencia si se digitalizan etapas clave. |
+
+**Insights del segmento proveedor**
+- La **falta de sincronización entre pagos y liberación de pedidos** retrasa el flujo de despacho.  
+- Los **procesos de stock y asignación de unidades** son críticos y podrían optimizarse mediante automatización.  
+- La **digitalización parcial actual** (uso de ERPs básicos) muestra que hay apertura, pero no integración total con clientes.  
+- Existe una **necesidad compartida de coordinación en tiempo real** con los solicitantes para evitar errores logísticos.
+
+---
+
+### Síntesis general
+Ambos segmentos coinciden en que la gestión actual basada en canales dispersos y tareas manuales genera **ineficiencias, errores y demoras**. Los dos valoran la posibilidad de una **plataforma digital unificada** que mejore la **visibilidad del proceso**, **automatice validaciones** y **agilice la comunicación entre empresas**.
+
 
 
 ## 2.3. Needfinding.
