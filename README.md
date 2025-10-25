@@ -439,825 +439,95 @@ b. User Persona 2: Proveedores de combustible
 | **Purchase History (Historial de compras)** | Registro de cotizaciones y compras o pedidos previos hechos por el solicitante dentro del sistema. | Solicitante |
 
 ## 2.4. Requirements specification
-### 2.4.1. User Stories
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EP01</td>
-      <td>Gestión de pedidos de combustible de solicitante</td>
-      <td>Como usuario solicitante de combustible, quiero poder registrar mis pedidos fácilmente y con la capacidad de establecer parámetros específicos para evitar errores en la comunicación y recibir lo que necesito.</td>
-      <td><strong>Escenario 1</strong>: Registro de pedido exitoso. En la plataforma, debería ver una sección en la plataforma para realizar nuevos pedidos, donde encuentre un formulario en el que pueda especificar lo que necesito y posteriormente registrar la orden. <br/> <strong>Escenario 2</strong>: Visualización de historial de pedidos. Debería ser capaz de visualizar una sección que muestre todos mis pedidos anteriores. <br/> <strong>Escenario 3</strong>: Edición antes de la confirmación. Antes de que los pedidos sean confirmados por los proovedores, debería tener la posibilidad de hacer ediciones a este o incluso poder cancelarlo.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP02</td>
-      <td>Gestión de pedidos recibidos por el proovedoor</td>
-      <td>Como usuario proovedor de combustible, quiero poder revisar los pedidos realizados por mis clientes, actualizar el estado de cada uno y dar actualizaciones en tiempo real a mis clientes.</td>
-      <td><strong>Escenario 1</strong>: Visualización de pedidos entrantes. Dado que haya pedidos activos, Cuando el proveedor acceda a su panel, Entonces debería poder ver una lista de pedidos con detalles clave (cliente, ubicación, volumen, estado). <br/> <strong>Escenario 2</strong>: Actualización de estado del pedido.Dado que un pedido esté en curso,Cuando el proveedor actualice su estado (confirmado, en ruta, entregado),Entonces el sistema deberá reflejar el cambio en tiempo real. <br/> <strong>Escenario 3</strong>: Notificación a los clientes. Dado que el proveedor realice un cambio o actualización a un pedido, Cuando el cliente esté en la plataforma, entonces deberá ver una notificación con información de los cambios ocurridos.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP03</td>
-      <td>Gestión de seguridad y acceso</td>
-      <td>Como usuario de ambos segmentos de la plataforma, quiero que mis datos estén protegidos y acceder solo mediante autenticación segura, para garantizar la privacidad y evitar accesos no autorizados.</td>
-      <td><strong>Escenario 1</strong>: Inicio de sesión seguro. Dado que el usuario tenga una cuenta, Cuando intente iniciar sesión con correo y contraseña, Entonces el sistema debe validar las credenciales y otorgar acceso solo si son correctas, evitando revelar información en caso de error. <br/> <strong>Escenario 2</strong>: Control de accesos según rol. Dado que un usuario (cliente o proveedor) haya iniciado sesión,Cuando intente acceder a secciones específicas de la plataforma, Entonces solo deberá poder ver y operar dentro de las funcionalidades permitidas por su tipo de cuenta. <br/> <strong>Escenario 3</strong>: Autenticación multifactor para operaciones. Dado que un cliente esté realizando un pedido,Cuando intente enviarlo o confirmarlo,Entonces el sistema deberá activar un segundo paso de verificación (código temporal o notificación) antes de procesar la acción..</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP04</td>
-      <td>Landing Page informativa y funcional</td>
-      <td>Como parte de la solución, quiero ofrecer una landing page que muestre los beneficios y funcionalidades de FuelTrack, para captar el interés de potenciales usuarios.</td>
-      <td><strong>Escenario 1</strong>: Visualización pública. Cuando alguien acceda al dominio principal sin estar autenticado, el sistema debe mostrar la landing page con secciones informativas, beneficios del sistema, segmentos objetivo y llamadas a la acción hacia login/registro. <br/> <strong>Escenario 2</strong>: Redirección según interés. Al hacer clic en 'Quiero registrarme', debe llevar al formulario correspondiente según el segmento.</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
+## 2.4.1. User Stories
 
+### Introducción
+Este apartado presenta el conjunto de **Epics** y **User Stories** (incluyendo **Technical Stories** y **Spike Stories**) con **criterios de aceptación** en formato **Gherkin**. Las prioridades quedan **TBD** para definición del Product Owner. Los criterios son verificables, en presente y tercera persona, sin referencias a elementos de interfaz.
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Crear nuevo pedido</td>
-      <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
-      <td>Dado que el usuario ingrese todos los campos requeridos, Cuando envíe el pedido, Entonces el sistema deberá procesarlo, asignar un ID único y enviarlo a los proovedores para que confirmen la orden.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Consultar historial de pedidos</td>
-      <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
-      <td>Dado que el usuario acceda a la sección de seguimiento,Cuando seleccione un pedido,Entonces podrá ver si fue recibido, confirmado, en ruta o entregado.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Editar pedidos</td>
-      <td>Como solicitante, quiero tener la posibilidad de editar parámetros, como el monto o dirección de entrega, de mis pedidos siempre y cuando estos todavía no hayan sido confirmados por el rpoovedor</td>
-      <td>Dado que el usuario acceda a la sección de pedidos activo, Cuando seleccione un pedido que se encuentra sin confirmar ,Entonces podrá editar los parámetros del pedido.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Actualización de un pedido</td>
-      <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
-      <td>Dado que existan pedidos activos para el proveedor, Cuando el proveedor los seleccione,Entonces el sistema deberá darle la posibilidad de hacerle cambios o darle actualizaciones.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US06</td>
-      <td>Notificaciones a clientes sobre cambios</td>
-      <td>Como proovedor, quiero que mis clientes reciban notificaciones automáticas cuando actualizo un pedido, para que estén al tanto del progreso sin tener que llamarlos.</td>
-      <td>Dado que se modifique el estado o datos del pedido, Cuando se actualice a "confirmado", "en ruta" o "entregado", Entonces el sistema debe enviar una notificación push, correo o WhatsApp al cliente.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Cancelación o rechazo de pedidos</td>
-      <td>Como proveedor de combustible, quiero poder rechazar o cancelar un pedido y enviar un mensaje al cliente explicando los motivos, para mantener una comunicación clara y evitar confusiones.</td>
-      <td>Dado que el proveedor no pueda atender un pedido,Cuando seleccione la opción de cancelar o rechazar,Entonces el sistema deberá solicitarle ingresar un mensaje explicando el motivo y notificar al cliente con dicha información.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Inicio de sesión</td>
-      <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
-      <td>Dado que el usuario tenga una cuenta, Cuando intente iniciar sesión,Entonces el sistema deberá validar sus credenciales y permitir el acceso solo si son correctas.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Registro de cuenta nueva</td>
-      <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
-      <td>Dado que el usuario complete todos los campos requeridos, Cuando presione “Crear cuenta”, Entonces la cuenta deberá crearse correctamente y redirigirlo a su panel.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Recuperación de contraseña</td>
-      <td>Como usuario, Quiero tener la posibilidad de recuperar mi contraseña mediante correo electrónico, Para no perder el acceso a mi cuenta en caso la olvide.</td>
-      <td>Dado que el usuario no recuerde su contraseña, Cuando seleccione “¿Olvidaste tu contraseña?”,Entonces deberá recibir un correo con un enlace para restablecerla.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Acceso restringido por roles</td>
-      <td>Como administrador de la plataforma, Quiero que los usuarios solo accedan a las secciones según su tipo de cuenta, Para evitar errores en el sistema</td>
-      <td>Dado que un usuario acceda a la plataforma, Cuando vea las secciones que tiene disponible, Entonces verá únicamente las que son correspondientes a su rol.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Autenticación MFA para realizar pedidos</td>
-      <td>Como empresa solicitante, Quiero que se me solicite una autenticación multifactor al momento de realizar un pedido, Para asegurar que solo personal autorizado pueda emitir órdenes de compra</td>
-      <td>Dado que el cliente quiera registrar un pedido, Cuando complete los datos del formulario de registro, Entonces deberá recibir un código de autenticación y solo podrá finalizar el pedido tras ingresarlo correctamente.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Visualización del landing page</td>
-      <td>Como usuario de la plataforma, quiero que el sistema muestre un landing page informativo para que los interesados conozcan los beneficios antes de registrarse.</td>
-      <td>Dado que alguien acceda a la URL principal, Cuando no esté autenticado, Entonces deberá visualizar el landing page con secciones informativas y botones hacia login o registro.</td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>TS01</td>
-      <td>Implementar endpoint REST para pedidos</td>
-      <td>Como desarrollador, quiero implementar un endpoint RESTful para registrar pedidos, para que la aplicación frontend pueda enviar solicitudes válidas al backend.</td>
-      <td>Dado que se realice una solicitud POST con datos válidos, Cuando se procese en el backend, Entonces deberá guardarse el pedido en la base de datos y devolver un código 201 con ID.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>TS02</td>
-      <td>Servicio de autenticación y token</td>
-      <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
-      <td>Dado que un usuario inicie sesión, Cuando las credenciales sean válidas, Entonces el sistema deberá generar un token JWT para acceso a recursos protegidos.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS03</td>
-      <td>Envío de notificaciones por cambios de estado</td>
-      <td>Como desarrollador, quiero implementar un servicio que envíe notificaciones automáticas cuando un pedido cambie de estado, para mantener informados a los usuarios.</td>
-      <td>Dado que el estado de un pedido sea actualizado, Cuando se complete la acción, Entonces deberá enviarse una notificación por correo o WhatsApp al usuario correspondiente.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>TS04</td>
-      <td>Registro y validación de ubicación GPS</td>
-      <td>Como desarrollador, quiero permitir que los pedidos en ruta envíen coordenadas GPS, para poder visualizar la trazabilidad del transporte en tiempo real.</td>
-      <td>Dado que un conductor envíe su ubicación, Cuando el backend reciba las coordenadas, Entonces deberán almacenarse y estar disponibles para visualización en el frontend.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Ver sección Home</td>
-      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema.</td>
-      <td>
-        Escenario 1: Visualización de resumen del sistema.<br/>
-        Escenario 2: Acceso a call to action desde Home.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FuelTrack para confiar en el sistema.</td>
-      <td>
-        Escenario 1: Información visible del equipo.<br/>
-        Escenario 2: Ver valores o misión.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
-      <td>
-        Escenario 1: Comprensión del flujo de pedidos.<br/>
-        Escenario 2: Interacción clara entre usuarios.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US17</td>
-      <td>Enviar mensaje de contacto</td>
-      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información.</td>
-      <td>
-        Escenario 1: Envío exitoso de mensaje.<br/>
-        Escenario 2: Validación de campos obligatorios.<br/>
-        Escenario 3: Confirmación visual del envío.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US18</td>
-      <td>Aprobar pedido</td>
-      <td>Como proveedor, quiero aceptar según el stock disponible para evitar conflictos de distribución.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Aprobación de pedido con stock disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene stock suficiente,</li>
-              <li>Cuando aprueba el pedido,</li>
-              <li>Entonces el estado cambia a “Aprobado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Envío de motivo</strong>
-            <ul>
-              <li>Dado que el proveedor decide no aprobar un pedido por un periodo de tiempo,</li>
-              <li>Cuando revise los pedidos,</li>
-              <li>Entonces el sistema solicita ingresar una razón.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US19</td>
-      <td>Marcar pedido como despachado</td>
-      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Despacho exitoso de un pedido</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado,</li>
-              <li>Cuando marca el pedido como despachado,</li>
-              <li>Entonces el estado cambia a “Despachado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Restricción de despacho sin aprobación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta despachar un pedido sin aprobación,</li>
-              <li>Cuando ejecuta la acción,</li>
-              <li>Entonces el sistema impide el cambio de estado y muestra un mensaje.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Cerrar pedido</td>
-      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Cierre correcto del pedido tras confirmación</strong>
-            <ul>
-              <li>Dado que el solicitante ya confirmó la entrega,</li>
-              <li>Cuando el proveedor cierra el pedido,</li>
-              <li>Entonces este no puede modificarse más.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Intento de cierre sin confirmación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta cerrar el pedido,</li>
-              <li>Cuando el solicitante aún no ha confirmado la entrega,</li>
-              <li>Entonces el sistema impide esta acción.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US21</td>
-      <td>Generar reporte de ventas</td>
-      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Generación de reporte con datos disponibles</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango de fechas válido,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces se genera un archivo con los datos de ventas.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Generación sin datos en el rango</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango sin ventas,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces el sistema informa que no hay resultados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Descarga del archivo generado</strong>
-            <ul>
-              <li>Dado que el reporte se genera correctamente,</li>
-              <li>Cuando finaliza el proceso,</li>
-              <li>Entonces el proveedor puede descargar el archivo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Ver resumen de pedidos (Solicitante)</td>
-      <td>Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de resumen con datos disponibles</strong>
-            <ul>
-              <li>Dado que el solicitante tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces visualiza los KPIs por estado: pendientes, aprobados, despachados, finalizados y rechazados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin pedidos registrados</strong>
-            <ul>
-              <li>Dado que el solicitante no tiene pedidos,</li>
-              <li>Cuando accede al dashboard,</li>
-              <li>Entonces ve un mensaje informando “No hay pedidos registrados”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al cargar datos del resumen</strong>
-            <ul>
-              <li>Dado que el solicitante accede al dashboard,</li>
-              <li>Cuando ocurre un error de carga,</li>
-              <li>Entonces el sistema muestra un mensaje e intenta recargar los datos automáticamente.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Ver resumen de pedidos (Proveedor)</td>
-      <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de KPIs con datos</strong>
-            <ul>
-              <li>Dado que el proveedor tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces ve KPIs de pedidos: pendientes, aprobados, rechazados, despachados y finalizados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin datos registrados</strong>
-            <ul>
-              <li>Dado que no hay pedidos registrados,</li>
-              <li>Cuando se carga el dashboard,</li>
-              <li>Entonces los KPIs se muestran con valor cero y un mensaje informativo.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Fallo en la carga del resumen</strong>
-            <ul>
-              <li>Dado que el proveedor accede al dashboard,</li>
-              <li>Cuando hay un error de conexión,</li>
-              <li>Entonces se muestra una alerta con opción para reintentar.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>TS05</td>
-      <td>Endpoint: Login</td>
-      <td>Como developer, quiero un endpoint para autenticar usuarios.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Autenticación exitosa</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales válidas en el request,</li>
-              <li>Cuando lo envía al endpoint de autenticación,</li>
-              <li>Entonces recibe un token JWT y un status 200 como respuesta.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Credenciales inválidas</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales incorrectas en el request,</li>
-              <li>Cuando se procesa la solicitud,</li>
-              <li>Entonces se retorna status 401 con un mensaje de error.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error interno del servidor</strong>
-            <ul>
-              <li>Dado que el developer realiza un request y ocurre un problema en el backend,</li>
-              <li>Cuando se procesa la autenticación,</li>
-              <li>Entonces se retorna status 500 con un mensaje genérico de error.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>Endpoint: Recuperar contraseña</td>
-      <td>Como developer, quiero un endpoint para que permita enviar correo de recuperación.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Solicitud válida</strong>
-            <ul>
-              <li>Dado que el developer envía un request con un correo que existe en la base de datos,</li>
-              <li>Cuando el request llega al endpoint de recuperación,</li>
-              <li>Entonces el sistema genera un token y envía el correo de recuperación.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Correo inexistente</strong>
-            <ul>
-              <li>Dado que el developer envía un request con un correo no registrado,</li>
-              <li>Cuando se procesa la solicitud,</li>
-              <li>Entonces se retorna status 404 y no se envía ningún correo.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error en el envío del correo</strong>
-            <ul>
-              <li>Dado que el developer ejecuta la acción y ocurre un fallo en el servicio de correo,</li>
-              <li>Cuando se intenta enviar el mensaje,</li>
-              <li>Entonces se retorna status 500 y se registra el error en los logs del servidor.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS07</td>
-      <td>Endpoint: Logout</td>
-      <td>Como developer, quiero un endpoint para cerrar sesión.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Logout exitoso</strong>
-            <ul>
-              <li>Dado que el developer envía un token de sesión válido,</li>
-              <li>Cuando llama al endpoint de logout,</li>
-              <li>Entonces la sesión se invalida y se retorna status 200.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Token inválido o expirado</strong>
-            <ul>
-              <li>Dado que el developer incluye un token no válido o expirado,</li>
-              <li>Cuando se llama al endpoint de logout,</li>
-              <li>Entonces se retorna status 401 y no se realiza ninguna acción.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Falla del servidor</strong>
-            <ul>
-              <li>Dado que el developer realiza un request y ocurre un error interno en el servidor,</li>
-              <li>Cuando se procesa el logout,</li>
-              <li>Entonces se retorna status 500 con un mensaje genérico.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Asignar vehículo a pedido</td>
-      <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Asignación válida</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado y un vehículo libre disponible,</li>
-              <li>Cuando selecciona el vehículo para asignarlo,</li>
-              <li>Entonces queda asignado correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo ocupado</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo que ya está ocupado,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema muestra un mensaje indicando que el vehículo no está disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Falla durante la asignación</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo y ocurre un error en el backend,</li>
-              <li>Cuando se ejecuta la asignación,</li>
-              <li>Entonces se muestra un mensaje de error y no se vincula ningún vehículo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Asignar conductor a pedido</td>
-      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Conductor disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido con vehículo asignado y el conductor está libre,</li>
-              <li>Cuando selecciona al conductor,</li>
-              <li>Entonces este se vincula correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Conductor ya asignado en misma franja horaria</strong>
-            <ul>
-              <li>Dado que el conductor está asignado a otro pedido en el mismo horario,</li>
-              <li>Cuando se intenta asignarlo,</li>
-              <li>Entonces el sistema bloquea la acción y muestra un mensaje de conflicto.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al guardar</strong>
-            <ul>
-              <li>Dado que el proveedor intenta guardar la asignación y ocurre una falla técnica,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y no se realiza el vínculo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US26</td>
-      <td>Validar disponibilidad de transporte</td>
-      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Vehículo no disponible por superposición</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza el listado de vehículos,</li>
-              <li>Cuando un vehículo está asignado a otro pedido para la misma fecha y hora estimada,</li>
-              <li>Entonces el sistema lo muestra como no disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo disponible</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza un vehículo sin conflictos de agenda,</li>
-              <li>Cuando se carga el listado de vehículos,</li>
-              <li>Entonces dicho vehículo se muestra como seleccionable.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Conflicto en tiempo real</strong>
-            <ul>
-              <li>Dado que el proveedor intenta seleccionar un vehículo que fue asignado recientemente por otro usuario,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema bloquea la selección y muestra un mensaje de actualización.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US27</td>
-      <td>Ver perfil de usuario</td>
-      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización exitosa del perfil</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando accede a su perfil,</li>
-              <li>Entonces ve su nombre, correo y rol.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Error en la carga de datos</strong>
-            <ul>
-              <li>Dado que el usuario accede a su perfil y ocurre un error al obtener los datos,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje de error y se sugiere reintentar.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Restricción de datos de otros usuarios</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando intenta ver otro perfil,</li>
-              <li>Entonces el sistema restringe el acceso y muestra su propia información.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US28</td>
-      <td>Editar datos de perfil</td>
-      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Edición y guardado exitoso</strong>
-            <ul>
-              <li>Dado que el usuario modifica uno o más campos del formulario,</li>
-              <li>Cuando la información ingresada es válida,</li>
-              <li>Entonces el sistema guarda los cambios correctamente.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Campo obligatorio vacío</strong>
-            <ul>
-              <li>Dado que el usuario deja un campo obligatorio vacío,</li>
-              <li>Cuando intenta guardar,</li>
-              <li>Entonces el sistema muestra un mensaje de validación indicando el campo requerido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error del servidor al guardar</strong>
-            <ul>
-              <li>Dado que el usuario intenta guardar y ocurre un fallo en el servidor,</li>
-              <li>Cuando se realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y los datos ingresados permanecen visibles.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US29</td>
-      <td>Buscar pedido por código</td>
-      <td>Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Ingresar a la búsqueda</strong>
-            <ul>
-              <li>Dado que el usuario presione el botón de filtrar,</li>
-              <li>Cuando ingrese la opción del código en las grillas,</li>
-              <li>Entonces podrá buscar su pedido según su código.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Pedido encontrado</strong>
-            <ul>
-              <li>Dado que el usuario escribe un código válido,</li>
-              <li>Cuando existe un pedido con ese código,</li>
-              <li>Entonces se muestra el resultado correspondiente.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Pedido no encontrado</strong>
-            <ul>
-              <li>Dado que el usuario digita un código no correspondiente a ningún pedido,</li>
-              <li>Cuando finaliza la búsqueda,</li>
-              <li>Entonces el sistema muestra un mensaje de que no hay coincidencias.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US30</td>
-      <td>Filtrar pedidos por estado</td>
-      <td>Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado (pendiente, aprobado, entregado) para facilitar la revisión.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Aplicar filtro correctamente</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado,</li>
-              <li>Cuando se aplica el filtro,</li>
-              <li>Entonces solo se muestran los pedidos con ese estado.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: No hay pedidos en ese estado</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado que no tiene coincidencias,</li>
-              <li>Cuando ejecuta el filtro,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay pedidos para ese estado.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US31</td>
-      <td>Recibir notificación de aprobación</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de notificación</strong>
-            <ul>
-              <li>Dado que el proveedor cambia el estado del pedido,</li>
-              <li>Cuando el solicitante inicia sesión,</li>
-              <li>Entonces recibe la notificación del evento en la página y en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Pedido actualizado desde otra sesión</strong>
-            <ul>
-              <li>Dado que el solicitante aún no ha leído la notificación,</li>
-              <li>Cuando actualiza la interfaz,</li>
-              <li>Entonces la notificación se mantiene visible hasta que sea marcada como leída.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US32</td>
-      <td>Notificación de pedido despachado</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Pedido marcado como despachado</strong>
-            <ul>
-              <li>Dado que el proveedor marca el pedido como despachado,</li>
-              <li>Cuando el solicitante consulta su cuenta,</li>
-              <li>Entonces recibirá la notificación correspondiente en la página como en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Visualización posterior del evento</strong>
-            <ul>
-              <li>Dado que el pedido fue despachado anteriormente,</li>
-              <li>Cuando el solicitante accede en otro momento,</li>
-              <li>Entonces la notificación sigue disponible hasta ser archivada o leída.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US33</td>
-      <td>Ver listado de empresas</td>
-      <td>Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización del listado</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo de empresas,</li>
-              <li>Cuando se carga el listado,</li>
-              <li>Entonces se muestran nombre, pedidos activos y total histórico por empresa.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Lista vacía o sin datos</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo y no hay empresas registradas,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay empresas disponibles.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US34</td>
-      <td>Ver detalles de empresa</td>
-      <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos.</td>
-      <td>
-        Dado que el proveedor selecciona una empresa, Cuando se carga el detalle, Entonces visualiza pedidos realizados, cantidades solicitadas y fechas. Escenario 2: Dado que el proveedor selecciona una empresa que aún no ha realizado pedidos, Cuando se accede a su perfil, Entonces se muestra un mensaje indicando que no hay historial disponible.
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US35</td>
-      <td>Ver gráfico de consumo (Solicitante)</td>
-      <td>Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible.</td>
-      <td>
-        Escenario 1: Dado que el solicitante ha realizado pedidos,Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con galones consumidos por mes. Escenario 2: Dado que el solicitante no ha hecho pedidos aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US36</td>
-      <td>Ver gráfico de ventas (Proveedor)</td>
-      <td>Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio.</td>
-      <td>
-        Dado que el proveedor ha despachado pedidos, Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con las ventas mensuales totales. Escenario 2: Dado que el proveedor no ha realizado ventas aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US37</td>
-      <td>Descargar reporte PDF</td>
-      <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo.</td>
-      <td>
-        Escenario 1: Dado que el usuario hace clic en "Descargar", Cuando hay datos en el periodo seleccionado, Entonces se genera un archivo PDF descargable. Escenario 2: Dado que el usuario no tiene registros en el periodo seleccionado, Cuando se solicita la descarga, Entonces el sistema notifica que no hay contenido para exportar. Escenario 3: Dado que el usuario intenta descargar el archivo y ocurre un error en el backend al generar el PDF, Cuando hace clic en el botón de descargar, Entonces se muestra un mensaje de error sin afectar la sesión.
-      </td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
+---
+
+### Cuadro único de Epics & Stories
+
+| Story ID | User/Rol | Priority | Epic | Title (verbo) | Description | Acceptance Criteria |
+|---|---|---|---|---|---|---|
+| **EP01** | Solicitante | TBD | EP01 | **Gestionar pedidos como solicitante** | Como solicitante, quiere registrar, consultar y ajustar pedidos con trazabilidad para reducir errores. | **Esc 1 – Registrar pedido**: **Given** que el solicitante completa datos válidos, **When** registra el pedido, **Then** el sistema crea el pedido con ID y estado inicial “Pendiente”. **Esc 2 – Consultar historial**: **Given** que existen pedidos, **When** el solicitante solicita su historial, **Then** el sistema retorna la lista con estados actuales. **Esc 3 – Editar antes de confirmación**: **Given** un pedido “Pendiente”, **When** solicita edición, **Then** el sistema permite modificar campos permitidos y registra cambios. |
+| **EP02** | Proveedor | TBD | EP02 | **Gestionar pedidos como proveedor** | Como proveedor, quiere revisar y actualizar pedidos, coordinar asignaciones y notificar al cliente para ejecutar la entrega. | **Esc 1 – Ver pedidos entrantes**: **Given** que hay pedidos activos, **When** el proveedor los consulta, **Then** obtiene la lista con datos operativos y estado. **Esc 2 – Actualizar estado**: **Given** un pedido activo, **When** lo cambia a “Confirmado/En ruta/Entregado/Rechazado”, **Then** el nuevo estado queda persistido y trazado. **Esc 3 – Notificar cambios**: **Given** un cambio de estado, **When** se confirma, **Then** el sistema emite notificación al solicitante. |
+| **EP03** | Todos | TBD | EP03 | **Asegurar identidad y acceso** | Como usuario del sistema, quiere autenticación, control por roles y MFA en operaciones sensibles para proteger la información. | **Esc 1 – Autenticar**: **Given** credenciales válidas, **When** inicia sesión, **Then** accede a recursos según su rol. **Esc 2 – Restringir por rol**: **Given** sesión activa, **When** intenta acceder a un recurso de otro rol, **Then** el acceso es denegado. **Esc 3 – MFA en operación crítica**: **Given** una acción sensible (p. ej., confirmación de pedido), **When** se ejecuta, **Then** requiere verificación adicional exitosa. |
+| **EP04** | Visitante | TBD | EP04 | **Informar la propuesta (Landing)** | Como visitante, quiere entender beneficios y flujo para registrarse según su segmento. | **Esc 1 – Acceso público**: **Given** acceso sin autenticación, **When** solicita información, **Then** el sistema presenta contenido informativo y llamados a registro. **Esc 2 – Derivar registro por segmento**: **Given** interés de registro, **When** el visitante elige su segmento, **Then** el sistema lo redirige al flujo de alta correspondiente. |
+| **US01** | Solicitante | TBD | EP01 | **Registrar pedido** | Como solicitante, quiere registrar pedidos para agilizar la solicitud y evitar llamadas. | **Esc 1 – Registro válido**: **Given** datos de pedido válidos, **When** envía la solicitud, **Then** el sistema crea el pedido con ID y estado “Pendiente”. **Esc 2 – Datos inválidos**: **Given** datos incompletos/incorrectos, **When** intenta registrar, **Then** el sistema rechaza y detalla validaciones. |
+| **US02** | Solicitante | TBD | EP01 | **Consultar historial de pedidos** | Como solicitante, quiere consultar su historial con estados y detalles. | **Esc 1 – Con registros**: **Given** pedidos existentes, **When** consulta historial, **Then** el sistema retorna pedidos con estado actual (“Pendiente/Confirmado/En ruta/Entregado/Rechazado”). **Esc 2 – Sin registros**: **Given** ausencia de pedidos, **When** consulta, **Then** el sistema retorna lista vacía con causa. |
+| **US03** | Solicitante | TBD | EP01 | **Editar pedido no confirmado** | Como solicitante, quiere editar parámetros antes de confirmación del proveedor. | **Esc 1 – Pedido editable**: **Given** pedido “Pendiente”, **When** solicita edición, **Then** el sistema permite modificar campos permitidos. **Esc 2 – Pedido no editable**: **Given** pedido “Confirmado” o superior, **When** solicita edición, **Then** el sistema impide cambios y registra el intento. |
+| **US05** | Proveedor | TBD | EP02 | **Actualizar pedido** | Como proveedor, quiere actualizar estado e información operativa del pedido. | **Esc 1 – Cambio de estado**: **Given** un pedido activo, **When** cambia su estado a uno permitido, **Then** el sistema persiste la transición con marca de tiempo. **Esc 2 – Cambio inválido**: **Given** reglas de flujo, **When** intenta transición no permitida, **Then** el sistema rechaza y explica la regla. |
+| **US06** | Proveedor | TBD | EP02 | **Notificar cambios al cliente** | Como proveedor, quiere que el cliente reciba notificaciones automáticas ante cambios del pedido. | **Esc 1 – Notificación por estado**: **Given** un cambio a “Confirmado/En ruta/Entregado/Rechazado”, **When** se registra, **Then** el sistema envía la notificación al solicitante. **Esc 2 – Falla de notificación**: **Given** indisponibilidad del servicio de mensajería, **When** se intenta notificar, **Then** el sistema registra el error y reintenta según política. |
+| **US07** | Proveedor | TBD | EP02 | **Cancelar o rechazar pedido** | Como proveedor, quiere rechazar/cancelar pedidos con motivo para mantener claridad. | **Esc 1 – Rechazo con motivo**: **Given** imposibilidad de atención, **When** registra rechazo con motivo, **Then** el sistema cambia estado y asocia la justificación. **Esc 2 – Cancelación operativa**: **Given** pedido activo, **When** solicita cancelación con motivo, **Then** el sistema cambia a “Cancelado” y notifica al solicitante. |
+| **US08** | Usuario | TBD | EP03 | **Iniciar sesión** | Como usuario, quiere iniciar sesión con credenciales válidas. | **Esc 1 – Éxito**: **Given** credenciales válidas, **When** inicia sesión, **Then** el sistema autentica y emite token de acceso. **Esc 2 – Falla**: **Given** credenciales inválidas, **When** intenta autenticarse, **Then** el sistema niega acceso sin revelar detalles. |
+| **US09** | Visitante | TBD | EP03 | **Registrar cuenta** | Como visitante, quiere crear una cuenta con rol (Solicitante/Proveedor). | **Esc 1 – Alta válida**: **Given** datos válidos, **When** confirma el alta, **Then** el sistema crea la cuenta y habilita acceso. **Esc 2 – Alta inválida**: **Given** datos inválidos, **When** solicita alta, **Then** el sistema rechaza y detalla validaciones. |
+| **US10** | Usuario | TBD | EP03 | **Recuperar contraseña** | Como usuario, quiere recuperar acceso por correo. | **Esc 1 – Correo registrado**: **Given** un correo válido, **When** solicita recuperación, **Then** el sistema genera token de restablecimiento y lo envía. **Esc 2 – Correo no registrado**: **Given** un correo no existente, **When** solicita recuperación, **Then** el sistema informa que no encuentra el identificador. |
+| **US11** | Administrador | TBD | EP03 | **Restringir acceso por rol** | Como administrador, quiere que cada usuario acceda solo a recursos de su rol. | **Esc 1 – Acceso permitido**: **Given** rol y permisos, **When** accede a su recurso, **Then** el sistema permite la operación. **Esc 2 – Acceso denegado**: **Given** recurso de otro rol, **When** intenta acceso, **Then** el sistema deniega y audita. |
+| **US12** | Solicitante | TBD | EP03 | **Verificar MFA en pedidos** | Como solicitante, quiere MFA al emitir pedidos para mayor seguridad. | **Esc 1 – Verificación exitosa**: **Given** MFA activo, **When** confirma un pedido, **Then** finaliza solo si la verificación adicional es válida. **Esc 2 – Verificación fallida**: **Given** MFA activo, **When** falla la verificación, **Then** el sistema cancela la acción. |
+| **US13** | Visitante | TBD | EP04 | **Explorar landing** | Como usuario no autenticado, quiere visualizar la propuesta y caminos a registro. | **Esc 1 – Información visible**: **Given** acceso público, **When** solicita información, **Then** el sistema expone beneficios y flujo de valor. **Esc 2 – Derivación a registro**: **Given** interés, **When** elige registrarse, **Then** el sistema dirige al alta según segmento. |
+| **TS01** | Developer | TBD | EP01 | **Exponer endpoint de pedidos (POST)** | Como developer, quiere un endpoint REST para registrar pedidos. | **Esc 1 – Request válido (201)**: **Given** payload válido, **When** invoca el endpoint, **Then** persiste y retorna 201 con ID. **Esc 2 – Request inválido (400)**: **Given** payload inválido, **When** invoca, **Then** retorna 400 con detalle de validación. |
+| **TS02** | Developer | TBD | EP03 | **Emitir token de autenticación (JWT)** | Como developer, quiere servicio de autenticación con JWT. | **Esc 1 – Credenciales válidas (200)**: **Given** credenciales correctas, **When** solicita token, **Then** retorna JWT y vencimiento. **Esc 2 – Credenciales inválidas (401)**: **Given** credenciales incorrectas, **When** solicita, **Then** retorna 401. |
+| **TS03** | Developer | TBD | EP02 | **Enviar notificaciones por cambio de estado** | Como developer, quiere servicio que emite notificaciones ante cambios de pedido. | **Esc 1 – Notificación emitida**: **Given** cambio de estado, **When** se confirma, **Then** el servicio envía notificación al destinatario. **Esc 2 – Error de mensajería**: **Given** caída del proveedor de mensajería, **When** intenta enviar, **Then** registra error y gestiona reintentos/backoff. |
+| **TS04** | Developer | TBD | EP02 | **Registrar ubicación GPS en ruta** | Como developer, quiere registrar coordenadas para trazabilidad. | **Esc 1 – Registro exitoso**: **Given** coordenadas válidas, **When** se reciben, **Then** el sistema almacena con marca de tiempo y pedido asociado. **Esc 2 – Datos inválidos**: **Given** coordenadas inválidas, **When** se reciben, **Then** el sistema rechaza y audita. |
+| **US14** | Visitante (Proveedor) | TBD | EP04 | **Consultar Home pública** | Como visitante proveedor, quiere un resumen del valor de la solución. | **Esc 1 – Resumen visible**: **Given** acceso público, **When** consulta el inicio, **Then** el sistema presenta propósito y propuesta de valor. **Esc 2 – CTA disponible**: **Given** interés del visitante, **When** solicita continuar, **Then** existe un camino a registro o contacto. |
+| **US15** | Visitante | TBD | EP04 | **Conocer About Us** | Como visitante, quiere conocer el equipo y propósito para generar confianza. | **Esc 1 – Información del equipo**: **Given** acceso a About, **When** lo solicita, **Then** el sistema presenta información institucional verificable. **Esc 2 – Principios de la solución**: **Given** About, **When** lo consulta, **Then** el sistema presenta visión/valores. |
+| **US16** | Visitante | TBD | EP04 | **Entender cómo funciona** | Como visitante, quiere comprender el flujo de operación. | **Esc 1 – Flujo comprensible**: **Given** sección “Cómo funciona”, **When** la revisa, **Then** entiende la interacción solicitante–proveedor a alto nivel. **Esc 2 – Casos de uso**: **Given** la sección, **When** la consulta, **Then** identifica ejemplos típicos del proceso. |
+| **US17** | Visitante | TBD | EP04 | **Enviar contacto** | Como visitante, quiere remitir un mensaje de contacto. | **Esc 1 – Envío válido**: **Given** datos válidos, **When** remite el mensaje, **Then** el sistema registra y confirma recepción. **Esc 2 – Datos faltantes**: **Given** datos incompletos, **When** intenta enviar, **Then** el sistema rechaza e indica los campos requeridos. |
+| **US18** | Proveedor | TBD | EP02 | **Aprobar pedido** | Como proveedor, quiere aprobar pedidos según stock disponible. | **Esc 1 – Aprobación con stock**: **Given** stock suficiente, **When** aprueba, **Then** el estado cambia a “Confirmado”. **Esc 2 – Rechazo por falta de stock**: **Given** stock insuficiente, **When** decide no aprobar, **Then** registra motivo y cambia a “Rechazado”. |
+| **US19** | Proveedor | TBD | EP02 | **Despachar pedido** | Como proveedor, quiere marcar un pedido como despachado para notificar al cliente. | **Esc 1 – Despacho válido**: **Given** pedido “Confirmado”, **When** marca “En ruta/Despachado”, **Then** el sistema actualiza estado y registra hora de salida. **Esc 2 – Restricción sin confirmación**: **Given** pedido sin confirmar, **When** intenta despachar, **Then** el sistema rechaza la transición. |
+| **US20** | Proveedor | TBD | EP02 | **Cerrar pedido** | Como proveedor, quiere cerrar el pedido cuando la entrega se confirma. | **Esc 1 – Cierre tras confirmación**: **Given** entrega confirmada por el solicitante, **When** ejecuta cierre, **Then** el pedido pasa a “Entregado/Finalizado” e impide modificaciones. **Esc 2 – Intento sin confirmación**: **Given** sin confirmación, **When** intenta cerrar, **Then** el sistema rechaza la acción. |
+| **US21** | Proveedor | TBD | EP02 | **Generar reporte de ventas** | Como proveedor, quiere reportes operativos por rango de fechas. | **Esc 1 – Rango con datos**: **Given** fechas válidas con ventas, **When** solicita el reporte, **Then** el sistema genera el resumen. **Esc 2 – Rango sin datos**: **Given** rango vacío, **When** solicita, **Then** el sistema informa ausencia de resultados. |
+| **US22** | Solicitante | TBD | EP01 | **Visualizar KPIs de pedidos (Solicitante)** | Como solicitante, quiere ver un resumen por estado. | **Esc 1 – Con datos**: **Given** pedidos, **When** consulta KPIs, **Then** ve conteos por estado. **Esc 2 – Sin datos**: **Given** sin pedidos, **When** consulta KPIs, **Then** el sistema indica que no hay registros. |
+| **US23** | Proveedor | TBD | EP02 | **Visualizar KPIs de pedidos (Proveedor)** | Como proveedor, quiere ver resumen operativo por estado. | **Esc 1 – Con datos**: **Given** pedidos, **When** consulta, **Then** ve KPIs por estado. **Esc 2 – Error de carga**: **Given** falla de fuente, **When** consulta, **Then** el sistema indica error y permite reintentar. |
+| **TS05** | Developer | TBD | EP03 | **Autenticar (endpoint login)** | Como developer, quiere endpoint de login. | **Esc 1 – 200 con token**: **Given** credenciales válidas, **When** envía request, **Then** obtiene 200 + JWT. **Esc 2 – 401**: **Given** credenciales inválidas, **When** envía request, **Then** obtiene 401. **Esc 3 – 500**: **Given** error interno, **When** procesa, **Then** retorna 500 y registra en logs. |
+| **TS06** | Developer | TBD | EP03 | **Recuperar contraseña (endpoint)** | Como developer, quiere endpoint de recuperación. | **Esc 1 – Correo válido (202)**: **Given** correo existente, **When** solicita, **Then** genera token y envía email. **Esc 2 – 404**: **Given** correo no registrado, **When** solicita, **Then** retorna 404. **Esc 3 – 500**: **Given** fallo de correo, **When** envía, **Then** 500 y traza error. |
+| **TS07** | Developer | TBD | EP03 | **Cerrar sesión (endpoint logout)** | Como developer, quiere endpoint para invalidar sesión. | **Esc 1 – 200**: **Given** token válido, **When** solicita logout, **Then** invalida sesión. **Esc 2 – 401**: **Given** token inválido/expirado, **When** solicita, **Then** retorna 401. |
+| **US24** | Proveedor | TBD | EP02 | **Asignar vehículo a pedido** | Como proveedor, quiere asignar vehículo a pedido confirmado. | **Esc 1 – Asignación válida**: **Given** vehículo disponible y pedido “Confirmado”, **When** asigna, **Then** queda vinculado. **Esc 2 – Vehículo ocupado**: **Given** vehículo con conflicto, **When** intenta asignar, **Then** el sistema rechaza por superposición. |
+| **US25** | Proveedor | TBD | EP02 | **Asignar conductor a pedido** | Como proveedor, quiere asignar conductor disponible. | **Esc 1 – Asignación válida**: **Given** conductor libre y pedido listo, **When** asigna, **Then** queda vinculado. **Esc 2 – Conflicto de horario**: **Given** conductor asignado en el mismo tramo, **When** intenta asignar, **Then** el sistema rechaza y explica conflicto. |
+| **US26** | Proveedor | TBD | EP02 | **Validar disponibilidad de transporte** | Como proveedor, quiere verificar disponibilidad de vehículos antes de asignar. | **Esc 1 – No disponible por superposición**: **Given** vehículo con asignación en la misma ventana, **When** se consulta, **Then** se marca no disponible. **Esc 2 – Disponible**: **Given** sin conflictos, **When** se consulta, **Then** es seleccionable. **Esc 3 – Carrera concurrente**: **Given** asignación reciente por otro usuario, **When** intenta seleccionar, **Then** el sistema rechaza y actualiza disponibilidad. |
+| **US27** | Usuario | TBD | EP03 | **Consultar perfil** | Como usuario, quiere ver su perfil para revisar datos. | **Esc 1 – Éxito**: **Given** sesión activa, **When** consulta, **Then** el sistema retorna su información de perfil. **Esc 2 – Error de fuente**: **Given** falla al obtener datos, **When** consulta, **Then** el sistema informa el error conservando la sesión. |
+| **US28** | Usuario | TBD | EP03 | **Actualizar perfil** | Como usuario, quiere actualizar sus datos vigentes. | **Esc 1 – Guardado válido**: **Given** cambios válidos, **When** confirma, **Then** el sistema persiste cambios. **Esc 2 – Validación**: **Given** campos requeridos faltantes, **When** intenta guardar, **Then** el sistema rechaza la operación con detalle. |
+| **US29** | Usuario | TBD | EP01/EP02 | **Buscar pedido por código** | Como usuario, quiere localizar rápidamente un pedido por su código. | **Esc 1 – Encontrado**: **Given** código existente, **When** busca, **Then** el sistema retorna el pedido. **Esc 2 – No encontrado**: **Given** código inexistente, **When** busca, **Then** el sistema informa ausencia de coincidencias. |
+| **US30** | Usuario | TBD | EP01/EP02 | **Filtrar pedidos por estado** | Como usuario, quiere filtrar pedidos por estado operativo. | **Esc 1 – Filtro con resultados**: **Given** estado con coincidencias, **When** filtra, **Then** el sistema retorna solo los pedidos de ese estado. **Esc 2 – Sin resultados**: **Given** estado sin coincidencias, **When** filtra, **Then** el sistema informa que no hay resultados. |
+| **US31** | Solicitante | TBD | EP01 | **Recibir notificación de aprobación/rechazo** | Como solicitante, quiere ser notificado cuando cambie el estado del pedido. | **Esc 1 – Notificación visible**: **Given** cambio de estado, **When** el solicitante accede, **Then** la notificación está disponible hasta marcar como leída. |
+| **US32** | Solicitante | TBD | EP01 | **Recibir notificación de despacho** | Como solicitante, quiere ser notificado cuando el pedido salga a entrega. | **Esc 1 – Despacho confirmado**: **Given** cambio a “En ruta/Despachado”, **When** consulta, **Then** la notificación está disponible y asociada al pedido. |
+| **US33** | Proveedor | TBD | EP02 | **Listar empresas solicitantes** | Como proveedor, quiere listar empresas para gestión de clientes. | **Esc 1 – Lista con datos**: **Given** empresas registradas, **When** consulta, **Then** el sistema retorna el listado con métricas operativas. **Esc 2 – Lista vacía**: **Given** sin empresas, **When** consulta, **Then** el sistema informa ausencia de registros. |
+| **US34** | Proveedor | TBD | EP02 | **Consultar detalle de empresa** | Como proveedor, quiere ver detalle e historial de una empresa. | **Esc 1 – Con historial**: **Given** empresa con pedidos, **When** consulta, **Then** el sistema retorna pedidos, cantidades y fechas. **Esc 2 – Sin historial**: **Given** empresa sin pedidos, **When** consulta, **Then** el sistema informa que no hay historial. |
+| **US35** | Solicitante | TBD | EP01 | **Visualizar gráfico de consumo** | Como solicitante, quiere visualizar consumo mensual. | **Esc 1 – Con datos**: **Given** pedidos históricos, **When** consulta, **Then** el sistema calcula y expone consumo mensual. **Esc 2 – Sin datos**: **Given** sin pedidos, **When** consulta, **Then** el sistema informa falta de datos suficientes. |
+| **US36** | Proveedor | TBD | EP02 | **Visualizar gráfico de ventas** | Como proveedor, quiere visualizar ventas por mes. | **Esc 1 – Con datos**: **Given** despachos realizados, **When** consulta, **Then** el sistema expone totales por mes. **Esc 2 – Sin datos**: **Given** sin ventas, **When** consulta, **Then** el sistema informa que no hay datos suficientes. |
+| **US37** | Usuario | TBD | EP01/EP02 | **Descargar reporte en PDF** | Como usuario, quiere descargar resúmenes operativos en PDF. | **Esc 1 – Exportación con datos**: **Given** periodo con información, **When** solicita exportar, **Then** el sistema genera el documento. **Esc 2 – Exportación sin datos**: **Given** periodo vacío, **When** solicita, **Then** el sistema informa que no hay contenido exportable. **Esc 3 – Falla de generación**: **Given** error de backend, **When** exporta, **Then** el sistema informa el fallo y conserva sesión. |
+| **SP01** | Equipo (Spike) | TBD | EP02/EP03 | **Investigar conciliación de pagos y validación automática** | Como equipo, quiere investigar opciones de integración (e.g., pasarela/conciliación bancaria) para reducir retrasos por validación manual. | **Esc 1 – Documentación revisada**: **Given** proveedores de pago seleccionados, **When** se revisa documentación y webhooks, **Then** se documentan flujos recomendados. **Esc 2 – PoC mínimo**: **Given** entorno de pruebas, **When** se implementa PoC de conciliación, **Then** se registra en repo y se documentan resultados. **Esc 3 – Criterios de decisión**: **Given** hallazgos, **When** se comparan costos/riesgos, **Then** se proponen alternativas y estimaciones. |
+
+---
+
 
 ### 2.4.2. Impact Mapping
 ![IM](img/Impact-Map.png)
+
 ### 2.4.3. Product Backlog
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>#Orden</th>
-      <th>ID</th>
-      <th>User Story</th>
-      <th>Story Points</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>01</td><td>US-01</td><td>Crear nuevo pedido</td><td>5</td></tr>
-    <tr><td>02</td><td>US-02</td><td>Consultar historial de pedidos</td><td>3</td></tr>
-    <tr><td>03</td><td>US-03</td><td>Editar pedidos</td><td>5</td></tr>
-    <tr><td>04</td><td>US-04</td><td>Confirmar pedido recibido</td><td>3</td></tr>
-    <tr><td>05</td><td>US-05</td><td>Actualización de un pedido</td><td>5</td></tr>
-    <tr><td>06</td><td>US-06</td><td>Notificaciones a clientes sobre cambios</td><td>5</td></tr>
-    <tr><td>07</td><td>US-07</td><td>Cancelación o rechazo de pedidos</td><td>3</td></tr>
-    <tr><td>08</td><td>US-08</td><td>Inicio de sesión</td><td>3</td></tr>
-    <tr><td>09</td><td>US-09</td><td>Registro de cuenta nueva</td><td>3</td></tr>
-    <tr><td>10</td><td>US-10</td><td>Recuperación de contraseña</td><td>3</td></tr>
-    <tr><td>11</td><td>US-11</td><td>Acceso restringido por roles</td><td>2</td></tr>
-    <tr><td>12</td><td>US-12</td><td>Autenticación MFA para realizar pedidos</td><td>5</td></tr>
-    <tr><td>13</td><td>US-13</td><td>Visualización del landing page</td><td>2</td></tr>
-    <tr><td>14</td><td>TS-01</td><td>Implementar endpoint REST para pedidos</td><td>5</td></tr>
-    <tr><td>15</td><td>TS-02</td><td>Servicio de autenticación y token</td><td>5</td></tr>
-    <tr><td>16</td><td>TS-03</td><td>Envío de notificaciones por cambios de estado</td><td>3</td></tr>
-    <tr><td>17</td><td>TS-04</td><td>Registro y validación de ubicación GPS</td><td>5</td></tr>
-  </tbody>
-</table>
+
+| # Orden | User Story Id | Título | Story Points (1/2/3/5/8) |
+|---:|:---:|---|:---:|
+| 01 | US01 | Crear nuevo pedido | 5 |
+| 02 | US02 | Consultar historial de pedidos | 3 |
+| 03 | US03 | Editar pedido no confirmado | 5 |
+| 04 | US04 | Confirmar recepción de pedido | 3 |
+| 05 | US05 | Actualizar pedido | 5 |
+| 06 | US06 | Notificar cambios al cliente | 5 |
+| 07 | US07 | Cancelar o rechazar pedido | 3 |
+| 08 | US08 | Iniciar sesión | 3 |
+| 09 | US09 | Registrar cuenta nueva | 3 |
+| 10 | US10 | Recuperar contraseña | 3 |
+| 11 | US11 | Restringir acceso por rol | 2 |
+| 12 | US12 | Verificar MFA en pedidos | 5 |
+| 13 | US13 | Explorar landing (pública) | 2 |
+| 14 | TS01 | Exponer endpoint de pedidos (POST) | 5 |
+| 15 | TS02 | Emitir token de autenticación (JWT) | 5 |
+| 16 | TS03 | Enviar notificaciones por cambio de estado | 3 |
+| 17 | TS04 | Registrar ubicación GPS en ruta | 5 |
+
+**URL de evidencia de la gestión del Product Backlog:** _[coloca aquí el enlace a tu tablero (Trello/Jira/GitHub Projects)]_
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
