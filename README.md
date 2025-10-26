@@ -1652,13 +1652,13 @@ b. User Persona 2: Proveedores de combustible
   <tr><td>17</td><td>TS-04</td><td>Registrar y validar ubicación GPS</td><td>5</td></tr>
 </tbody>
 <tr>
-  <tr>
-    <td colspan="4" align="center">
-      ![Trello Product Backlog](./img/trello_product_backlog.png)<br/>
-      Nota: El Product Backlog fue gestionado en Trello; se capturó el tablero y se incluyó aquí como referencia visual.
-    </td>
-  </tr>
 </table>
+
+
+![Product Backlog](./img/trello_product_backlog.png)
+
+
+
 
 
 ## 2.5. Strategic-Level Domain-Driven Design
