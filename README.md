@@ -1632,25 +1632,32 @@ b. User Persona 2: Proveedores de combustible
       <th>Story Points</th>
     </tr>
   </thead>
-  <tbody>
-    <tr><td>01</td><td>US-01</td><td>Crear nuevo pedido</td><td>5</td></tr>
-    <tr><td>02</td><td>US-02</td><td>Consultar historial de pedidos</td><td>3</td></tr>
-    <tr><td>03</td><td>US-03</td><td>Editar pedidos</td><td>5</td></tr>
-    <tr><td>04</td><td>US-04</td><td>Confirmar pedido recibido</td><td>3</td></tr>
-    <tr><td>05</td><td>US-05</td><td>Actualización de un pedido</td><td>5</td></tr>
-    <tr><td>06</td><td>US-06</td><td>Notificaciones a clientes sobre cambios</td><td>5</td></tr>
-    <tr><td>07</td><td>US-07</td><td>Cancelación o rechazo de pedidos</td><td>3</td></tr>
-    <tr><td>08</td><td>US-08</td><td>Inicio de sesión</td><td>3</td></tr>
-    <tr><td>09</td><td>US-09</td><td>Registro de cuenta nueva</td><td>3</td></tr>
-    <tr><td>10</td><td>US-10</td><td>Recuperación de contraseña</td><td>3</td></tr>
-    <tr><td>11</td><td>US-11</td><td>Acceso restringido por roles</td><td>2</td></tr>
-    <tr><td>12</td><td>US-12</td><td>Autenticación MFA para realizar pedidos</td><td>5</td></tr>
-    <tr><td>13</td><td>US-13</td><td>Visualización del landing page</td><td>2</td></tr>
-    <tr><td>14</td><td>TS-01</td><td>Implementar endpoint REST para pedidos</td><td>5</td></tr>
-    <tr><td>15</td><td>TS-02</td><td>Servicio de autenticación y token</td><td>5</td></tr>
-    <tr><td>16</td><td>TS-03</td><td>Envío de notificaciones por cambios de estado</td><td>3</td></tr>
-    <tr><td>17</td><td>TS-04</td><td>Registro y validación de ubicación GPS</td><td>5</td></tr>
-  </tbody>
+<tbody>
+  <tr><td>01</td><td>US-13</td><td>Visualizar landing page</td><td>2</td></tr>
+  <tr><td>02</td><td>TS-02</td><td>Implementar servicio de autenticación y emisión de token</td><td>5</td><tr>
+  <tr><td>03</td><td>US-09</td><td>Registrar cuenta nueva</td><td>3</td></tr>
+  <tr><td>04</td><td>US-08</td><td>Iniciar sesión</td><td>3</td></tr>
+  <tr><td>05</td><td>US-10</td><td>Recuperar contraseña</td><td>3</td></tr>
+  <tr><td>06</td><td>US-11</td><td>Restringir acceso por roles</td><td>2</td></tr>
+  <tr><td>07</td><td>US-12</td><td>Autenticar con MFA para realizar pedidos</td><td>5</td></tr>
+  <tr><td>08</td><td>TS-01</td><td>Implementar endpoint REST para pedidos</td><td>5</td></tr>
+  <tr><td>09</td><td>US-01</td><td>Crear nuevo pedido</td><td>5</td></tr>
+  <tr><td>10</td><td>US-03</td><td>Editar pedidos</td><td>5</td></tr>
+  <tr><td>11</td><td>US-05</td><td>Actualizar estado de un pedido</td><td>5</td></tr>
+  <tr><td>12</td><td>US-04</td><td>Confirmar pedido recibido</td><td>3</td></tr>
+  <tr><td>13</td><td>US-07</td><td>Cancelar o rechazar pedidos</td><td>3</td></tr>
+  <tr><td>14</td><td>US-02</td><td>Consultar historial de pedidos</td><td>3</td></tr>
+  <tr><td>15</td><td>TS-03</td><td>Enviar notificaciones por cambios de estado</td><td>3</td></tr>
+  <tr><td>16</td><td>US-06</td><td>Notificar a clientes sobre cambios</td><td>5</td></tr>
+  <tr><td>17</td><td>TS-04</td><td>Registrar y validar ubicación GPS</td><td>5</td></tr>
+</tbody>
+<tr>
+  <tr>
+    <td colspan="4" align="center">
+      ![Trello Product Backlog](./img/trello_product_backlog.png)<br/>
+      Nota: El Product Backlog fue gestionado en Trello; se capturó el tablero y se incluyó aquí como referencia visual.
+    </td>
+  </tr>
 </table>
 
 
