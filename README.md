@@ -79,121 +79,95 @@ El siguiente gráfico muestra una línea de tiempo con la evolución de los comm
 
 ## Contenido
 
-- [Carátula](#carátula)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
-- [Contenido](#contenido)
-- [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1 Startup Profile](#11-startup-profile)
+- [report](#report)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
+    - [Participación por miembro (commits realizados)](#participación-por-miembro-commits-realizados)
+    - [Evolución temporal de commits](#evolución-temporal-de-commits)
+  - [Contenido](#contenido)
+  - [Student Outcome](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2 Solution Profile](#12-solution-profile)
+      - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2 Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1 Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2 Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
-- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1 Competidores](#21-competidores)
-    - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2 Entrevistas](#22-entrevistas)
-    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3 Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3 Needfinding](#23-needfinding)
-    - [2.3.1 User Personas](#231-user-personas)
-    - [2.3.2 User Task Matrix](#232-user-task-matrix)
-    - [2.3.3 User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4 Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4 Ubiquitous Language](#24-ubiquitous-language)
--[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2 User Stories](#32-user-stories)
-  - [3.3 Impact Mapping](#33-impact-mapping)
-  - [3.4 Product Backlog](#34-product-backlog)
--[Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1 Style Guidelines](#41-style-guidelines)
-    - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2 Information Architecture](#43-information-architecture)
-    - [4.2.1 Organization Systems](#421-organization-systems)
-    - [4.2.2 Labeling System](#422-labeling-system)
-    - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4 Searching Systems](#424-searching-systems)
-    - [4.2.5 Navigation System](#425-navigation-system)
-  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1 Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2 Web Applications Mock-ups](#442-web-applications-mock-ups)
-    - [4.4.3 Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-  - [4.5 Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6 Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1 Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2 Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3 Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-  - [4.7 Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1 Class Diagrams](#471-class-diagrams)
-    - [4.7.2 Class Dictionary](#472-class-dictionary)
-  - [4.8 Database Design](#48-database-design)
-    - [4.8.1 Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1 Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2 Source Code Management](#512-source-code-management)
-    - [5.1.3 Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2 Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1 Sprint 1](#521-sprint-1)
-      - [5.2.1.1 Sprint Planning](#5211-sprint-planning-1)
-      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4 Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5 Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2 Sprint 2](#522-sprint-2)
-      - [5.2.2.1 Sprint Planning](#5221-sprint-planning-2)
-      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3 Sprint 3](#523-sprint-3)
-      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4 Sprint 3](#524-sprint-4)
-      - [5.2.4.1 Sprint Planning 3](#5241-sprint-planning-4)
-      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3 Sprint Backlog 3](#5243-sprint-backlog-4)
-      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
-      - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. Evaluaciones heuristicas](#533-evaluaciones-heuristicas)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones](#conclusiones)
-  - [Bibliografia](#bibliografia)
-  - [Anexos](#anexos)
+        - [1.2.2.3 Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4 Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3 Segmentos objetivo](#13-segmentos-objetivo)
+      - [A. Empresas solicitantes de combustible](#a-empresas-solicitantes-de-combustible)
+      - [B. Proveedores de combustible](#b-proveedores-de-combustible)
+- [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores.](#21-competidores)
+    - [2.1.1. Análisis competitivo.](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores.](#212-estrategias-y-tácticas-frente-a-competidores)
+      - [a. Diferenciación a través de especialización](#a-diferenciación-a-través-de-especialización)
+      - [b. Innovación en la interfaz de usuario y experiencia](#b-innovación-en-la-interfaz-de-usuario-y-experiencia)
+      - [c. Flexibilidad en precios y modelo SaaS escalable](#c-flexibilidad-en-precios-y-modelo-saas-escalable)
+      - [d. Aprovechamiento de la digitalización en la logística](#d-aprovechamiento-de-la-digitalización-en-la-logística)
+      - [e. Expansión hacia mercados internacionales](#e-expansión-hacia-mercados-internacionales)
+  - [2.2. Entrevistas.](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas.](#221-diseño-de-entrevistas)
+      - [A. Proveedores de Combustible](#a-proveedores-de-combustible)
+      - [B. Empresas Solicitantes](#b-empresas-solicitantes)
+  - [2.3. Needfinding.](#23-needfinding)
+    - [2.3.1. User Personas.](#231-user-personas)
+    - [2.3.2. User Task Matrix.](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping.](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping.](#234-empathy-mapping)
+    - [2.3.5. Ubiquitous Language.](#235-ubiquitous-language)
+  - [2.4. Requirements specification](#24-requirements-specification)
+  - [2.4.1. User Stories — Épicas](#241-user-stories--épicas)
+  - [2.4.1. User Stories — Funcionales (US\*) y Técnicas (TS\*)](#241-user-stories--funcionales-us-y-técnicas-ts)
+    - [2.4.2. Impact Mapping](#242-impact-mapping)
+    - [2.4.3. Product Backlog](#243-product-backlog)
+  - [2.5. Strategic-Level Domain-Driven Design](#25-strategic-level-domain-driven-design)
+    - [2.5.1. EventStorming](#251-eventstorming)
+      - [Collect Domain Events](#collect-domain-events)
+      - [Refine Domain Events](#refine-domain-events)
+      - [Track Causes](#track-causes)
+      - [Find aggregates \& re-sort them](#find-aggregates--re-sort-them)
+  - [](#)
+      - [2.5.1.1. Candidate Context Discovery](#2511-candidate-context-discovery)
+      - [2.5.1.2. Domain Message Flows Modeling](#2512-domain-message-flows-modeling)
+      - [2.5.1.3. Bounded Context Canvases](#2513-bounded-context-canvases)
+    - [2.5.2. Context Mapping](#252-context-mapping)
+    - [2.5.3. Software Architecture](#253-software-architecture)
+      - [2.5.3.1. Software Architecture Context Level Diagrams](#2531-software-architecture-context-level-diagrams)
+      - [2.5.3.2. Software Architecture Container Level Diagrams](#2532-software-architecture-container-level-diagrams)
+      - [2.5.3.3. Software Architecture Deployment Diagrams](#2533-software-architecture-deployment-diagrams)
+  - [2.6. Tactical-Level Domain-Driven Design](#26-tactical-level-domain-driven-design)
+    - [2.6.x. Bounded Context: ](#26x-bounded-context-)
+      - [2.6.x.1. Domain Layer](#26x1-domain-layer)
+      - [2.6.x.2. Interface Layer](#26x2-interface-layer)
+      - [2.6.x.3. Application Layer](#26x3-application-layer)
+      - [2.6.x.4. Infrastructure Layer](#26x4-infrastructure-layer)
+      - [2.6.x.5. Bounded Context Software Architecture Component Level Diagrams](#26x5-bounded-context-software-architecture-component-level-diagrams)
+      - [2.6.x.6. Bounded Context Software Architecture Code Level Diagrams](#26x6-bounded-context-software-architecture-code-level-diagrams)
+        - [2.6.x.6.1. Bounded Context Domain Layer Class Diagrams](#26x61-bounded-context-domain-layer-class-diagrams)
+        - [2.6.x.6.2. Bounded Context Database Design Diagram](#26x62-bounded-context-database-design-diagram)
+- [Capítulo III: Solution UI/UX Design](#capítulo-iii-solution-uiux-design)
+  - [3.1. Product Design](#31-product-design)
+    - [3.1.1. Style Guidelines](#311-style-guidelines)
+      - [3.1.1.1. General Style Guidelines](#3111-general-style-guidelines)
+    - [3.1.2. Information Architecture](#312-information-architecture)
+      - [3.1.2.1. Organization Systems](#3121-organization-systems)
+      - [3.1.2.2. Labelling Systems](#3122-labelling-systems)
+      - [3.1.2.3. SEO Tags and Meta Tags](#3123-seo-tags-and-meta-tags)
+      - [3.1.2.4. Searching Systems](#3124-searching-systems)
+      - [3.1.2.5. Navigation Systems](#3125-navigation-systems)
+    - [3.1.3. Landing Page UI Design](#313-landing-page-ui-design)
+      - [3.1.3.1. Landing Page Wireframe](#3131-landing-page-wireframe)
+      - [3.1.3.2. Landing Page Mock-up](#3132-landing-page-mock-up)
+    - [3.1.4. Mobile Applications UX/UI Design](#314-mobile-applications-uxui-design)
+      - [3.1.4.1. Mobile Applications Wireframes](#3141-mobile-applications-wireframes)
+      - [3.1.4.2. Mobile Applications Wireflow Diagrams](#3142-mobile-applications-wireflow-diagrams)
+      - [3.1.4.3. Mobile Applications Mock-ups](#3143-mobile-applications-mock-ups)
+      - [3.1.4.4. Mobile Applications User Flow Diagrams](#3144-mobile-applications-user-flow-diagrams)
+      - [3.1.4.5. Mobile Applications Prototyping](#3145-mobile-applications-prototyping)
 
 ---
 
@@ -833,792 +807,66 @@ b. User Persona 2: Proveedores de combustible
 | **Purchase History (Historial de compras)** | Registro de cotizaciones y compras o pedidos previos hechos por el solicitante dentro del sistema. | Solicitante |
 
 ## 2.4. Requirements specification
-### 2.4.1. User Stories
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>Epic ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EP01</td>
-      <td>Gestión de pedidos de combustible de solicitante</td>
-      <td>Como usuario solicitante de combustible, quiero poder registrar mis pedidos fácilmente y con la capacidad de establecer parámetros específicos para evitar errores en la comunicación y recibir lo que necesito.</td>
-      <td><strong>Escenario 1</strong>: Registro de pedido exitoso. En la plataforma, debería ver una sección en la plataforma para realizar nuevos pedidos, donde encuentre un formulario en el que pueda especificar lo que necesito y posteriormente registrar la orden. <br/> <strong>Escenario 2</strong>: Visualización de historial de pedidos. Debería ser capaz de visualizar una sección que muestre todos mis pedidos anteriores. <br/> <strong>Escenario 3</strong>: Edición antes de la confirmación. Antes de que los pedidos sean confirmados por los proovedores, debería tener la posibilidad de hacer ediciones a este o incluso poder cancelarlo.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP02</td>
-      <td>Gestión de pedidos recibidos por el proovedoor</td>
-      <td>Como usuario proovedor de combustible, quiero poder revisar los pedidos realizados por mis clientes, actualizar el estado de cada uno y dar actualizaciones en tiempo real a mis clientes.</td>
-      <td><strong>Escenario 1</strong>: Visualización de pedidos entrantes. Dado que haya pedidos activos, Cuando el proveedor acceda a su panel, Entonces debería poder ver una lista de pedidos con detalles clave (cliente, ubicación, volumen, estado). <br/> <strong>Escenario 2</strong>: Actualización de estado del pedido.Dado que un pedido esté en curso,Cuando el proveedor actualice su estado (confirmado, en ruta, entregado),Entonces el sistema deberá reflejar el cambio en tiempo real. <br/> <strong>Escenario 3</strong>: Notificación a los clientes. Dado que el proveedor realice un cambio o actualización a un pedido, Cuando el cliente esté en la plataforma, entonces deberá ver una notificación con información de los cambios ocurridos.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP03</td>
-      <td>Gestión de seguridad y acceso</td>
-      <td>Como usuario de ambos segmentos de la plataforma, quiero que mis datos estén protegidos y acceder solo mediante autenticación segura, para garantizar la privacidad y evitar accesos no autorizados.</td>
-      <td><strong>Escenario 1</strong>: Inicio de sesión seguro. Dado que el usuario tenga una cuenta, Cuando intente iniciar sesión con correo y contraseña, Entonces el sistema debe validar las credenciales y otorgar acceso solo si son correctas, evitando revelar información en caso de error. <br/> <strong>Escenario 2</strong>: Control de accesos según rol. Dado que un usuario (cliente o proveedor) haya iniciado sesión,Cuando intente acceder a secciones específicas de la plataforma, Entonces solo deberá poder ver y operar dentro de las funcionalidades permitidas por su tipo de cuenta. <br/> <strong>Escenario 3</strong>: Autenticación multifactor para operaciones. Dado que un cliente esté realizando un pedido,Cuando intente enviarlo o confirmarlo,Entonces el sistema deberá activar un segundo paso de verificación (código temporal o notificación) antes de procesar la acción..</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>EP04</td>
-      <td>Landing Page informativa y funcional</td>
-      <td>Como parte de la solución, quiero ofrecer una landing page que muestre los beneficios y funcionalidades de FuelTrack, para captar el interés de potenciales usuarios.</td>
-      <td><strong>Escenario 1</strong>: Visualización pública. Cuando alguien acceda al dominio principal sin estar autenticado, el sistema debe mostrar la landing page con secciones informativas, beneficios del sistema, segmentos objetivo y llamadas a la acción hacia login/registro. <br/> <strong>Escenario 2</strong>: Redirección según interés. Al hacer clic en 'Quiero registrarme', debe llevar al formulario correspondiente según el segmento.</td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
 
+## 2.4.1. User Stories — Épicas
 
-<table border="1" cellspacing="0" cellpadding="6">
-  <thead>
-    <tr>
-      <th>User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de aceptación</th>
-      <th>Relacionado con (Epic ID)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>US01</td>
-      <td>Crear nuevo pedido</td>
-      <td>Como usuario de una empresa solicitante, quiero poder registrar un pedido directamente desde la plataforma agilizar el proceso y evitar llamadas.</td>
-      <td>Dado que el usuario ingrese todos los campos requeridos, Cuando envíe el pedido, Entonces el sistema deberá procesarlo, asignar un ID único y enviarlo a los proovedores para que confirmen la orden.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US02</td>
-      <td>Consultar historial de pedidos</td>
-      <td>Como solicitante, quiero poder consultar mi historial de pedidos anteriores, y poder ver cada uno con información detallada. Además, debo ser capaz de filtrar y ordenar el historial según características específicas de los pedidos.</td>
-      <td>Dado que el usuario acceda a la sección de seguimiento,Cuando seleccione un pedido,Entonces podrá ver si fue recibido, confirmado, en ruta o entregado.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US03</td>
-      <td>Editar pedidos</td>
-      <td>Como solicitante, quiero tener la posibilidad de editar parámetros, como el monto o dirección de entrega, de mis pedidos siempre y cuando estos todavía no hayan sido confirmados por el rpoovedor</td>
-      <td>Dado que el usuario acceda a la sección de pedidos activo, Cuando seleccione un pedido que se encuentra sin confirmar ,Entonces podrá editar los parámetros del pedido.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US05</td>
-      <td>Actualización de un pedido</td>
-      <td>Como proveedor de combustible, quiero poder actualizar el estado e información de los pedidos en tiempo real, para mantener a mis clientes informados y organizar mejor mis entregas.</td>
-      <td>Dado que existan pedidos activos para el proveedor, Cuando el proveedor los seleccione,Entonces el sistema deberá darle la posibilidad de hacerle cambios o darle actualizaciones.</td>
-      <td>-</td>
-    </tr>
-    <tr>
-      <td>US06</td>
-      <td>Notificaciones a clientes sobre cambios</td>
-      <td>Como proovedor, quiero que mis clientes reciban notificaciones automáticas cuando actualizo un pedido, para que estén al tanto del progreso sin tener que llamarlos.</td>
-      <td>Dado que se modifique el estado o datos del pedido, Cuando se actualice a "confirmado", "en ruta" o "entregado", Entonces el sistema debe enviar una notificación push, correo o WhatsApp al cliente.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US07</td>
-      <td>Cancelación o rechazo de pedidos</td>
-      <td>Como proveedor de combustible, quiero poder rechazar o cancelar un pedido y enviar un mensaje al cliente explicando los motivos, para mantener una comunicación clara y evitar confusiones.</td>
-      <td>Dado que el proveedor no pueda atender un pedido,Cuando seleccione la opción de cancelar o rechazar,Entonces el sistema deberá solicitarle ingresar un mensaje explicando el motivo y notificar al cliente con dicha información.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US08</td>
-      <td>Inicio de sesión</td>
-      <td>Como usuario registrado, quiero iniciar sesión con mi correo y contraseña, para acceder a mi cuenta de forma segura.</td>
-      <td>Dado que el usuario tenga una cuenta, Cuando intente iniciar sesión,Entonces el sistema deberá validar sus credenciales y permitir el acceso solo si son correctas.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US09</td>
-      <td>Registro de cuenta nueva</td>
-      <td>Como visitante, Quiero crear una cuenta con correo, contraseña y rol (cliente o proveedor), Para acceder y comenzar a utilizar la plataforma.</td>
-      <td>Dado que el usuario complete todos los campos requeridos, Cuando presione “Crear cuenta”, Entonces la cuenta deberá crearse correctamente y redirigirlo a su panel.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US10</td>
-      <td>Recuperación de contraseña</td>
-      <td>Como usuario, Quiero tener la posibilidad de recuperar mi contraseña mediante correo electrónico, Para no perder el acceso a mi cuenta en caso la olvide.</td>
-      <td>Dado que el usuario no recuerde su contraseña, Cuando seleccione “¿Olvidaste tu contraseña?”,Entonces deberá recibir un correo con un enlace para restablecerla.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US11</td>
-      <td>Acceso restringido por roles</td>
-      <td>Como administrador de la plataforma, Quiero que los usuarios solo accedan a las secciones según su tipo de cuenta, Para evitar errores en el sistema</td>
-      <td>Dado que un usuario acceda a la plataforma, Cuando vea las secciones que tiene disponible, Entonces verá únicamente las que son correspondientes a su rol.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US12</td>
-      <td>Autenticación MFA para realizar pedidos</td>
-      <td>Como empresa solicitante, Quiero que se me solicite una autenticación multifactor al momento de realizar un pedido, Para asegurar que solo personal autorizado pueda emitir órdenes de compra</td>
-      <td>Dado que el cliente quiera registrar un pedido, Cuando complete los datos del formulario de registro, Entonces deberá recibir un código de autenticación y solo podrá finalizar el pedido tras ingresarlo correctamente.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US13</td>
-      <td>Visualización del landing page</td>
-      <td>Como usuario de la plataforma, quiero que el sistema muestre un landing page informativo para que los interesados conozcan los beneficios antes de registrarse.</td>
-      <td>Dado que alguien acceda a la URL principal, Cuando no esté autenticado, Entonces deberá visualizar el landing page con secciones informativas y botones hacia login o registro.</td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>TS01</td>
-      <td>Implementar endpoint REST para pedidos</td>
-      <td>Como desarrollador, quiero implementar un endpoint RESTful para registrar pedidos, para que la aplicación frontend pueda enviar solicitudes válidas al backend.</td>
-      <td>Dado que se realice una solicitud POST con datos válidos, Cuando se procese en el backend, Entonces deberá guardarse el pedido en la base de datos y devolver un código 201 con ID.</td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>TS02</td>
-      <td>Servicio de autenticación y token</td>
-      <td>Como desarrollador, quiero implementar un servicio de autenticación con generación de tokens, para proteger las rutas privadas de la plataforma.</td>
-      <td>Dado que un usuario inicie sesión, Cuando las credenciales sean válidas, Entonces el sistema deberá generar un token JWT para acceso a recursos protegidos.</td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS03</td>
-      <td>Envío de notificaciones por cambios de estado</td>
-      <td>Como desarrollador, quiero implementar un servicio que envíe notificaciones automáticas cuando un pedido cambie de estado, para mantener informados a los usuarios.</td>
-      <td>Dado que el estado de un pedido sea actualizado, Cuando se complete la acción, Entonces deberá enviarse una notificación por correo o WhatsApp al usuario correspondiente.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>TS04</td>
-      <td>Registro y validación de ubicación GPS</td>
-      <td>Como desarrollador, quiero permitir que los pedidos en ruta envíen coordenadas GPS, para poder visualizar la trazabilidad del transporte en tiempo real.</td>
-      <td>Dado que un conductor envíe su ubicación, Cuando el backend reciba las coordenadas, Entonces deberán almacenarse y estar disponibles para visualización en el frontend.</td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US14</td>
-      <td>Ver sección Home</td>
-      <td>Como visitante (proveedor), quiero ver una sección de inicio que resuma el valor de FuelTrack para comprender rápidamente el objetivo del sistema.</td>
-      <td>
-        Escenario 1: Visualización de resumen del sistema.<br/>
-        Escenario 2: Acceso a call to action desde Home.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US15</td>
-      <td>Ver sección About Us</td>
-      <td>Como visitante de ambos segmentos, quiero conocer quiénes están detrás de FuelTrack para confiar en el sistema.</td>
-      <td>
-        Escenario 1: Información visible del equipo.<br/>
-        Escenario 2: Ver valores o misión.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US16</td>
-      <td>Ver sección How it works?</td>
-      <td>Como visitante de ambos segmentos, quiero entender cómo funciona FuelTrack paso a paso para evaluar si se ajusta a mis necesidades.</td>
-      <td>
-        Escenario 1: Comprensión del flujo de pedidos.<br/>
-        Escenario 2: Interacción clara entre usuarios.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US17</td>
-      <td>Enviar mensaje de contacto</td>
-      <td>Como visitante de ambos segmentos, quiero enviar un mensaje desde Contact Us para solicitar más información.</td>
-      <td>
-        Escenario 1: Envío exitoso de mensaje.<br/>
-        Escenario 2: Validación de campos obligatorios.<br/>
-        Escenario 3: Confirmación visual del envío.
-      </td>
-      <td>EP04</td>
-    </tr>
-    <tr>
-      <td>US18</td>
-      <td>Aprobar pedido</td>
-      <td>Como proveedor, quiero aceptar según el stock disponible para evitar conflictos de distribución.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Aprobación de pedido con stock disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene stock suficiente,</li>
-              <li>Cuando aprueba el pedido,</li>
-              <li>Entonces el estado cambia a “Aprobado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Envío de motivo</strong>
-            <ul>
-              <li>Dado que el proveedor decide no aprobar un pedido por un periodo de tiempo,</li>
-              <li>Cuando revise los pedidos,</li>
-              <li>Entonces el sistema solicita ingresar una razón.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US19</td>
-      <td>Marcar pedido como despachado</td>
-      <td>Como proveedor, quiero marcar cuándo un pedido sale a entrega para notificar al cliente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Despacho exitoso de un pedido</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado,</li>
-              <li>Cuando marca el pedido como despachado,</li>
-              <li>Entonces el estado cambia a “Despachado”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Restricción de despacho sin aprobación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta despachar un pedido sin aprobación,</li>
-              <li>Cuando ejecuta la acción,</li>
-              <li>Entonces el sistema impide el cambio de estado y muestra un mensaje.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US20</td>
-      <td>Cerrar pedido</td>
-      <td>Como proveedor, quiero cerrar el pedido cuando el cliente confirme la entrega para finalizar el proceso.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Cierre correcto del pedido tras confirmación</strong>
-            <ul>
-              <li>Dado que el solicitante ya confirmó la entrega,</li>
-              <li>Cuando el proveedor cierra el pedido,</li>
-              <li>Entonces este no puede modificarse más.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Intento de cierre sin confirmación previa</strong>
-            <ul>
-              <li>Dado que el proveedor intenta cerrar el pedido,</li>
-              <li>Cuando el solicitante aún no ha confirmado la entrega,</li>
-              <li>Entonces el sistema impide esta acción.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US21</td>
-      <td>Generar reporte de ventas</td>
-      <td>Como proveedor, quiero generar reportes de ventas para tener registro de operaciones realizadas.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Generación de reporte con datos disponibles</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango de fechas válido,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces se genera un archivo con los datos de ventas.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Generación sin datos en el rango</strong>
-            <ul>
-              <li>Dado que el proveedor selecciona un rango sin ventas,</li>
-              <li>Cuando solicita el reporte,</li>
-              <li>Entonces el sistema informa que no hay resultados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Descarga del archivo generado</strong>
-            <ul>
-              <li>Dado que el reporte se genera correctamente,</li>
-              <li>Cuando finaliza el proceso,</li>
-              <li>Entonces el proveedor puede descargar el archivo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US22</td>
-      <td>Ver resumen de pedidos (Solicitante)</td>
-      <td>Como solicitante, quiero ver un resumen de mis pedidos para identificar cuántos están en proceso o completados.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de resumen con datos disponibles</strong>
-            <ul>
-              <li>Dado que el solicitante tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces visualiza los KPIs por estado: pendientes, aprobados, despachados, finalizados y rechazados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin pedidos registrados</strong>
-            <ul>
-              <li>Dado que el solicitante no tiene pedidos,</li>
-              <li>Cuando accede al dashboard,</li>
-              <li>Entonces ve un mensaje informando “No hay pedidos registrados”.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al cargar datos del resumen</strong>
-            <ul>
-              <li>Dado que el solicitante accede al dashboard,</li>
-              <li>Cuando ocurre un error de carga,</li>
-              <li>Entonces el sistema muestra un mensaje e intenta recargar los datos automáticamente.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US23</td>
-      <td>Ver resumen de pedidos (Proveedor)</td>
-      <td>Como proveedor, quiero ver un resumen de pedidos gestionados y pendientes para organizar a los clientes.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de KPIs con datos</strong>
-            <ul>
-              <li>Dado que el proveedor tiene pedidos registrados,</li>
-              <li>Cuando accede a su dashboard,</li>
-              <li>Entonces ve KPIs de pedidos: pendientes, aprobados, rechazados, despachados y finalizados.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Sin datos registrados</strong>
-            <ul>
-              <li>Dado que no hay pedidos registrados,</li>
-              <li>Cuando se carga el dashboard,</li>
-              <li>Entonces los KPIs se muestran con valor cero y un mensaje informativo.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Fallo en la carga del resumen</strong>
-            <ul>
-              <li>Dado que el proveedor accede al dashboard,</li>
-              <li>Cuando hay un error de conexión,</li>
-              <li>Entonces se muestra una alerta con opción para reintentar.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>TS05</td>
-      <td>Endpoint: Login</td>
-      <td>Como developer, quiero un endpoint para autenticar usuarios.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Autenticación exitosa</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales válidas en el request,</li>
-              <li>Cuando lo envía al endpoint de autenticación,</li>
-              <li>Entonces recibe un token JWT y un status 200 como respuesta.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Credenciales inválidas</strong>
-            <ul>
-              <li>Dado que el developer incluye credenciales incorrectas en el request,</li>
-              <li>Cuando se procesa la solicitud,</li>
-              <li>Entonces se retorna status 401 con un mensaje de error.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error interno del servidor</strong>
-            <ul>
-              <li>Dado que el developer realiza un request y ocurre un problema en el backend,</li>
-              <li>Cuando se procesa la autenticación,</li>
-              <li>Entonces se retorna status 500 con un mensaje genérico de error.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS06</td>
-      <td>Endpoint: Recuperar contraseña</td>
-      <td>Como developer, quiero un endpoint para que permita enviar correo de recuperación.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Solicitud válida</strong>
-            <ul>
-              <li>Dado que el developer envía un request con un correo que existe en la base de datos,</li>
-              <li>Cuando el request llega al endpoint de recuperación,</li>
-              <li>Entonces el sistema genera un token y envía el correo de recuperación.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Correo inexistente</strong>
-            <ul>
-              <li>Dado que el developer envía un request con un correo no registrado,</li>
-              <li>Cuando se procesa la solicitud,</li>
-              <li>Entonces se retorna status 404 y no se envía ningún correo.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error en el envío del correo</strong>
-            <ul>
-              <li>Dado que el developer ejecuta la acción y ocurre un fallo en el servicio de correo,</li>
-              <li>Cuando se intenta enviar el mensaje,</li>
-              <li>Entonces se retorna status 500 y se registra el error en los logs del servidor.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>TS07</td>
-      <td>Endpoint: Logout</td>
-      <td>Como developer, quiero un endpoint para cerrar sesión.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Logout exitoso</strong>
-            <ul>
-              <li>Dado que el developer envía un token de sesión válido,</li>
-              <li>Cuando llama al endpoint de logout,</li>
-              <li>Entonces la sesión se invalida y se retorna status 200.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Token inválido o expirado</strong>
-            <ul>
-              <li>Dado que el developer incluye un token no válido o expirado,</li>
-              <li>Cuando se llama al endpoint de logout,</li>
-              <li>Entonces se retorna status 401 y no se realiza ninguna acción.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Falla del servidor</strong>
-            <ul>
-              <li>Dado que el developer realiza un request y ocurre un error interno en el servidor,</li>
-              <li>Cuando se procesa el logout,</li>
-              <li>Entonces se retorna status 500 con un mensaje genérico.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US24</td>
-      <td>Asignar vehículo a pedido</td>
-      <td>Como proveedor, quiero asignar un vehículo a un pedido aprobado para organizar la logística.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Asignación válida</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido aprobado y un vehículo libre disponible,</li>
-              <li>Cuando selecciona el vehículo para asignarlo,</li>
-              <li>Entonces queda asignado correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo ocupado</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo que ya está ocupado,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema muestra un mensaje indicando que el vehículo no está disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Falla durante la asignación</strong>
-            <ul>
-              <li>Dado que el proveedor intenta asignar un vehículo y ocurre un error en el backend,</li>
-              <li>Cuando se ejecuta la asignación,</li>
-              <li>Entonces se muestra un mensaje de error y no se vincula ningún vehículo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US25</td>
-      <td>Asignar conductor a pedido</td>
-      <td>Como proveedor, quiero asignar un conductor para completar la información de despacho.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Conductor disponible</strong>
-            <ul>
-              <li>Dado que el proveedor tiene un pedido con vehículo asignado y el conductor está libre,</li>
-              <li>Cuando selecciona al conductor,</li>
-              <li>Entonces este se vincula correctamente al pedido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Conductor ya asignado en misma franja horaria</strong>
-            <ul>
-              <li>Dado que el conductor está asignado a otro pedido en el mismo horario,</li>
-              <li>Cuando se intenta asignarlo,</li>
-              <li>Entonces el sistema bloquea la acción y muestra un mensaje de conflicto.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error al guardar</strong>
-            <ul>
-              <li>Dado que el proveedor intenta guardar la asignación y ocurre una falla técnica,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y no se realiza el vínculo.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US26</td>
-      <td>Validar disponibilidad de transporte</td>
-      <td>Como proveedor, quiero saber qué vehículos están disponibles antes de asignarlos para vincularlos correctamente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Vehículo no disponible por superposición</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza el listado de vehículos,</li>
-              <li>Cuando un vehículo está asignado a otro pedido para la misma fecha y hora estimada,</li>
-              <li>Entonces el sistema lo muestra como no disponible.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Vehículo disponible</strong>
-            <ul>
-              <li>Dado que el proveedor visualiza un vehículo sin conflictos de agenda,</li>
-              <li>Cuando se carga el listado de vehículos,</li>
-              <li>Entonces dicho vehículo se muestra como seleccionable.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Conflicto en tiempo real</strong>
-            <ul>
-              <li>Dado que el proveedor intenta seleccionar un vehículo que fue asignado recientemente por otro usuario,</li>
-              <li>Cuando realiza la acción,</li>
-              <li>Entonces el sistema bloquea la selección y muestra un mensaje de actualización.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US27</td>
-      <td>Ver perfil de usuario</td>
-      <td>Como usuario registrado, quiero ver mis datos de perfil para revisar mi información registrada.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización exitosa del perfil</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando accede a su perfil,</li>
-              <li>Entonces ve su nombre, correo y rol.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Error en la carga de datos</strong>
-            <ul>
-              <li>Dado que el usuario accede a su perfil y ocurre un error al obtener los datos,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje de error y se sugiere reintentar.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Restricción de datos de otros usuarios</strong>
-            <ul>
-              <li>Dado que el usuario tiene sesión activa,</li>
-              <li>Cuando intenta ver otro perfil,</li>
-              <li>Entonces el sistema restringe el acceso y muestra su propia información.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US28</td>
-      <td>Editar datos de perfil</td>
-      <td>Como usuario registrado, quiero editar mis datos para mantener mi información actualizada.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Edición y guardado exitoso</strong>
-            <ul>
-              <li>Dado que el usuario modifica uno o más campos del formulario,</li>
-              <li>Cuando la información ingresada es válida,</li>
-              <li>Entonces el sistema guarda los cambios correctamente.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Campo obligatorio vacío</strong>
-            <ul>
-              <li>Dado que el usuario deja un campo obligatorio vacío,</li>
-              <li>Cuando intenta guardar,</li>
-              <li>Entonces el sistema muestra un mensaje de validación indicando el campo requerido.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Error del servidor al guardar</strong>
-            <ul>
-              <li>Dado que el usuario intenta guardar y ocurre un fallo en el servidor,</li>
-              <li>Cuando se realiza la acción,</li>
-              <li>Entonces se muestra un mensaje de error y los datos ingresados permanecen visibles.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US29</td>
-      <td>Buscar pedido por código</td>
-      <td>Como usuario de ambos segmentos, quiero buscar un pedido específico por su código para encontrarlo rápidamente.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Ingresar a la búsqueda</strong>
-            <ul>
-              <li>Dado que el usuario presione el botón de filtrar,</li>
-              <li>Cuando ingrese la opción del código en las grillas,</li>
-              <li>Entonces podrá buscar su pedido según su código.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Pedido encontrado</strong>
-            <ul>
-              <li>Dado que el usuario escribe un código válido,</li>
-              <li>Cuando existe un pedido con ese código,</li>
-              <li>Entonces se muestra el resultado correspondiente.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 3: Pedido no encontrado</strong>
-            <ul>
-              <li>Dado que el usuario digita un código no correspondiente a ningún pedido,</li>
-              <li>Cuando finaliza la búsqueda,</li>
-              <li>Entonces el sistema muestra un mensaje de que no hay coincidencias.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US30</td>
-      <td>Filtrar pedidos por estado</td>
-      <td>Como usuario de ambos segmentos, quiero filtrar mis pedidos por estado (pendiente, aprobado, entregado) para facilitar la revisión.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Aplicar filtro correctamente</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado,</li>
-              <li>Cuando se aplica el filtro,</li>
-              <li>Entonces solo se muestran los pedidos con ese estado.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: No hay pedidos en ese estado</strong>
-            <ul>
-              <li>Dado que el usuario selecciona un estado que no tiene coincidencias,</li>
-              <li>Cuando ejecuta el filtro,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay pedidos para ese estado.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP03</td>
-    </tr>
-    <tr>
-      <td>US31</td>
-      <td>Recibir notificación de aprobación</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido sea aprobado o rechazado para estar informado.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización de notificación</strong>
-            <ul>
-              <li>Dado que el proveedor cambia el estado del pedido,</li>
-              <li>Cuando el solicitante inicia sesión,</li>
-              <li>Entonces recibe la notificación del evento en la página y en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Pedido actualizado desde otra sesión</strong>
-            <ul>
-              <li>Dado que el solicitante aún no ha leído la notificación,</li>
-              <li>Cuando actualiza la interfaz,</li>
-              <li>Entonces la notificación se mantiene visible hasta que sea marcada como leída.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US32</td>
-      <td>Notificación de pedido despachado</td>
-      <td>Como solicitante, quiero recibir una notificación cuando un pedido haya sido despachado para estar informado.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Pedido marcado como despachado</strong>
-            <ul>
-              <li>Dado que el proveedor marca el pedido como despachado,</li>
-              <li>Cuando el solicitante consulta su cuenta,</li>
-              <li>Entonces recibirá la notificación correspondiente en la página como en las notificaciones.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Visualización posterior del evento</strong>
-            <ul>
-              <li>Dado que el pedido fue despachado anteriormente,</li>
-              <li>Cuando el solicitante accede en otro momento,</li>
-              <li>Entonces la notificación sigue disponible hasta ser archivada o leída.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US33</td>
-      <td>Ver listado de empresas</td>
-      <td>Como proveedor, quiero ver una lista de empresas solicitantes para identificar a mis clientes frecuentes.</td>
-      <td>
-        <ul>
-          <li><strong>Escenario 1: Visualización del listado</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo de empresas,</li>
-              <li>Cuando se carga el listado,</li>
-              <li>Entonces se muestran nombre, pedidos activos y total histórico por empresa.</li>
-            </ul>
-          </li>
-          <li><strong>Escenario 2: Lista vacía o sin datos</strong>
-            <ul>
-              <li>Dado que el proveedor accede al módulo y no hay empresas registradas,</li>
-              <li>Cuando se carga la vista,</li>
-              <li>Entonces se muestra un mensaje indicando que no hay empresas disponibles.</li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US34</td>
-      <td>Ver detalles de empresa</td>
-      <td>Como proveedor, quiero ver información detallada de una empresa solicitante para analizar su historial de pedidos.</td>
-      <td>
-        Dado que el proveedor selecciona una empresa, Cuando se carga el detalle, Entonces visualiza pedidos realizados, cantidades solicitadas y fechas. Escenario 2: Dado que el proveedor selecciona una empresa que aún no ha realizado pedidos, Cuando se accede a su perfil, Entonces se muestra un mensaje indicando que no hay historial disponible.
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US35</td>
-      <td>Ver gráfico de consumo (Solicitante)</td>
-      <td>Como solicitante, quiero ver un gráfico de mi consumo mensual para tener control sobre el uso del combustible.</td>
-      <td>
-        Escenario 1: Dado que el solicitante ha realizado pedidos,Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con galones consumidos por mes. Escenario 2: Dado que el solicitante no ha hecho pedidos aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
-      </td>
-      <td>EP01</td>
-    </tr>
-    <tr>
-      <td>US36</td>
-      <td>Ver gráfico de ventas (Proveedor)</td>
-      <td>Como proveedor, quiero ver un gráfico de ventas por mes para monitorear el rendimiento del negocio.</td>
-      <td>
-        Dado que el proveedor ha despachado pedidos, Cuando accede al módulo de reportes, Entonces se visualiza un gráfico con las ventas mensuales totales. Escenario 2: Dado que el proveedor no ha realizado ventas aún, Cuando accede al gráfico, Entonces se muestra un mensaje de que no hay datos suficientes.
-      </td>
-      <td>EP02</td>
-    </tr>
-    <tr>
-      <td>US37</td>
-      <td>Descargar reporte PDF</td>
-      <td>Como usuario de ambos segmentos, quiero descargar un resumen de pedidos o ventas en formato PDF para archivarlo o compartirlo.</td>
-      <td>
-        Escenario 1: Dado que el usuario hace clic en "Descargar", Cuando hay datos en el periodo seleccionado, Entonces se genera un archivo PDF descargable. Escenario 2: Dado que el usuario no tiene registros en el periodo seleccionado, Cuando se solicita la descarga, Entonces el sistema notifica que no hay contenido para exportar. Escenario 3: Dado que el usuario intenta descargar el archivo y ocurre un error en el backend al generar el PDF, Cuando hace clic en el botón de descargar, Entonces se muestra un mensaje de error sin afectar la sesión.
-      </td>
-      <td>-</td>
-    </tr>
-  </tbody>
-</table>
+| Epic ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
+|----------|---------|-------------|---------------------------|----------------------------|
+| **EP01** | Gestión de pedidos de combustible (solicitante) | Como solicitante de combustible, quiero registrar pedidos con parámetros específicos para recibir lo que necesito sin errores. | **Escenario 1: Registro de pedido**<br/>Dado que el solicitante está autenticado y proporciona datos de pedido válidos (producto, volumen, ubicación, ventana horaria),<br/>Cuando envía la solicitud de alta de pedido,<br/>Entonces el sistema valida los datos, crea el pedido con un identificador único y lo deja en estado *Por confirmar*.<br/><br/>**Escenario 2: Historial de pedidos**<br/>Dado que el solicitante tiene pedidos registrados,<br/>Cuando solicita su historial,<br/>Entonces el sistema devuelve el listado con estados, fechas y detalles asociados.<br/><br/>**Escenario 3: Edición/Cancelación previa a confirmación**<br/>Dado que un pedido del solicitante está en estado *Por confirmar*,<br/>Cuando solicita editar o cancelar el pedido,<br/>Entonces el sistema aplica los cambios o marca el pedido como cancelado y registra auditoría. | - |
+| **EP02** | Gestión de pedidos (proveedor) | Como proveedor, quiero revisar y actualizar el estado de pedidos y emitir actualizaciones al cliente. | **Escenario 1: Visualizar pedidos entrantes**<br/>Dado que existen pedidos en estado *Por confirmar* o *En curso*,<br/>Cuando el proveedor consulta pedidos asignados o disponibles,<br/>Entonces el sistema devuelve pedidos con cliente, ubicación, volumen y estado actual.<br/><br/>**Escenario 2: Actualización de estado**<br/>Dado un pedido en curso y una transición de estado válida (p. ej., *Confirmado → En ruta → Entregado*),<br/>Cuando el proveedor solicita el cambio de estado,<br/>Entonces el sistema valida la transición, persiste el nuevo estado y registra auditoría.<br/><br/>**Escenario 3: Notificaciones al cliente**<br/>Dado que el estado de un pedido cambió,<br/>Cuando se confirma el cambio,<br/>Entonces el sistema emite una notificación al cliente con el evento y la marca de tiempo. | - |
+| **EP03** | Seguridad y acceso | Como usuario, quiero acceso seguro y protección de datos mediante autenticación y control por roles. | **Escenario 1: Inicio de sesión**<br/>Dado un usuario registrado con credenciales válidas,<br/>Cuando solicita autenticación,<br/>Entonces el sistema valida, emite un token vigente y establece la sesión.<br/><br/>**Escenario 2: Autorización por rol**<br/>Dado un usuario autenticado con rol (solicitante/proveedor/administrador),<br/>Cuando solicita recursos protegidos,<br/>Entonces el sistema permite o deniega acceso según permisos del rol.<br/><br/>**Escenario 3: MFA en operaciones sensibles**<br/>Dado que el usuario ejecuta una operación sensible (p. ej., confirmar pedido),<br/>Cuando el sistema requiere segundo factor y el usuario lo provee correctamente,<br/>Entonces la operación se completa; en caso contrario, se rechaza. | - |
+| **EP04** | Landing Page informativa | Como visitante, quiero conocer beneficios y funcionalidades para decidir registrarme. | **Escenario 1: Acceso público**<br/>Dado un visitante no autenticado,<br/>Cuando accede al dominio principal,<br/>Entonces el sistema expone contenido informativo accesible públicamente.<br/><br/>**Escenario 2: Derivación a registro**<br/>Dado un visitante interesado en crear cuenta,<br/>Cuando solicita alta indicando segmento (solicitante/proveedor),<br/>Entonces el sistema direcciona al flujo de alta correspondiente. | - |
+
+---
+
+## 2.4.1. User Stories — Funcionales (US\*) y Técnicas (TS\*)
+
+| ID | Título | Descripción | Criterios de aceptación | Epic |
+|----|---------|-------------|--------------------------|------|
+| **US01** | Crear nuevo pedido | Como solicitante, quiero registrar un pedido para agilizar el proceso. | Dado datos de pedido válidos,<br/>Cuando se solicita la creación,<br/>Entonces el sistema valida, persiste el pedido, genera un ID único y lo deja *Por confirmar*. | EP01 |
+| **US02** | Consultar historial de pedidos | Como solicitante, quiero consultar mi historial con detalle y ordenar/filtrar. | Dado un solicitante autenticado,<br/>Cuando solicita su historial con criterios opcionales (fecha, estado),<br/>Entonces el sistema devuelve los pedidos con estado, fechas y metadatos aplicando los criterios. | EP01 |
+| **US03** | Editar pedidos | Como solicitante, quiero editar un pedido antes de su confirmación. | Dado un pedido en *Por confirmar*,<br/>Cuando el solicitante solicita modificación con datos válidos,<br/>Entonces el sistema aplica cambios y registra auditoría; si el estado no permite edición, rechaza la operación. | EP01 |
+| **US05** | Actualizar pedido (proveedor) | Como proveedor, quiero actualizar estado e información operativa del pedido. | Dado un pedido asignado y una transición válida,<br/>Cuando el proveedor solicita actualizar el estado o datos logísticos,<br/>Entonces el sistema valida reglas, persiste cambios y emite notificación al cliente. | EP02 |
+| **US06** | Notificaciones a clientes por cambios | Como proveedor, quiero que el cliente reciba notificaciones de cambios de estado. | Dado que el estado de un pedido cambió a *Confirmado/En ruta/Entregado*,<br/>Cuando la actualización se registre,<br/>Entonces el sistema envía una notificación al solicitante con el evento y el timestamp. | EP02 |
+| **US07** | Cancelar/Rechazar pedido | Como proveedor, quiero rechazar o cancelar y notificar el motivo. | Dado un pedido elegible para rechazo/cancelación,<br/>Cuando el proveedor registra la acción con motivo,<br/>Entonces el sistema cambia el estado, guarda el motivo y notifica al solicitante. | EP02 |
+| **US08** | Inicio de sesión | Como usuario, quiero iniciar sesión de forma segura. | Dado credenciales válidas,<br/>Cuando se solicita autenticación,<br/>Entonces el sistema emite token vigente; si son inválidas, devuelve error de autenticación. | EP03 |
+| **US09** | Registro de cuenta | Como visitante, quiero crear cuenta con rol. | Dado datos de alta válidos y rol permitido,<br/>Cuando se solicita el registro,<br/>Entonces el sistema crea la cuenta, asigna rol y habilita autenticación. | EP03 |
+| **US10** | Recuperación de contraseña | Como usuario, quiero recuperar mi acceso por correo. | Dado un correo asociado a una cuenta,<br/>Cuando se solicita recuperación,<br/>Entonces el sistema emite un token de restablecimiento y registra la solicitud; si el correo no existe, informa no encontrado. | EP03 |
+| **US11** | Acceso restringido por roles | Como administrador, quiero que el acceso a recursos sea por rol. | Dado un usuario autenticado,<br/>Cuando solicita un recurso protegido,<br/>Entonces el sistema autoriza o deniega según permisos del rol. | EP03 |
+| **US12** | MFA para registrar pedido | Como solicitante, quiero MFA al confirmar pedidos críticos. | Dado un intento de confirmación de pedido,<br/>Cuando el sistema solicita segundo factor y se valida correctamente,<br/>Entonces la confirmación procede; si falla, se rechaza y se registra el intento. | EP03 |
+| **US13** | Landing page pública | Como visitante, quiero ver información pública. | Dado acceso no autenticado al dominio,<br/>Cuando se consulta la raíz,<br/>Entonces el sistema sirve contenido público con información del producto. | EP04 |
+| **TS01** | Endpoint REST: crear pedido | Como desarrollador, quiero exponer POST /orders. | Dado un request válido autenticado,<br/>Cuando se invoca *POST /orders*,<br/>Entonces el sistema valida esquema y reglas, persiste y retorna 201 con ID; en error de validación, 400; en error interno, 500. | EP01 |
+| **TS02** | Servicio de autenticación con JWT | Como desarrollador, quiero proteger rutas privadas. | Dado credenciales válidas,<br/>Cuando se invoca *POST /auth/login*,<br/>Entonces el sistema retorna JWT con expiración; llamadas a rutas protegidas sin token o inválido retornan 401. | EP03 |
+| **TS03** | Servicio de notificaciones por estado | Como desarrollador, quiero notificar cambios de pedido. | Dado una transición de estado confirmada,<br/>Cuando se publica el evento,<br/>Entonces el sistema envía la notificación al canal configurado y registra entrega o fallo. | EP02 |
+| **TS04** | Registro de ubicación GPS | Como desarrollador, quiero recibir coordenadas en ruta. | Dado un pedido en tránsito y un dispositivo autorizado,<br/>Cuando se envían coordenadas válidas,<br/>Entonces el sistema persiste puntos de ruta con timestamp y los expone para consulta segura. | EP02 |
+| **US14** | Ver Home (resumen público) | Como visitante, quiero entender el valor del sistema rápidamente. | Dado acceso público,<br/>Cuando se consulta la raíz,<br/>Entonces el sistema expone un resumen del servicio y rutas a alta/autenticación. | EP04 |
+| **US15** | Ver About Us | Como visitante, quiero conocer al equipo y la misión. | Dado acceso público,<br/>Cuando se consulta el recurso de identidad del producto,<br/>Entonces el sistema retorna información del equipo, misión y valores. | EP04 |
+| **US16** | Ver How it works | Como visitante, quiero entender el flujo de funcionamiento. | Dado acceso público,<br/>Cuando se consulta el recurso descriptivo del flujo,<br/>Entonces el sistema retorna los pasos principales y actores involucrados. | EP04 |
+| **US17** | Enviar contacto | Como visitante, quiero enviar una consulta. | Dado datos de contacto válidos,<br/>Cuando se registra la solicitud,<br/>Entonces el sistema valida, persiste y confirma recepción; si faltan datos obligatorios, rechaza con detalle. | EP04 |
+| **US18** | Aprobar pedido | Como proveedor, quiero aprobar según stock disponible. | Dado un pedido elegible y stock suficiente,<br/>Cuando el proveedor aprueba,<br/>Entonces el sistema cambia a *Aprobado*; si no hay stock, rechaza y solicita motivo para registrar. | EP02 |
+| **US19** | Marcar como despachado | Como proveedor, quiero marcar salida a entrega. | Dado un pedido *Aprobado*,<br/>Cuando se registra el despacho,<br/>Entonces el sistema cambia a *Despachado*; si el pedido no está aprobado, rechaza la transición. | EP02 |
+| **US20** | Cerrar pedido | Como proveedor, quiero cerrar al confirmar entrega. | Dado que el solicitante confirmó entrega,<br/>Cuando el proveedor solicita cierre,<br/>Entonces el sistema marca como *Finalizado* e impide modificaciones; sin confirmación, rechaza el cierre. | EP02 |
+| **US21** | Generar reporte de ventas | Como proveedor, quiero reportes por rango. | Dado un rango de fechas válido,<br/>Cuando se solicita el reporte,<br/>Entonces el sistema genera el agregado y lo pone disponible; si no hay datos, informa sin resultados; ante error, registra y retorna fallo controlado. | EP02 |
+| **US22** | Resumen de pedidos (Solicitante) | Como solicitante, quiero KPIs por estado. | Dado pedidos del solicitante,<br/>Cuando se consulta el resumen,<br/>Entonces el sistema devuelve conteos por estado; si no hay datos, retorna cero con mensaje informativo; ante error, retorna fallo controlado. | EP01 |
+| **US23** | Resumen de pedidos (Proveedor) | Como proveedor, quiero KPIs de pedidos gestionados. | Dado pedidos del proveedor,<br/>Cuando se consulta el resumen,<br/>Entonces el sistema devuelve KPIs por estado o ceros si no hay datos; ante error de conexión, devuelve error controlado. | EP02 |
+| **TS05** | Endpoint: Login | Como developer, quiero autenticar usuarios. | Dado credenciales válidas,<br/>Cuando se invoca autenticación,<br/>Entonces retorna 200 con JWT; si inválidas, 401; si error interno, 500. | EP03 |
+| **TS06** | Endpoint: Recuperar contraseña | Como developer, quiero enviar correo de recuperación. | Dado un correo existente,<br/>Cuando se solicita recuperación,<br/>Entonces genera token y registra envío; si correo no existe, 404; en fallo del servicio de correo, 500 y log. | EP03 |
+| **TS07** | Endpoint: Logout | Como developer, quiero cerrar sesión. | Dado un token válido,<br/>Cuando se solicita cierre,<br/>Entonces invalida sesión y retorna 200; si token inválido/expirado, 401; ante error, 500. | EP03 |
+| **US24** | Asignar vehículo a pedido | Como proveedor, quiero asignar vehículo disponible. | Dado un pedido aprobado y un vehículo libre compatible,<br/>Cuando se solicita la asignación,<br/>Entonces el sistema vincula vehículo; si está ocupado o no compatible, rechaza con motivo. | EP02 |
+| **US25** | Asignar conductor a pedido | Como proveedor, quiero asignar conductor disponible. | Dado un vehículo asignado y un conductor libre en la franja horaria,<br/>Cuando se solicita vincular conductor,<br/>Entonces el sistema vincula; si hay conflicto de agenda, rechaza y explica. | EP02 |
+| **US26** | Validar disponibilidad de transporte | Como proveedor, quiero saber disponibilidad antes de asignar. | Dado una consulta de disponibilidad por fecha/horario,<br/>Cuando se evalúan asignaciones existentes,<br/>Entonces el sistema marca recursos disponibles/no disponibles y evita condiciones de carrera. | EP02 |
+| **US27** | Ver perfil de usuario | Como usuario, quiero ver mis datos. | Dado sesión activa,<br/>Cuando se consulta el perfil propio,<br/>Entonces el sistema retorna datos personales y de rol; si error de lectura, retorna fallo controlado; acceso a otros perfiles, denegado. | EP03 |
+| **US28** | Editar perfil | Como usuario, quiero actualizar mis datos. | Dado datos válidos de actualización,<br/>Cuando se solicita el guardado,<br/>Entonces el sistema persiste cambios; si falta campo obligatorio, rechaza con detalle; si falla servidor, retorna error sin perder cambios en memoria del cliente. | EP03 |
+| **US29** | Buscar pedido por código | Como usuario, quiero localizar un pedido por su ID/código. | Dado un código de pedido,<br/>Cuando se consulta búsqueda por identificador,<br/>Entonces el sistema retorna el pedido si existe o indica no encontrado. | EP01 / EP02 |
+| **US30** | Filtrar pedidos por estado | Como usuario, quiero filtrar por estado. | Dado un estado válido,<br/>Cuando se aplica el filtro,<br/>Entonces el sistema retorna solo pedidos en ese estado o informa vacío si no hay coincidencias. | EP01 / EP02 |
+| **US31** | Notificación de aprobación/rechazo | Como solicitante, quiero notificación de decisión del proveedor. | Dado un cambio a *Aprobado* o *Rechazado*,<br/>Cuando se registra el evento,<br/>Entonces el sistema genera y mantiene la notificación hasta su lectura. | EP01 |
+| **US32** | Notificación de despacho | Como solicitante, quiero saber cuándo se despacha. | Dado un cambio a *Despachado*,<br/>Cuando se registra la transición,<br/>Entonces el sistema notifica al solicitante y conserva el evento hasta archivado. | EP01 |
+| **US33** | Listado de empresas (proveedor) | Como proveedor, quiero listar empresas solicitantes. | Dado una consulta de empresas,<br/>Cuando hay empresas registradas,<br/>Entonces el sistema retorna razón social y métricas básicas; si no hay, informa vacío. | EP02 |
+| **US34** | Detalle de empresa | Como proveedor, quiero ver historial de una empresa. | Dado una empresa válida,<br/>Cuando se solicita su detalle,<br/>Entonces el sistema retorna pedidos, cantidades y fechas; si no tiene historial, informa ausencia de datos. | EP02 |
+| **US35** | Gráfico de consumo (solicitante) | Como solicitante, quiero ver consumo mensual. | Dado que existen pedidos del solicitante,<br/>Cuando se consulta el agregado mensual,<br/>Entonces el sistema retorna series por mes; si no hay datos suficientes, informa el motivo. | EP01 |
+| **US36** | Gráfico de ventas (proveedor) | Como proveedor, quiero ver ventas mensuales. | Dado pedidos despachados del proveedor,<br/>Cuando se consulta el agregado mensual,<br/>Entonces el sistema retorna las series; si no hay datos, informa insuficiencia. | EP02 |
+| **US37** | Descargar reporte PDF | Como usuario, quiero exportar datos en PDF. | Dado un periodo con datos,<br/>Cuando se solicita exportar,<br/>Entonces el sistema genera recurso descargable; si no hay datos, informa; si ocurre error al generar, retorna fallo controlado y registra. | EP01 / EP02 |
+
 
 ### 2.4.2. Impact Mapping
 ![IM](img/Impact-Map.png)
