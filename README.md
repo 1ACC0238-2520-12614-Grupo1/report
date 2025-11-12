@@ -1,49 +1,37 @@
-# report
-
 <div align="center">
-  <img src="img/logo.jpg" alt="Logo de la Universidad" />
-  
-  <h2>Universidad: Universidad Peruana de Ciencias Aplicadas</h2>
-  <p><strong>Carrera:</strong> Ingeniería de Software</p>
-  <p><strong>Ciclo:</strong> 2025-20</p>
+<img src="img/logo.jpg" alt="Logo de la Universidad" width="150"/>
 
-  <p><strong>Código del Curso y Nombre del Curso:</strong> 1ACC0238-2520-12614 - Aplicaciones para Dispositivos Móviles</p>
-  <p><strong>Sección:</strong> 12614</p>
+# **Universidad Peruana de Ciencias Aplicadas**
+## **Ingeniería de Software**
 
-  <p><strong>Profesor:</strong> David Gerardo Quevedo Velasco</p>
+**Periodo:** 2025-20  
+**Curso:** 1ACC0238 – Aplicaciones para Dispositivos Móviles  
+**NRC:** 1827  
+**Docente:** David Gerardo Quevedo Velasco  
 
-  <h3>Informe de Trabajo Final</h3>
+---
 
-  <p><strong>Startup:</strong> FuelTrack</p>
-  <p><strong>Nombre del Producto:</strong> FuelTrack Pro</p>
+## **Informe del Trabajo Final**
+
+**Startup:** FuelTrack  
+**Producto:** FuelTrack Pro  
+
+---
+### **Integrantes (orden alfabético):**
+
+U20211584 – Alvarado De La Cruz, Juan Carlos  
+U20211837 – Durand Vega, Gianfranco Jared  
+U20213278 – Espejo Gamarra, Bryan Ronald  
+U20213322 – Guerrero Vásquez, Jhon Danny  
+U20214011 – Luque Minaya, Renzo Andrés  
+
+---
+**Octubre 2025**
 </div>
 
-<h3 align="center">Relación de Integrantes:</h3>
 
-<div align="center">
-  <table>
-    <tr>
-      <th><strong>Apellidos y Nombres</strong></th>
-    </tr>
-    <tr>
-      <td>Juan Carlos Alvarado De La Cruz</td>
-    </tr>
-    <tr>
-      <td>Gianfranco Jared Durand Vega</td>
-    </tr>
-    <tr>
-      <td>Bryan Ronald Espejo Gamarra</td>
-    </tr>
-    <tr>
-      <td>Jhon Danny Guerrero Vasquez</td>
-    </tr>
-    <tr>
-      <td>Renzo Andres Luque Minaya</td>
-    </tr>
-  </table>
-</div>
 
-<p align="center"><strong>Mes y Año:</strong> Abril 2025</p>
+
 
 ## Registro de Versiones del Informe
 
