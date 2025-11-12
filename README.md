@@ -25,7 +25,6 @@ U20213278 – Espejo Gamarra, Bryan Ronald
 U20213322 – Guerrero Vásquez, Jhon Danny  
 U20214011 – Luque Minaya, Renzo Andrés  
 
----
 **Octubre 2025**
 </div>
 
@@ -35,15 +34,34 @@ U20214011 – Luque Minaya, Renzo Andrés
 
 ## Registro de Versiones del Informe
 
-| **Versión** | **Fecha**   | **Autores**                                                                                     | **Descripción de Modificación**                                                                                                                                                                  |
-|-------------|-------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **TB1**     | 26/04/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | Se incluyeron los siguientes capítulos: <br>• Estructura del informe <br>• Capítulo I: Presentación <br>• Capítulo II: Requirements Development & Software Solution Design <br>• Capítulo III: Solution UI/UX Design <br>• Capítulo IV: Product Implementation & Validation <br>• Configuración inicial del repositorio y del Landing Page <br>• Aplicación de GitFlow y convenciones de commits |
-| **TP1**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
-| **TB2**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
-| **TF1**     | --/--/2025  | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - Bryan Ronald Espejo Gamarra <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
+| **Versión** | **Fecha** | **Autores** | **Descripción de Modificación** |
+|-------------|-----------|-------------|----------------------------------|
+| **TB1** | 26/04/2025 | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - **Bryan Ronald Espejo Gamarra** <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | Se incluyeron los siguientes capítulos y artefactos:<br>• Estructura del informe<br>• Capítulo I: Presentación<br>• Capítulo II: Requirements Development & Software Solution Design<br>• Capítulo III: Solution UI/UX Design<br>• Capítulo IV: Product Implementation & Validation (borrador)<br>• Configuración inicial del repositorio y del Landing Page<br>• Aplicación de GitFlow y convenciones de commits |
+| **TP1** | Semana 7 (2025) | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - **Bryan Ronald Espejo Gamarra** <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | Actualizaciones y entregables del Stage Review:<br>• Registro de Versiones, Collaboration Insights y Student Outcome actualizados<br>• Corrección y mejora de artefactos previos (diagramas, prototipos y especificaciones)<br>• **Landing Page desplegada (v0.1)**<br>• **Backend v0.1**: estructura base, endpoints iniciales y pipeline de despliegue<br>• **App móvil nativa v0.1 (Android)**: login, dashboard y listado de pedidos (demo)<br>• Cap. V: Solution UI/UX Design (prototipos validados); Cap. VI: Product Implementation, Validation & Deployment (secciones 6.1 y 6.2.1 Sprint 1)<br>• Evidencias de Sprint 1: Planning, Backlog, Development/Execution/Services Docs, Deployment y Team Collaboration<br>• Avance de Conclusiones, Bibliografía y Anexos |
+| **TB2** | Semana 12 (2025) | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - **Bryan Ronald Espejo Gamarra** <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | Actualizaciones del Sprint Review 2 y ampliaciones:<br>• Registro de Versiones, Collaboration Insights y Student Outcome actualizados<br>• Refactor y mejora de artefactos previos (DDD, UI flows, casos de uso)<br>• **Landing Page v0.2** (mejoras de contenido y métricas)<br>• **Backend v0.2**: autenticación **JWT**, servicios de órdenes/proveedores y ajustes de despliegue CI/CD<br>• **App nativa v0.2**: mejoras en UX, creación/seguimiento de pedidos y manejo de estados<br>• **Primera versión cross-platform (Flutter) v0.1**: estructura, navegación base y vistas iniciales<br>• Videos (primer corte): **Validación de la aplicación**, **About-the-Product**, **About-the-Team**<br>• Cap. 6.2.2 Sprint 2: Planning, Backlog, Development, Testing Suite, Execution, Services Docs, Deployment y Team Collaboration<br>• Sección 6.3 Validación: diseño de entrevistas, registro de hallazgos y evaluación heurística<br>• Avance de Conclusiones, Bibliografía y Anexos |
+| **TF1** | --/--/2025 | - Juan Carlos Alvarado De La Cruz <br> - Gianfranco Jared Durand Vega <br> - **Bryan Ronald Espejo Gamarra** <br> - Jhon Danny Guerrero Vasquez <br> - Renzo Andres Luque Minaya | *(Pendiente de completar)* |
+
+
+
+<br><br><br><br><br>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<br><br>
+<br><br><br><br><br>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<br><br>
+<br><br><br><br><br>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+
+
+
+
 
 ## Project Report Collaboration Insights
-
 
 Este informe ha sido desarrollado de forma colaborativa mediante GitHub, aplicando GitFlow y Conventional Commits. Cada integrante del equipo ha contribuido mediante ramas independientes, commits individuales y revisiones de Pull Requests.
 
@@ -61,6 +79,13 @@ A continuación, se muestra un gráfico de barras con la cantidad de commits rea
 El siguiente gráfico muestra una línea de tiempo con la evolución de los commits realizados por todos los miembros:
 
 
+<br><br><br><br><br>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<br><br>
+<br><br><br><br><br>
+<p>&nbsp;</p>
+
 
 ---
 
@@ -72,7 +97,8 @@ El siguiente gráfico muestra una línea de tiempo con la evolución de los comm
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
 - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
+- [Objetivos SMART](#objetivos-smart)
+- [Capítulo I: Presentación](#capítulo-i-presentación)
   - [1.1 Startup Profile](#11-startup-profile)
     - [1.1.1 Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
@@ -99,91 +125,80 @@ El siguiente gráfico muestra una línea de tiempo con la evolución de los comm
     - [2.3.4 Empathy Mapping](#234-empathy-mapping)
     - [2.3.5 As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4 Ubiquitous Language](#24-ubiquitous-language)
--[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1 To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2 User Stories](#32-user-stories)
   - [3.3 Impact Mapping](#33-impact-mapping)
   - [3.4 Product Backlog](#34-product-backlog)
--[Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1 Style Guidelines](#41-style-guidelines)
-    - [4.1.1 General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
-  - [4.2 Information Architecture](#43-information-architecture)
-    - [4.2.1 Organization Systems](#421-organization-systems)
-    - [4.2.2 Labeling System](#422-labeling-system)
-    - [4.2.3 SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4 Searching Systems](#424-searching-systems)
-    - [4.2.5 Navigation System](#425-navigation-system)
-  - [4.3 Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1 Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2 Landing Page Mock-up](#432-landing-page-mock-up)
-  - [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1 Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2 Web Applications Mock-ups](#442-web-applications-mock-ups)
-    - [4.4.3 Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-  - [4.5 Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6 Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1 Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2 Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3 Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-  - [4.7 Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1 Class Diagrams](#471-class-diagrams)
-    - [4.7.2 Class Dictionary](#472-class-dictionary)
-  - [4.8 Database Design](#48-database-design)
-    - [4.8.1 Database Diagram](#481-database-diagram)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1 Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1 Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2 Source Code Management](#512-source-code-management)
-    - [5.1.3 Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4 Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2 Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1 Sprint 1](#521-sprint-1)
-      - [5.2.1.1 Sprint Planning](#5211-sprint-planning-1)
-      - [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4 Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5 Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2 Sprint 2](#522-sprint-2)
-      - [5.2.2.1 Sprint Planning](#5221-sprint-planning-2)
-      - [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3 Sprint 3](#523-sprint-3)
-      - [5.2.3.1 Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2 Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4 Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5 Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6 Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7 Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8 Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    - [5.2.4 Sprint 3](#524-sprint-4)
-      - [5.2.4.1 Sprint Planning 3](#5241-sprint-planning-4)
-      - [5.2.4.2 Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3 Sprint Backlog 3](#5243-sprint-backlog-4)
-      - [5.2.4.4 Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      - [5.2.4.5 Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      - [5.2.4.6 Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7 Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8 Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
-      - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
-      - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
-      - [5.3.3. Evaluaciones heuristicas](#533-evaluaciones-heuristicas)
-    - [5.4. Video About-the-Product](#54-video-about-the-product)
-  - [Conclusiones](#conclusiones)
-  - [Bibliografia](#bibliografia)
-  - [Anexos](#anexos)
+- [Capítulo IV: Solution Software Design](#capítulo-iv-solution-software-design)
+  - [4.1 Strategic-Level Domain-Driven Design](#41-strategic-level-domain-driven-design)
+    - [4.1.1 EventStorming](#411-eventstorming)
+      - [4.1.1.1 Candidate Context Discovery](#4111-candidate-context-discovery)
+      - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
+      - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
+    - [4.1.2 Context Mapping](#412-context-mapping)
+    - [4.1.3 Software Architecture](#413-software-architecture)
+      - [4.1.3.1 Context Level Diagrams](#4131-context-level-diagrams)
+      - [4.1.3.2 Container Level Diagrams](#4132-container-level-diagrams)
+      - [4.1.3.3 Deployment Diagrams](#4133-deployment-diagrams)
+  - [4.2 Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
+    - [4.2.X Bounded Context: \<Bounded Context Name\>](#42x-bounded-context-bounded-context-name)
+      - [4.2.X.1 Domain Layer](#42x1-domain-layer)
+      - [4.2.X.2 Interface Layer](#42x2-interface-layer)
+      - [4.2.X.3 Application Layer](#42x3-application-layer)
+      - [4.2.X.4 Infrastructure Layer](#42x4-infrastructure-layer)
+      - [4.2.X.5 Component Level Diagrams](#42x5-component-level-diagrams)
+      - [4.2.X.6 Code Level Diagrams](#42x6-code-level-diagrams)
+      - [4.2.X.6.1 Domain Layer Class Diagrams](#42x61-domain-layer-class-diagrams)
+      - [4.2.X.6.2 Database Design Diagram](#42x62-database-design-diagram)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1 Product Design](#51-product-design)
+    - [5.1.1 Style Guidelines](#511-style-guidelines)
+      - [5.1.1.1 General Style Guidelines](#5111-general-style-guidelines)
+    - [5.1.2 Information Architecture](#512-information-architecture)
+      - [5.1.2.1 Organization Systems](#5121-organization-systems)
+      - [5.1.2.2 Labelling Systems](#5122-labelling-systems)
+      - [5.1.2.3 SEO Tags and Meta Tags](#5123-seo-tags-and-meta-tags)
+      - [5.1.2.4 Searching Systems](#5124-searching-systems)
+      - [5.1.2.5 Navigation Systems](#5125-navigation-systems)
+    - [5.1.3 Landing Page UI Design](#513-landing-page-ui-design)
+      - [5.1.3.1 Landing Page Wireframe](#5131-landing-page-wireframe)
+      - [5.1.3.2 Landing Page Mock-up](#5132-landing-page-mock-up)
+    - [5.1.4 Mobile Applications UX/UI Design](#514-mobile-applications-uxui-design)
+      - [5.1.4.1 Mobile Applications Wireframes](#5141-mobile-applications-wireframes)
+      - [5.1.4.2 Mobile Applications Wireflow Diagrams](#5142-mobile-applications-wireflow-diagrams)
+      - [5.1.4.3 Mobile Applications Mock-ups](#5143-mobile-applications-mock-ups)
+      - [5.1.4.4 Mobile Applications User Flow Diagrams](#5144-mobile-applications-user-flow-diagrams)
+      - [5.1.4.5 Mobile Applications Prototyping](#5145-mobile-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1 Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2 Source Code Management](#612-source-code-management)
+    - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4 Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2 Landing Page & Mobile Application Implementation](#62-landing-page--mobile-application-implementation)
+    - [6.2.X Sprint n](#62x-sprint-n)
+      - [6.2.X.1 Sprint Planning n](#62x1-sprint-planning-n)
+      - [6.2.X.2 Sprint Backlog n](#62x2-sprint-backlog-n)
+      - [6.2.X.3 Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
+      - [6.2.X.4 Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
+      - [6.2.X.5 Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
+      - [6.2.X.6 Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
+      - [6.2.X.7 Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
+      - [6.2.X.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+  - [6.3 Validation Interviews](#63-validation-interviews)
+    - [6.3.1 Diseño de Entrevistas](#631-diseño-de-entrevistas)
+    - [6.3.2 Registro de Entrevistas](#632-registro-de-entrevistas)
+    - [6.3.3 Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+  - [6.4 Video About-the-Product](#64-video-about-the-product)
+- [Conclusiones](#conclusiones)
+  - Conclusiones y recomendaciones.
+- [Video About-the-team](#video-about-the-team)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+<br><br>
+<br><br><br><br><br>
 
----
 
 ## Student Outcome
 
