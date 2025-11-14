@@ -5,7 +5,12 @@
 - Conclusiones y recomendaciones.  
 
 # Video App Validation
-- Video About the product  
+## Video About The Product
+![General Style Guidelines - Color](img/video-about-the-product.png)
+Enlace permanente de visualizacion: https://drive.google.com/file/d/1ueirgDoL4SoTTfIo0AIdukoxICfuU2G5/view?usp=sharing
+
+Se presenta un resumen breve consolidando las partes más esenciales de la aplicación FuelTrack, desde el Log In al inicio del video, entrando luego en las características centrales que definen el modelo de negocio. Se presenta el proceso de cotización desde la cuenta del Cliente, para luego mostrar la contraparte en la vista del Proveedor, donde este administra la orden entrante. Se destaca el ciclo de vida completo del pedido, mostrando la actualización de sus estados (en ruta, en sitio, etc.) y la flexibilidad que tiene el proveedor para configurar sus tarifas, cerrando así el círculo comercial de la aplicación.
+
 - Video About the team  
 
 # Glosario  
