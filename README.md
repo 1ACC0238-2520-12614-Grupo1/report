@@ -415,9 +415,9 @@ Para segundo sprint, el equipo establecio que el desarrollo de las tareas tomar�
         <tr>
             <td>Sprint 2 Retrospective Summary</td>
             <td>
-                Se agrego algunas secciones y mejoró nuestra Landing Page y realizamos una segunda versión de la Aplicación móvil, ambas alineadas con los objetivos del proyecto VibeStage. Landing Page: Se agregaron imagenes de la aplicacion y se mejoro unos pequeños errores que presentaba
-
-Aplicación móvil: Terminamos con la aplicacion en lenguaje Kotlin, tambien terminamos con el desarrollo de nuestro Backend.
+              Se agrego algunas secciones y mejoró nuestra Landing Page y realizamos una segunda versión de la Aplicación móvil, ambas alineadas con los objetivos del proyecto FuelTrack.
+              Landing Page: Se agregaron imagenes de la aplicacion y se mejoro unos pequeños errores que presentaba
+              Aplicación móvil: Terminamos con la aplicacion en lenguaje Kotlin, tambien terminamos con el desarrollo de nuestro Backend.
             </td>
         </tr>
         <tr>
