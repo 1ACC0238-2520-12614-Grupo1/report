@@ -12,7 +12,10 @@ Enlace permanente de visualizacion: https://drive.google.com/file/d/1ueirgDoL4So
 Se presenta un resumen breve consolidando las partes más esenciales de la aplicación FuelTrack, desde el Log In al inicio del video, entrando luego en las características centrales que definen el modelo de negocio. Se presenta el proceso de cotización desde la cuenta del Cliente, para luego mostrar la contraparte en la vista del Proveedor, donde este administra la orden entrante. Se destaca el ciclo de vida completo del pedido, mostrando la actualización de sus estados (en ruta, en sitio, etc.) y la flexibilidad que tiene el proveedor para configurar sus tarifas, cerrando así el círculo comercial de la aplicación.
 
 ## Video About the team  
-Enlace permanente de visualizacion:
+![General Style Guidelines - Color](img/about-the-team.png)
+Enlace permanente de visualizacion:https://upcedupe-my.sharepoint.com/personal/u202213278_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202213278%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D11%2D14%2004%2D07%2D38%2Emkv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ecb13e220%2D1742%2D47fc%2Daba0%2Da44dd60e5268
+
+Se presenta al equipo responsable del desarrollo de FuelTrack. Cada integrante toma la palabra para describir su participación en el proyecto, enfocándose en cómo sus actividades se alinean con el Student Outcome ABET 7. El video consolida las reflexiones individuales sobre la adquisición de nuevos conocimientos y la importancia del aprendizaje permanente en la ingeniería de software.
 
 # Glosario
 ## Glosario de terminos usados en el proyecto
