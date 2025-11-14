@@ -1157,9 +1157,16 @@ Decisiones principales de diseño tomadas:
 ![Landing Page - Mockup 7](img/landing_mockup_7.png)
 ### 3.1.4. Mobile Applications UX/UI Design
 #### 3.1.4.1. Mobile Applications Wireframes  
+![Login - Wireframe](img/Login%20-%20wireframe.png)
+![Cliente - Wireframe](img/Cliente%20-%20wireframe.png)
+![Proveedor - Wireframe](img/Proveedor%20-%20wireframe.png)
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams  
-![Wireflow](img/wireflow%201.png)
-![Wireflow2](img/wireflow%202.png)
-#### 3.1.4.3. Mobile Applications Mock-ups  
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+![Login - Mockup](img/Login%20-%20mockup.png)
+![Cliente - Mockup](img/Cliente%20-%20mockup.png)
+![Proveedor - Mockup](img/Proveedor%20-%20mockup.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams  
+![WireflowDiagram](img/wireflow%201.png)
+![Wireflow2Diagram](img/wireflow%202.png)
 #### 3.1.4.5. Mobile Applications Prototyping
