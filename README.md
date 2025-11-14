@@ -11,9 +11,57 @@ Enlace permanente de visualizacion: https://drive.google.com/file/d/1ueirgDoL4So
 
 Se presenta un resumen breve consolidando las partes más esenciales de la aplicación FuelTrack, desde el Log In al inicio del video, entrando luego en las características centrales que definen el modelo de negocio. Se presenta el proceso de cotización desde la cuenta del Cliente, para luego mostrar la contraparte en la vista del Proveedor, donde este administra la orden entrante. Se destaca el ciclo de vida completo del pedido, mostrando la actualización de sus estados (en ruta, en sitio, etc.) y la flexibilidad que tiene el proveedor para configurar sus tarifas, cerrando así el círculo comercial de la aplicación.
 
-- Video About the team  
+## Video About the team  
+Enlace permanente de visualizacion:
 
-# Glosario  
+# Glosario
+## Glosario de terminos usados en el proyecto
+### Metodologías y Prácticas
+
+- **C4 Model (Modelo C4):** Metodología utilizada para visualizar la arquitectura de software en diferentes niveles de abstracción. En este proyecto, se aplica para crear los diagramas de Contexto, Contenedores y Despliegue.
+- **Conventional Commits (Commits Convencionales):** Estándar adoptado por el equipo para escribir los mensajes de commit en Git (ej. `feat:`, `fix:`). Se utiliza para mantener un historial limpio y automatizar el versionado.
+- **Domain-Driven Design (DDD):** Enfoque de diseño de software (utilizado en el Capítulo 4) centrado en modelar el software según el dominio de negocio. Se divide en `Strategic-Level` (EventStorming, Context Mapping) y `Tactical-Level` (diseño de capas).
+- **EventStorming:** Taller colaborativo utilizado en la fase de diseño (DDD) para explorar el dominio de negocio mediante la identificación de eventos (ej. "Pedido realizado", "Pago validado").
+- **GitFlow:** Modelo de ramificación (branching) para Git utilizado por el equipo, que define roles para las ramas `main`, `develop` y `feature` para gestionar el código fuente de forma ordenada.
+- **Lean UX:** Metodología de diseño ágil utilizada para definir el producto. Incluye artefactos como `Lean UX Problem Statements`, `Assumptions`, `Hypothesis Statements` y el `Lean UX Canvas`.
+- **Needfinding:** Proceso de investigación (utilizado en el Capítulo 2) para entender las necesidades reales de los usuarios. Incluye técnicas como `User Personas` y `Empathy Mapping`.
+- **Sprint:** Un ciclo de trabajo corto y con tiempo fijo (ej. Sprint 1, Sprint 2) en el que el equipo desarrolla un incremento funcional del producto, como la Landing Page o las funciones de pedido.
+
+### Artefactos y Entregables del Proyecto
+
+- **Acceptance Criteria (Criterios de Aceptación):** Las condiciones específicas, escritas en formato Gherkin (Dado, Cuando, Entonces), que una `User Story` debe cumplir para ser considerada "terminada".
+- **Context Mapping (Mapeo de Contextos):** Un diagrama de DDD que muestra las relaciones entre los diferentes `Bounded Contexts` (ej. Gestión de pedidos, Gestión de pagos).
+- **Empathy Mapping (Mapa de Empatía):** Herramienta de UX utilizada para obtener una comprensión profunda del usuario, visualizando lo que dice, piensa, siente y hace.
+- **Gherkin:** El lenguaje de texto plano (Dado, Cuando, Entonces) utilizado para escribir los `Acceptance Criteria` de las Historias de Usuario.
+- **Landing Page:** La página web de presentación de FuelTrack, diseñada para informar a los visitantes sobre el producto y sus beneficios.
+- **Mock-up:** Un modelo visual estático de alta fidelidad que representa cómo se verá el diseño final de la aplicación, incluyendo colores y tipografía.
+- **Product Backlog:** El listado maestro y priorizado de todo el trabajo (User Stories, Tareas Técnicas) necesario para el producto, gestionado por el equipo en Trello.
+- **Sprint Backlog:** El conjunto de `User Stories` (ítems del Product Backlog) seleccionadas para ser completadas durante un `Sprint` específico.
+- **Ubiquitous Language (Lenguaje Ubicuo):** Un lenguaje común y compartido por el equipo y los expertos del dominio (Capítulo 2.3.5) para describir el negocio sin ambigüedad (ej. `Requester`, `Supplier`, `Plant`).
+- **User Journey Mapping:** Una visualización del proceso (pasos, acciones, emociones) que un usuario sigue para lograr un objetivo con el producto.
+- **User Persona:** Un personaje ficticio (arquetipo) creado para representar a un segmento de usuarios objetivo (ej. "Empresas solicitantes de combustible", "Proveedores de combustible").
+- **User Story (Historia de Usuario):** Una descripción corta e informal de una funcionalidad desde la perspectiva del usuario (Como... quiero... para...).
+- **Wireframe:** Un boceto de baja fidelidad que define la estructura y jerarquía de una pantalla, sin colores ni estilos.
+
+### Términos del Dominio (FuelTrack)
+
+- **Plant (Planta):** Término del `Ubiquitous Language` que se refiere al punto de distribución físico del combustible que pertenece a un `Supplier`.
+- **Quotation (Cotización):** Propuesta formal que un `Supplier` genera, detallando precios y productos.
+- **Requester (Solicitante):** Término del `Ubiquitous Language` para el usuario (empresa) que requiere abastecimiento de combustible.
+- **Supplier (Proveedor):** Término del `Ubiquitous Language` para la empresa que ofrece y distribuye el combustible.
+
+### Tecnologías y Herramientas
+
+- **Android Studio:** El Entorno de Desarrollo Integrado (IDE) utilizado por el equipo para construir la aplicación móvil nativa de FuelTrack.
+- **API (Application Programming Interface):** Se refiere al `Backend API` del sistema, que expone los servicios REST para que la App Móvil y otros contenedores se comuniquen.
+- **Flutter:** Framework de desarrollo cross-platform (mencionado en el TB2) utilizado para crear una versión de la aplicación.
+- **Jetpack Compose:** El toolkit de UI moderno utilizado junto con `Kotlin` para construir la interfaz de usuario de la aplicación nativa de Android.
+- **Kotlin:** El lenguaje de programación principal utilizado para el desarrollo de la aplicación móvil nativa (FuelTrack Pro).
+- **SaaS (Software as a Service):** El modelo de negocio de FuelTrack, donde la plataforma se ofrece como un servicio por suscripción, en lugar de un software que se instala.
+- **Structurizr:** Herramienta utilizada por el equipo para modelar y generar los diagramas de arquitectura basados en el `C4 Model`.
+
+
+
 # Bibliografía  
 # Anexos  
 ## 2.6. Tactical-Level Domain-Driven Design
