@@ -1161,12 +1161,13 @@ Decisiones principales de diseño tomadas:
 ![Cliente - Wireframe](img/Cliente%20-%20wireframe.png)
 ![Proveedor - Wireframe](img/Proveedor%20-%20wireframe.png)
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams  
-
+![WireflowDiagram1](img/Wireflow-diagram1.png)
+![WireflowDiagram2](img/Wireflow-diagram2.png)
 #### 3.1.4.3. Mobile Applications Mock-ups
 ![Login - Mockup](img/Login%20-%20mockup.png)
 ![Cliente - Mockup](img/Cliente%20-%20mockup.png)
 ![Proveedor - Mockup](img/Proveedor%20-%20mockup.png)
 #### 3.1.4.4. Mobile Applications User Flow Diagrams  
-![WireflowDiagram](img/wireflow%201.png)
-![Wireflow2Diagram](img/wireflow%202.png)
+![UserflowDiagram](img/wireflow%201.png)
+![Userflow2Diagram](img/wireflow%202.png)
 #### 3.1.4.5. Mobile Applications Prototyping
