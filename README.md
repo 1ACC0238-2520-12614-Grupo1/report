@@ -1,5 +1,5 @@
 <div align="center">
-<img src="img/logo.jpg" alt="Logo de la Universidad" width="150"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Logo de la Universidad" width="150"/>
 
 # **Universidad Peruana de Ciencias Aplicadas**
 ## **Ingeniería de Software**
@@ -19,15 +19,11 @@
 ---
 ### **Integrantes (orden alfabético):**
 
-U20211584 – Angulo Abad, Juan Carlos
-
-U20211837 – Choque, Oliver Jonseck
-
-U20213278 – Durand Vega, Gianfranco
-
-U20213322 – Mio Mejía, Andy Alejandro
-
-U20214011 – Murillo, Mathias Javier
+U20211584 – Alvarado De La Cruz, Juan Carlos  
+U20211837 – Durand Vega, Gianfranco Jared  
+U20213278 – Espejo Gamarra, Bryan Ronald  
+U20213322 – Guerrero Vásquez, Jhon Danny  
+U20214011 – Luque Minaya, Renzo Andrés  
 
 **Octubre 2025**
 </div>
