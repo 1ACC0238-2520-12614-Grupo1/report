@@ -371,6 +371,68 @@ El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las a
   
 * Discord (reuniones de planificación de sprint)
 
+* ##### 4.2.2.2. Sprint Planning 2  
+
+Para segundo sprint, el equipo establecio que el desarrollo de las tareas tomaría al rededor de 12 horas.
+
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Sprint 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2"><b>Sprint  Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2025/10/14</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:30 PM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Discord</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Renzo Luque</td>
+        </tr>
+        <tr>
+            <td>Atendees (to  meeting)</td>
+            <td>
+                <li>Juan Carlos Alvarado De La Cruzn</li>
+                <li>Bryan Ronald Espejo Gamarra</li>
+                <li>Gianfranco Jared Durand Vega</li>
+                <li>Jhon Danny Guerrero Vasquez</li>
+              <li>Renzo Andres Luque Minaya</li>
+            </td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>
+                Se agrego algunas secciones y mejoró nuestra Landing Page y realizamos una segunda versión de la Aplicación móvil, ambas alineadas con los objetivos del proyecto VibeStage. Landing Page: Se agregaron imagenes de la aplicacion y se mejoro unos pequeños errores que presentaba
+
+Aplicación móvil: Terminamos con la aplicacion en lenguaje Kotlin, tambien terminamos con el desarrollo de nuestro Backend.
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal & User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Goal</td>
+            <td style="text-align: justify">
+                <p>
+               Realizar correcciones y finalizar con el desarrollo de la version de Landing Page y App Móvil. También finalizar con el Backend de nuestra app y empezar con el desarrollo de nuestra aplicacion en lenguaje Flutter.
+                </p>
+                <p>
+               
+</table>
+
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas  
 #### 4.3.2. Registro de Entrevistas  
