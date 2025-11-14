@@ -376,4 +376,100 @@ El equipo colaboró mediante GitHub, WhatsApp y Discord durante el Sprint. Las a
 #### 4.3.2. Registro de Entrevistas  
 #### 4.3.3. Evaluaciones según heurísticas  
 
+
+#### 4.2.2. *Sprint 2*  
+En esta etapa, el equipo se centró en desarrollar la funcionalidad principal de FuelTrack: la creación y visualización de pedidos desde el rol Solicitante. El esfuerzo estimado para este sprint fue de 30 horas.
+
+##### 4.2.2.1. Sprint Planning 2  
+<table> <thead> <tr> <th>Sprint #</th> <th>Sprint 2</th> </tr> </thead> <tbody> <tr> <td colspan="2"><b>Sprint Background</b></td> </tr> <tr> <td>Date</td> <td>2025/10/24</td> </tr> <tr> <td>Time</td> <td>10:30 PM</td> </tr> <tr> <td>Location</td> <td>Discord</td> </tr> <tr> <td>Prepared by</td> <td>Renzo Luque</td> </tr> <tr> <td>Attendees (to meeting)</td> <td> <li>Juan Carlos Alvarado De La Cruz</li> <li>Bryan Ronald Espejo Gamarra</li> <li>Gianfranco Jared Durand Vega</li> <li>Jhon Danny Guerrero Vasquez</li> <li>Renzo Andres Luque Minaya</li> </td> </tr> <tr> <td>Sprint 1 Retrospective Summary</td> <td> El equipo completó el Login y Dashboard del Sprint 1. Se identificó que las tareas de integración API-app requerían mayor estimación, por lo que se aplicó para este Sprint 2. </td> </tr> <tr> <td colspan="2"><b>Sprint Goal & User Stories</b></td> </tr> <tr> <td>Sprint 2 Goal</td> <td style="text-align: justify"> <p> Este sprint tiene como objetivo implementar la funcionalidad core de FuelTrack: permitir que el usuario “Solicitante” cree nuevos pedidos de combustible y pueda visualizar su historial. </p> <p> El sprint será exitoso cuando un usuario autenticado logre registrar un pedido desde la pantalla “Nuevo Pedido” (US01) y pueda visualizarlo correctamente en el “Historial de Pedidos” (US02), con datos obtenidos desde el backend a través de los endpoints implementados. </p> </td> </tr> <tr> <td>Sprint 2 Velocity</td> <td>15</td> </tr> <tr> <td>Sum of Story Points</td> <td>15</td> </tr> </tbody> </table>
+
+##### 4.2.2.2 Sprint Backlog 2  
+
+<table> <thead> <tr> <th>User Story</th> <th>Work-Item / Task</th> <th>Title</th> <th>Description</th> <th>Estimation (Hours)</th> <th>Assigned To</th> </tr> </thead> <tbody> <tr> <td>US06</td> <td>T06</td> <td>Diseñar Interfaz de Registro</td> <td>Crear la pantalla de registro con campos validados y diseño responsivo.</td> <td>3</td> <td>Juan Carlos Alvarado De La Cruz</td> </tr> <tr> <td>US07</td> <td>T07</td> <td>Implementar API de Registro</td> <td>Desarrollar la lógica para registrar nuevos usuarios y enviarlos al backend.</td> <td>4</td> <td>Jhon Danny Guerrero Vasquez</td> </tr> <tr> <td>US08</td> <td>T08</td> <td>Optimizar Diseño del Dashboard</td> <td>Ajustar visualmente el dashboard para mejorar su navegación y accesibilidad.</td> <td>2</td> <td>Bryan Ronald Espejo Gamarra</td> </tr> <tr> <td>US09</td> <td>T09</td> <td>Configurar Navegación entre Pantallas</td> <td>Permitir la navegación fluida entre login, registro y dashboard.</td> <td>3</td> <td>Gianfranco Jared Durand Vega</td> </tr> <tr> <td>US10</td> <td>T10</td> <td>Pruebas Funcionales Generales</td> <td>Realizar pruebas básicas en las nuevas pantallas implementadas.</td> <td>2</td> <td>Renzo Andres Luque Minaya</td> </tr> </tbody> </table>
+
+##### 4.2.2.3. Development Evidence for Sprint Review 
+
+<table> <thead> <tr> <th>Historia de Usuario</th> <th>Elemento de trabajo / Tarea</th> <th>Descripción</th> <th>Estimación (Horas)</th> <th>Asignado a</th> <th>Estado</th> </tr> </thead> <tbody> <tr> <td>US06</td> <td>Diseñar Interfaz de Registro</td> <td>Se desarrolló una pantalla de registro responsiva con validaciones básicas.</td> <td>3</td> <td>Juan Carlos Alvarado De La Cruz</td> <td>Finalizado</td> </tr> <tr> <td>US07</td> <td>Implementar API de Registro</td> <td>Se creó la conexión al backend y el flujo de creación de nuevos usuarios.</td> <td>4</td> <td>Jhon Danny Guerrero Vasquez</td> <td>Finalizado</td> </tr> <tr> <td>US08</td> <td>Optimización del Dashboard</td> <td>Se mejoró la experiencia visual del dashboard mediante ajustes en diseño.</td> <td>2</td> <td>Bryan Ronald Espejo Gamarra</td> <td>Finalizado</td> </tr> <tr> <td>US09</td> <td>Navegación entre pantallas</td> <td>Se configuró la navegación fluida entre login, registro y dashboard.</td> <td>3</td> <td>Gianfranco Jared Durand Vega</td> <td>Finalizado</td> </tr> <tr> <td>US10</td> <td>Pruebas funcionales</td> <td>Se probaron todas las nuevas funcionalidades y se corrigieron errores menores.</td> <td>2</td> <td>Renzo Andres Luque Minaya</td> <td>Finalizado</td> </tr> </tbody> </table>
+
+##### 4.2.2.4. Testing Suite Evidence for Sprint Review 
+
+### Resumen de Pruebas del Sprint 2
+
+#### PRUEBAS MANUALES DOCUMENTADAS
+
+• Prueba de navegación entre pantallas:
+  - Login → Registro → Dashboard.
+  - Resultado: Correcto.
+
+• Validaciones en pantalla de Registro:
+  - Campos vacíos, correo inválido, contraseña débil.
+  - Resultado: Correcto.
+
+• Integración con API de Registro:
+  - Se envían datos y se recibe respuesta del backend.
+  - Resultado: Correcto.
+
+• Diseño responsive:
+  - Se probó en diferentes tamaños de pantalla.
+  - Resultado: Aprobado.
+
+• Pruebas del Dashboard:
+  - Carga de datos y botones principales funcionando.
+  - Resultado: Aprobado.
+
+#### PRUEBAS EN GHERKIN
+
+```gherkin
+Feature: Gestión de Pedidos del Solicitante
+  Como Solicitante, quiero crear y ver mis pedidos
+  para gestionar mis compras de combustible.
+
+  Scenario: Creación exitosa de un nuevo pedido
+    Given que estoy autenticado como "Solicitante" en la app
+    When navego a la pantalla "Nuevo Pedido"
+    And lleno el formulario con "Diesel B5", "1000 galones" y "Planta Arequipa"
+    And presiono el botón "Confirmar Pedido"
+    Then el sistema crea el pedido en estado "Por confirmar"
+    And soy redirigido a mi "Historial de Pedidos"
+    And veo el pedido de "1000 galones de Diesel B5" en la lista.
+```
+
+##### 4.2.2.5. Execution Evidence for Sprint Review 
+
+Resumen:
+Las pantallas “Nuevo Pedido” y “Historial de Pedidos” han sido implementadas correctamente, permitiendo al Solicitante gestionar sus pedidos desde la app móvil.
+
+
+<!--->
+Evidencia de capturas:
+Pantallas desarrolladas y funcionando en entorno móvil.
+(Insertar imágenes según tu repositorio)
+<---->
+
+##### 4.2.2.6. Services Documentation Evidence for Sprint Review  
+
+<table> <thead> <tr> <th>Servicio</th> <th>Descripción</th> <th>Responsable</th> <th>Estado</th> </tr> </thead> <tbody> <tr> <td>API de Registro</td> <td>Servicio encargado de recibir la información del usuario nuevo y almacenarla en el backend.</td> <td>Jhon Danny Guerrero Vasquez</td> <td>Documentado</td> </tr> <tr> <td>Servicio de Autenticación</td> <td>Proceso que valida credenciales desde la app y permite acceso al Dashboard.</td> <td>Juan Carlos Alvarado De La Cruz</td> <td>Actualizado</td> </tr> <tr> <td>Servicio de Navegación</td> <td>Módulo que permite el flujo entre pantallas dentro de la aplicación móvil.</td> <td>Gianfranco Jared Durand Vega</td> <td>Documentado</td> </tr> <tr> <td>Servicio de Dashboard</td> <td>Recopila y muestra información relevante del usuario respecto a su actividad.</td> <td>Bryan Ronald Espejo Gamarra</td> <td>Documentado</td> </tr> </tbody> </table>
+
+Swagger disponible en entorno de pruebas.
+
+##### 4.2.2.7. Software Deployment Evidence for Sprint Review  
+
+La nueva versión del backend con endpoints /orders fue desplegada en ambiente de pruebas.
+La app móvil fue recompilada e instalada en dispositivos del equipo para testing interno.
+
+##### 4.2.2.8. Team Collaboration Insights during Sprint  
+Resumen:
+La colaboración fue constante entre equipos mobile y backend mediante:
+
+GitHub (PRs y versionamiento)
+
+Discord (reuniones de coordinación)
+
+Trello (gestión del Sprint)
+
+### 4.3. Validation Interviews
+#### 4.3.1. Diseño de Entrevistas  
+#### 4.3.2. Registro de Entrevistas  
+#### 4.3.3. Evaluaciones según heurísticas  
+
   
