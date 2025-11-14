@@ -1,3 +1,4 @@
+# Capítulo III: Solution UI/UX Design
 # Capítulo IV: Product Implementation & Validation
 
 # 4. Product Implementation & Validation
@@ -354,7 +355,6 @@ Se presenta al equipo responsable del desarrollo de FuelTrack. Cada integrante t
 # Bibliografía  
 
   
-
 Alaminkarno. (2024, enero 8). *DDD (Domain-Driven Design) in Flutter – Too much or just right?* DEV Community. https://dev.to/alaminkarno/ddd-domain-driven-design-in-flutter-too-much-or-just-right-d1g
 
 Allen, C. (2024). *The impact of book clubs on millennials: Best way to instill a love of reading*. Recuperado de [https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading](https://catherineallenblog.com/the-impact-of-book-clubs-on-millennials-best-way-to-instill-a-love-of-reading)
@@ -376,5 +376,62 @@ Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rend
 Ministerio de Cultura del Perú & Instituto Nacional de Estadística e Informática. (2023). *Encuesta Nacional de Lectura 2022: Informe de lectores y no lectores*. Recuperado de [https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf](https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf?utm_source=chatgpt.com)
 
 Statista. (2024). *Hablemos de los clubes de lectura y por qué esta tendencia va en aumento*. Recuperado de [https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/](https://globaltag.mx/uncategorized/leer-esta-de-moda-hablemos-de-los-clubes-de-lectura-y-por-que-esta-tendencia-va-en-aumento/?utm_source=chatgpt.com)
+
+#### 3.1.2.5. Navigation Systems
+Para la plataforma implementamos un sistema de búsqueda por texto y por categorías para que los usuarios, especialmente los proveedores, puedan localizar los pedidos que se han realizado o se están llevando a cabo. Se incluirán filtros de la siguiente manera:
+
+- **Búsqueda por texto:**  
+  El usuario tendrá una tabla de pedidos donde en cada categoría (razón social, número de pedido, nombre de banco, etc.) dispondrá de un mini buscador estándar para encontrar sus pedidos registrados o pendientes. Este entregará los resultados según el tipo de información que detecte automáticamente.  
+  Además, habrá un botón llamado **“Búsqueda avanzada”**, donde se realizará una búsqueda más específica siempre y cuando se completen todas las categorías.
+
+- **Búsqueda por categorías:**  
+  El usuario dispondrá de un sistema automático de filtrado de datos basado en las categorías existentes para optimizar su tiempo en tareas de mayor importancia.  
+  Por ejemplo, el sistema se encargará de filtrar todas las ubicaciones detectadas de los pedidos registrados o pendientes, y se podrán seleccionar las que se deseen aplicar.
+
+
+### 3.1.3. Landing Page UI Design
+La propuesta de diseño de la Landing Page para FuelTrack parte de una arquitectura de información clara y orientada a los segmentos objetivo definidos: empresas proveedoras de combustible y empresas solicitantes de combustible.
+
+El diseño organiza el contenido en bloques visuales jerárquicos que guían al usuario de manera natural hacia los principales call-to-action (CTA), alineando cada sección con una necesidad identificada: informar, atraer y convertir.
+
+Decisiones principales de diseño tomadas:
+
+- **Navegación simple y consistente:** El menú principal permite acceso rápido a las secciones clave (Features, Pricing y Contact).
+- **Call to Action diferenciados:** Hay botones específicos tanto para proveedores como para solicitantes, siguiendo un enfoque de segmentación clara.
+- **Diseño inclusivo:** La paleta de colores cumple estándares de contraste para accesibilidad, y los botones tienen tamaños adecuados para pantallas táctiles.
+- **Adaptabilidad:** El diseño es responsive, garantizando experiencia de usuario adecuada tanto en desktop como en dispositivos móviles.
+- **Consistencia visual:** Se mantiene un diseño limpio y moderno, utilizando colores corporativos azul y verde para reforzar la identidad de FuelTrack.
+#### 3.1.3.1. Landing Page Wireframe  
+![Landing Page - Wireframe 1](img/landing_wireframe_1.png)
+![Landing Page - Wireframe 2](img/landing_wireframe_2.png)
+![Landing Page - Wireframe 3](img/landing_wireframe_3.png)
+![Landing Page - Wireframe 4](img/landing_wireframe_4.png)
+![Landing Page - Wireframe 5](img/landing_wireframe_5.png)
+![Landing Page - Wireframe 6](img/landing_wireframe_6.png)
+![Landing Page - Wireframe 7](img/landing_wireframe_7.png)
+#### 3.1.3.2. Landing Page Mock-up
+![Landing Page - Mockup 1](img/landing_mockup_1.png) 
+![Landing Page - Mockup 2](img/landing_mockup_2.png) 
+![Landing Page - Mockup 3](img/landing_mockup_3.png)
+![Landing Page - Mockup 4](img/landing_mockup_4.png)
+![Landing Page - Mockup 5](img/landing_mockup_5.png)
+![Landing Page - Mockup 6](img/landing_mockup_6.png)
+![Landing Page - Mockup 7](img/landing_mockup_7.png)
+### 3.1.4. Mobile Applications UX/UI Design
+#### 3.1.4.1. Mobile Applications Wireframes  
+![Login - Wireframe](img/Login%20-%20wireframe.png)
+![Cliente - Wireframe](img/Cliente%20-%20wireframe.png)
+![Proveedor - Wireframe](img/Proveedor%20-%20wireframe.png)
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams  
+![WireflowDiagram1](img/Wireflow-diagram1.png)
+![WireflowDiagram2](img/Wireflow-diagram2.png)
+#### 3.1.4.3. Mobile Applications Mock-ups
+![Login - Mockup](img/Login%20-%20mockup.png)
+![Cliente - Mockup](img/Cliente%20-%20mockup.png)
+![Proveedor - Mockup](img/Proveedor%20-%20mockup.png)
+#### 3.1.4.4. Mobile Applications User Flow Diagrams  
+![UserflowDiagram](img/wireflow%201.png)
+![Userflow2Diagram](img/wireflow%202.png)
+#### 3.1.4.5. Mobile Applications Prototyping
 
 Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. [https://doi.org/10.33996/revistahorizontes.v9i36.909](https://doi.org/10.33996/revistahorizontes.v9i36.909)
