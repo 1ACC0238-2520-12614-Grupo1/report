@@ -467,8 +467,10 @@ La colaboración fue constante entre equipos mobile y backend mediante:
 GitHub (PRs y versionamiento)
 
 Discord (reuniones de coordinación)
+![Discord - Evidence](img/Discord%20-%20Evidence.png)
 
 Trello (gestión del Sprint)
+![Trello - Evidence](img/Trello%20-%20sprint2.png)
 
 ### 4.3. Validation Interviews
 #### 4.3.1. Diseño de Entrevistas  
